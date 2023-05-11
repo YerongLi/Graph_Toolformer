@@ -107,6 +107,7 @@ dependencies:
   - zlib=1.2.13
   - zstd=1.5.2
   - pip:
+      - torch==1.13.1
       - absl-py==1.4.0
       - accelerate==0.17.1
       - aiohttp==3.8.4
@@ -163,7 +164,6 @@ dependencies:
       - sympy==1.11.1
       - termcolor==2.2.0
       - tokenizers==0.13.2
-      - torch==1.13.1
       - transformers==4.28.0.dev0
       - triton==2.0.0
       - xxhash==3.2.0
