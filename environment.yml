@@ -107,7 +107,7 @@ dependencies:
   - zlib=1.2.13
   - zstd=1.5.2
   - pip:
-      - torch==1.13.1
+      - torch==1.11.0+cu102
       - absl-py==1.4.0
       - accelerate==0.17.1
       - aiohttp==3.8.4
