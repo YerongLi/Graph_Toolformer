@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - python=3.10.0
   - _libgcc_mutex=0.1
   - _openmp_mutex=4.5
   - appdirs=1.4.4
