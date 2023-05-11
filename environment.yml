@@ -146,7 +146,7 @@ dependencies:
       - nvidia-cudnn-cu11==8.5.0.96
       - openai==0.27.2
       - pandas==1.5.3
-      - peft==0.3.0.dev0
+      - peft==0.3.0
       - pillow==9.4.0
       - protobuf==3.20.1
       - psutil==5.9.4
