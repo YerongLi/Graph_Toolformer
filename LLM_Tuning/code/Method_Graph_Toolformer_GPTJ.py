@@ -62,7 +62,8 @@ class Method_Graph_Toolformer_GPTJ(method):
         t_begin = time.time()
         for epoch in range(self.max_epoch):
             count = 0
-            for batch in train_dataloader:
+
+            for ii, batch in enumerate(train_dataloader):
                 print('*********************** batchshape *************')
                 print(len(batch['full']))
                 str_inputs = [batch['full'][i] for i in range(len(batch['full']))]
@@ -83,6 +84,8 @@ class Method_Graph_Toolformer_GPTJ(method):
                 loss.backward()
                 self.optimizer.step()
                 self.optimizer.zero_grad()
+                if ii > 10:
+                    break
             if False:
                 self.test(self.data['test'], fast_check=True)
         self.model.gradient_checkpointing_disable()
