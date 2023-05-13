@@ -67,8 +67,21 @@ class Method_Graph_Toolformer_GPTJ(method):
                 # print('*********************** batchshape *************')
                 # print(len(batch['full']))
                 str_inputs = [batch['full'][i] for i in range(len(batch['full']))]
-                print('str_inputs[0]')
-                print(str_inputs[0])
+                # print('str_inputs[0]')
+                # print(str_inputs[0])
+                # Input: The chemical molecular graph instance #275 in the ptc dataset has a function of [TBR]. Output: The chemical molecular graph [33/1922]#275 in the ptc dataset has a function of [GR(GL("ptc"), "seg_bert:molecule_function", instance#275)-->r].
+                # str_inputs[0]
+                # Input: The citeseer bibliographic network' paper #2489 is concerned with the area of [TBR]. Output: The citeseer bibliographic network' pap$e #2489 is concerned with the area of [GR(GL("citeseer"), "graph_bert:topic", paper#2489)-->r].
+                # str_inputs[0]
+                # Input: How likely user #u1388 will be interested in music of artisit #i15237 in Last-fm? Output: The likelihood that user #u1388 will be in$trested in music from artisit #i15237 in Last-fm is [GR(GL("last-fm"), "bpr:recommendation", user#u1388, artisit#i15237)-->r].
+                # str_inputs[0]
+                # Input: The function for the protein molecular graph identified as #747 in proteins is [TBR]. Output: The function for the protein molecular graph identified as #747 in proteins is [GR(GL("proteins"), "seg_bert:molecule_function", instance#747)-->r].
+                # str_inputs[0]
+                # Input: According to the WorldNet knowledge graph, via relation #_hyponym, what entity can we obtain from entity #bat_mitzvah.n.01? Output: $Acording to the WorldNet knowledge graph, via relation #_hyponym, we can obtain entity #bat_mitzvah.n.01 from entity [GR(GL("worldnet"), "t$rnse:head_entity", relation#_hyponym, entity#bat_mitzvah.n.01)-->r].
+                # str_inputs[0]
+                # Input: According to the WorldNet knowledge graph, from entity #united_states.n.01, via relation #_has_part, we can derive entity #[TBR]. Ou$tut: According to the WorldNet knowledge graph, from entity #united_states.n.01, via relation #_has_part, we can derive entity [GR(GL("worl$det"), "transe:tail_entity", entity#united_states.n.01, relation#_has_part)-->r].
+                # str_inputs[0]
+                # Input: The chemical molecular graph instance #3423 in the nci1 dataset has a function of [TBR]. Output: The chemical molecular graph instance #3423 in the nci1 dataset has a function of [GR(GL("nci1"), "seg_bert:molecule_function", instance#3423)-->r].
                 str_labels = [batch['full'][i] for i in range(len(batch['full']))]
                 inputs = self.tokenizer(str_inputs, padding='max_length', max_length=self.max_length, truncation=True)
                 labels = self.tokenizer(str_labels, padding='max_length', max_length=self.max_length, truncation=True)
