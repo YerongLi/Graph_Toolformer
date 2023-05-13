@@ -111,7 +111,7 @@ class Method_Graph_Toolformer_GPTJ(method):
             count += 1
             if fast_check:
                 break
-            if ii > 10:
+            if ii > 3:
                 break
 
         result = {'pred': pred_result, 'true': true_result, 'local_data': reason_result}
