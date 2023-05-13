@@ -49,7 +49,7 @@ for method_name in method_name_list:
                 batch_size = 2
                 max_length = 64
                 max_epoch = task_data_dict[reasoning_task][dataset_name]
-                device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
+                device = 'cuda' if torch.cuda.is_available() else 'cpu'
                 fine_tuned_checkpoint_filename = '{}_{}_{}_{}_{}'.format(method_name, reasoning_task, dataset_name, max_epoch, max_length)
                 print(fine_tuned_checkpoint_filename)
                 #------------------------------------------------------
