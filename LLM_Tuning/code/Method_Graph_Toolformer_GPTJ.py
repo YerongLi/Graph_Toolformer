@@ -67,6 +67,8 @@ class Method_Graph_Toolformer_GPTJ(method):
                 # print('*********************** batchshape *************')
                 # print(len(batch['full']))
                 str_inputs = [batch['full'][i] for i in range(len(batch['full']))]
+                print('string_inputs[0]')
+                print(string_inputs[0])
                 str_labels = [batch['full'][i] for i in range(len(batch['full']))]
                 inputs = self.tokenizer(str_inputs, padding='max_length', max_length=self.max_length, truncation=True)
                 labels = self.tokenizer(str_labels, padding='max_length', max_length=self.max_length, truncation=True)
