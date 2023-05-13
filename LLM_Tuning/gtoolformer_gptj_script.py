@@ -47,7 +47,7 @@ for method_name in method_name_list:
                 # 4090 (24G): batch_size 8, max_length 128 or batch_size 4, max_length 256
                 # 1080Ti (11G): batch_size 1 or 2, max_length 64
                 batch_size = 2
-                max_length = 128
+                max_length = 64
                 max_epoch = task_data_dict[reasoning_task][dataset_name]
                 device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
                 fine_tuned_checkpoint_filename = '{}_{}_{}_{}_{}'.format(method_name, reasoning_task, dataset_name, max_epoch, max_length)
