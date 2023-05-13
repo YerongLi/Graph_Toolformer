@@ -64,8 +64,8 @@ class Method_Graph_Toolformer_GPTJ(method):
             count = 0
 
             for ii, batch in enumerate(train_dataloader):
-                print('*********************** batchshape *************')
-                print(len(batch['full']))
+                # print('*********************** batchshape *************')
+                # print(len(batch['full']))
                 str_inputs = [batch['full'][i] for i in range(len(batch['full']))]
                 str_labels = [batch['full'][i] for i in range(len(batch['full']))]
                 inputs = self.tokenizer(str_inputs, padding='max_length', max_length=self.max_length, truncation=True)
