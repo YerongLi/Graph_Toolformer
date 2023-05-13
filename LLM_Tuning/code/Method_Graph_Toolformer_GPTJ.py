@@ -40,7 +40,7 @@ class Method_Graph_Toolformer_GPTJ(method):
         self.tokenizer = AutoTokenizer.from_pretrained(self.checkpoint_name, cache_dir=self.cache_dir, bos_token='<|startoftext|>', eos_token='<|endoftext|>', pad_token=pad_token)
         print('loading pretrained_model...')
         # self.model = GPTJForCausalLM.from_pretrained(self.model_checkpoint, low_cpu_mem_usage=True, cache_dir=self.cache_dir).to(self.device)
-        self.model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16, low_cpu_mem_usage=True)
+        self.model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16, low_cpu_mem_usage=True).to(self.device)
         print('define 8bit optimizer...')
         self.optimizer = Adam8bit(self.model.parameters(), lr=self.learning_rate, weight_decay=self.weight_decay)
 
