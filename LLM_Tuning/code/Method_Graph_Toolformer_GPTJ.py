@@ -98,7 +98,7 @@ class Method_Graph_Toolformer_GPTJ(method):
         reason_result = []
         count = 0
 
-        for batch in test_dataloader:
+        for ii, batch in enumerate(test_dataloader):
             for index in range(len(batch['inputs'])):
                 payload = batch['inputs'][index] + ' Output: '
                 reasoning_output = batch['local_data'][index]
@@ -110,6 +110,8 @@ class Method_Graph_Toolformer_GPTJ(method):
                 print('batch: {}/{}'.format(count, len(test_dataloader)), 'time elapsed: {:.4f}s'.format(time.time() - t_begin))
             count += 1
             if fast_check:
+                break
+            if ii > 10:
                 break
 
         result = {'pred': pred_result, 'true': true_result, 'local_data': reason_result}
