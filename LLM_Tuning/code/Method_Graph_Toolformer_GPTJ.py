@@ -39,8 +39,8 @@ class Method_Graph_Toolformer_GPTJ(method):
         print('loading tokenizer...')
         self.tokenizer = AutoTokenizer.from_pretrained(self.checkpoint_name, cache_dir=self.cache_dir, bos_token='<|startoftext|>', eos_token='<|endoftext|>', pad_token=pad_token)
         print('loading pretrained_model...')
-        # self.model = GPTJForCausalLM.from_pretrained(self.model_checkpoint, low_cpu_mem_usage=True, cache_dir=self.cache_dir).to(self.device)
-        self.model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16, low_cpu_mem_usage=True).to(self.device)
+        self.model = GPTJForCausalLM.from_pretrained(self.model_checkpoint, low_cpu_mem_usage=True, cache_dir=self.cache_dir).to(self.device)
+        # self.model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16, low_cpu_mem_usage=True).to(self.device)
         print('define 8bit optimizer...')
         self.optimizer = Adam8bit(self.model.parameters(), lr=self.learning_rate, weight_decay=self.weight_decay)
 
@@ -63,6 +63,7 @@ class Method_Graph_Toolformer_GPTJ(method):
         for epoch in range(self.max_epoch):
             count = 0
             for batch in train_dataloader:
+                print(batch.shape)
                 str_inputs = [batch['full'][i] for i in range(len(batch['full']))]
                 str_labels = [batch['full'][i] for i in range(len(batch['full']))]
                 inputs = self.tokenizer(str_inputs, padding='max_length', max_length=self.max_length, truncation=True)
