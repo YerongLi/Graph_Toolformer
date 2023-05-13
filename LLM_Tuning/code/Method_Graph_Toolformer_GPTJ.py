@@ -15,7 +15,7 @@ from datetime import datetime
 import torch
 import torch.nn.functional as F
 
-from transformers import AutoConfig, AutoTokenizer
+from transformers import AutoConfig, AutoTokenizer, AutoModelForCausalLM
 from bitsandbytes.optim import Adam8bit
 
 class Method_Graph_Toolformer_GPTJ(method):
