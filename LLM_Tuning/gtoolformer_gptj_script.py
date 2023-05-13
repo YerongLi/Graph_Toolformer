@@ -46,7 +46,7 @@ for method_name in method_name_list:
                 # A100 (80G): batch_size 32, max_length 128 or batch_size 16, max_length 256
                 # 4090 (24G): batch_size 8, max_length 128 or batch_size 4, max_length 256
                 # 1080Ti (11G): batch_size 1 or 2, max_length 64
-                batch_size = 32
+                batch_size = 8
                 max_length = 128
                 max_epoch = task_data_dict[reasoning_task][dataset_name]
                 device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
