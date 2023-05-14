@@ -192,7 +192,7 @@ class Framework_Graph_Toolformer:
 if __name__ == "__main__":
     print('='*70)
 
-    if 1:
+    if 0:
         panel = Framework_Graph_Toolformer()
         panel.prepare_setting()
         panel.run()
@@ -256,7 +256,7 @@ if __name__ == "__main__":
         output_statement = panel.statement_updating(generation_output, result_dict)
         print(output_statement)
 
-    if 0:
+    if 1:
         # knowledge graph reasoning
         generation_output = 'Output: According to the Freebase knowledge graph, the relation between entity#/m/027rn and entity#/m/06cx9 is [GR(GL("freebase"), "transe:head_entity", relation#/location/country/form_of_government, entity#/m/06cx9)-->r]. Reasoning Result: /location/country/form_of_government.'
         print(generation_output)
