@@ -197,7 +197,7 @@ if __name__ == "__main__":
         panel.prepare_setting()
         panel.run()
 
-    if 0:
+    if 1:
         input_str = 'Input: The radius of the truncated tetrahedron graph is the minimum eccentricity of any node, which in this case is [TBR].'
         panel = Framework_Graph_Toolformer()
         panel.prepare_setting()
@@ -256,7 +256,7 @@ if __name__ == "__main__":
         output_statement = panel.statement_updating(generation_output, result_dict)
         print(output_statement)
 
-    if 1:
+    if 0:
         # knowledge graph reasoning
         generation_output = 'Output: According to the Freebase knowledge graph, the relation between entity#/m/027rn and entity#/m/06cx9 is [GR(GL("freebase"), "transe:head_entity", relation#/location/country/form_of_government, entity#/m/06cx9)-->r]. Reasoning Result: /location/country/form_of_government.'
         print(generation_output)
@@ -266,3 +266,4 @@ if __name__ == "__main__":
         result_dict = panel.query_execution(query_dict)
         output_statement = panel.statement_updating(generation_output, result_dict)
         print(output_statement)
+        # Output: According to the Freebase knowledge graph, the relation between entity#/m/027rn and entity#/m/06cx9 is {'/m/0147fv': 1.0}. Reasoning Result: /location/country/form_of_government.
