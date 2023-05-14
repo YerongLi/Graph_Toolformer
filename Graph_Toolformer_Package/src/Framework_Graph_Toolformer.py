@@ -176,6 +176,9 @@ class Framework_Graph_Toolformer:
         while True:
             try:
                 input_str = input("Input (press Enter to stop): ")
+                # Input (press Enter to stop): According to the Freebase knowledge graph, via relation #/film/film/production_companies, what entity can we obtain from entity#/m/0g1rw?
+
+                # According to the Freebase knowledge graph, via relation #/film/film/production_companies, we can obtain entity {'/m/01d_h8': 1.0}.
                 if input_str == '': break
                 generation_output = self.inference(input_str=input_str)
                 _, generation_output = generation_output[0].split(' Output: ')

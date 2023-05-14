@@ -69,6 +69,15 @@ class Method_Graph_Toolformer_GPTJ(method):
                 str_inputs = [batch['full'][i] for i in range(len(batch['full']))]
                 # print('str_inputs[0]')
                 # print(str_inputs[0])
+                # str_inputs[0]
+                # Input: What is the function for the protein molecular graph #84 in proteins? Output: The function for the protein molecular graph #84 in proteins is [GR(GL("proteins"), "seg_bert:molecule_function", instance#84)-->r].
+                # str_inputs[0]
+                # Input: What is the function for the protein molecular graph #345 in proteins? Output: The function for the protein molecular graph #345 in proteins is [GR(GL("proteins"), "seg_bert:molecule_function", instance#345)-->r].
+                # str_inputs[0]
+                # Input: According to the Freebase knowledge graph, via relation #/film/film/production_companies, what entity can we obtain from entity#/m/0g1rw? Output: According to the Freebase knowledge graph, via relation #/film/film/production_companies, we can obtain entity#/m/0g1rw from entity [GR(GL("freebase"), "transe:head_entity", relation#/film/film/production_companies, entity#/m/0g1rw)-->r].
+                # str_inputs[0]
+                # Input: In the online social network twitter, the communities that user #Fineryder and user #JessGetsSocial belong to are [TBR]. Output: In the online social network twitter, the communities that user #Fineryder and user #JessGetsSocial belong to are [GR(GL("twitter"), "kmeans:common_community_check", user#Fineryder, user#JessGetsSocial)-->r].
+                # str_inputs[0]
                 # Input: The chemical molecular graph instance #275 in the ptc dataset has a function of [TBR]. Output: The chemical molecular graph [33/1922]#275 in the ptc dataset has a function of [GR(GL("ptc"), "seg_bert:molecule_function", instance#275)-->r].
                 # str_inputs[0]
                 # Input: The citeseer bibliographic network' paper #2489 is concerned with the area of [TBR]. Output: The citeseer bibliographic network' pap$e #2489 is concerned with the area of [GR(GL("citeseer"), "graph_bert:topic", paper#2489)-->r].
@@ -82,6 +91,8 @@ class Method_Graph_Toolformer_GPTJ(method):
                 # Input: According to the WorldNet knowledge graph, from entity #united_states.n.01, via relation #_has_part, we can derive entity #[TBR]. Ou$tut: According to the WorldNet knowledge graph, from entity #united_states.n.01, via relation #_has_part, we can derive entity [GR(GL("worl$det"), "transe:tail_entity", entity#united_states.n.01, relation#_has_part)-->r].
                 # str_inputs[0]
                 # Input: The chemical molecular graph instance #3423 in the nci1 dataset has a function of [TBR]. Output: The chemical molecular graph instance #3423 in the nci1 dataset has a function of [GR(GL("nci1"), "seg_bert:molecule_function", instance#3423)-->r].
+                
+                # str_inputs and str_labels are identical
                 str_labels = [batch['full'][i] for i in range(len(batch['full']))]
                 inputs = self.tokenizer(str_inputs, padding='max_length', max_length=self.max_length, truncation=True)
                 labels = self.tokenizer(str_labels, padding='max_length', max_length=self.max_length, truncation=True)
