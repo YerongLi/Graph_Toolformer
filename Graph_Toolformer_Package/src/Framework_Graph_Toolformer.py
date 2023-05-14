@@ -202,6 +202,7 @@ if __name__ == "__main__":
         panel = Framework_Graph_Toolformer()
         panel.prepare_setting()
         print(panel.inference(input_str=input_str))
+        # ['Input: The radius of the truncated tetrahedron graph is the minimum eccentricity of any node, which in this case is [TBR]. Output: \nthe radius of the truncated tetrahedron graph is the minimum eccentricity of any node, which in this case is [GR(GL("gpr", {"truncated_tetrahedron_graph"}), "toolx:eccentricity")-->r].']
 
     if 0:
         # property reasoning testing
