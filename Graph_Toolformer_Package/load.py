@@ -1,6 +1,6 @@
 import pickle
 # f = open('./graph_datasets/gpr', 'rb')
-dataset = pickle.load(f)
+# dataset = pickle.load(f)
 # f.close()
 # print(dataset.keys())
 # dict_keys(['data_profile', 'graph_set'])
