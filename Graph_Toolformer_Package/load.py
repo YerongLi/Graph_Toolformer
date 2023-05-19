@@ -16,4 +16,6 @@ import pickle
 f = open('./graph_datasets/freebase', 'rb')
 dataset = pickle.load(f)
 f.close()
-# print(dataset.keys())
+print(dataset.keys())
+print(dataset['graph_set'].keys())
+
