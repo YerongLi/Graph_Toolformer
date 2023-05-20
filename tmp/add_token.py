@@ -42,3 +42,8 @@ new_weights = torch.cat((weights, weights[101:102]), 0)
 
 new_emb = nn.Embedding.from_pretrained(new_weights, padding_idx=0, freeze=False)
 print(new_emb)
+
+model.embeddings.word_embeddings = new_emb
+
+print('Embeding after assignment : model.embeddings.word_embeddings = new_emb')
+print(model.embeddings)
