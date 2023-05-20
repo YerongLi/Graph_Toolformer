@@ -16,6 +16,6 @@ tokenized = tokenizer("<yerongAPI> Hello world, how are you?</yerongAPI>")
 
 print(tokenized['input_ids'])
 
-tkn = tokenized['input_ids'][0, 0]
+tkn = tokenized['input_ids'][0][0]
 print("First token:", tkn)
 print("Decoded:", tokenizer.decode(tkn))
