@@ -12,7 +12,7 @@ vectors = tokenizer.tokenize("<yerongAPI> Hello world, how are you?</yerongAPI>"
 print('vectors after add')
 print(vectors)
 
-tokenized = tokenizer("<yerongAPI> Hello world, how are you?</yerongAPI>")
+tokenized = tokenizer("<yerongAPI> Hello world, how are you?</yerongAPI>",add_special_tokens=False, return_tensors="pt")
 
 print(tokenized['input_ids'])
 
