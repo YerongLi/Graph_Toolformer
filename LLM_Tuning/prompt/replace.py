@@ -6,7 +6,7 @@ def process_prompt_file(filename="knowledge_graphs/freebase/prompts_train", outp
     # Perform string replacements
     output_text = input_text.replace("According to the Freebase knowledge graph,", "According to the Concept knowledge graph,")
     output_text = output_text.replace('GL("Freebase")', 'GL("Concept")')
-    output_text = input_text.replace("[", "<yerongAPI>")
+    output_text = output_text.replace("[", "<yerongAPI>")
     output_text = output_text.replace("]", "</yerongAPI>")
 
     # Create the output filename
