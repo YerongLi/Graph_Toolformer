@@ -21,3 +21,4 @@ print("First token:", tkn)
 print("Decoded:", tokenizer.decode(tkn))
 
 print('Special token', tokenizer.decode(101))
+print('Special token', tokenizer.decode(102))
