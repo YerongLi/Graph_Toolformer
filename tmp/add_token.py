@@ -28,3 +28,17 @@ print('=' * 17)
 model = BertModel.from_pretrained('bert-base-uncased')
 
 print(model.embeddings)
+
+try:
+    out = model(**tokenized)
+    out.last_hidden_state
+except Exception as e:
+    print(e)
+
+weights = model.embeddings.word_embeddings.weight.data
+print(weights.shape)
+
+new_weights = torch.cat((weights, weights[101:102]), 0)
+
+new_emb = nn.Embedding.from_pretrained(new_weights, padding_idx=0, freeze=False)
+print(new_emb)
