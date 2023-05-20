@@ -192,6 +192,7 @@ class Framework_Graph_Toolformer:
 if __name__ == "__main__":
     print('='*70)
 
+        
     if 0:
         panel = Framework_Graph_Toolformer()
         panel.prepare_setting()
