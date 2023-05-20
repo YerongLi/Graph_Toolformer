@@ -1,4 +1,4 @@
-def process_prompt_file(filename="knowledge_graphs/freebase/prompt_train", output_filename="knowledge_graphs/conceptnet/prompt_train"):
+def process_prompt_file(filename="knowledge_graphs/freebase/prompts_train", output_filename="knowledge_graphs/conceptnet/prompts_train"):
     # Read input from file
     with open(filename, "r") as file:
         input_text = file.read()
