@@ -19,3 +19,5 @@ print(tokenized['input_ids'])
 tkn = tokenized['input_ids'][0][0]
 print("First token:", tkn)
 print("Decoded:", tokenizer.decode(tkn))
+
+print('Special token', tokenizer.decode(101))
