@@ -47,3 +47,13 @@ model.embeddings.word_embeddings = new_emb
 
 print('Embeding after assignment : model.embeddings.word_embeddings = new_emb')
 print(model.embeddings)
+
+out = model(**tokenized)
+out.last_hidden_state
+
+model = BertModel.from_pretrained('bert-base-uncased')
+out2 = model(
+    **tokenizer("[CLS] Hello world, how are you?", add_special_tokens=False, return_tensors="pt")
+)
+
+print(torch.all(out.last_hidden_state == out2.last_hidden_state))
