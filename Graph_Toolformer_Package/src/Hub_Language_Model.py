@@ -72,6 +72,8 @@ class Causal_Language_Model_8bit_GPTJ(Causal_Language_Model):
         # print(payload)
         # payload
         # Input: According to the Freebase knowledge graph, from entity#/m/05sxzwc, via relation #/film/film/film_casting_director, we can derive entity#[TBR] Output:
+        print("self.hyper_parameter_dict['max_length']")
+        print(self.hyper_parameter_dict['max_length'])
         inputs = self.tokenizer(text=payload, return_tensors="pt")
         inputs = inputs.to(self.hyper_parameter_dict['device'])
         sample_outputs = self.model.generate(
