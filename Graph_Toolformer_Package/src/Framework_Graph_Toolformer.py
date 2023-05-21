@@ -35,7 +35,7 @@ class Framework_Graph_Toolformer:
 
         hyper_parameter_dict = {
             'device': 'cuda' if torch.cuda.is_available() else 'cpu',
-            'max_length': 128,
+            'max_length': 256,
             'special_token_dict': {'bos_token': '<|startoftext|>', 'eos_token': '<|endoftext|>', 'pad_token': '<'},
         }
         self.language_model_hub.prepare(hyper_parameters=hyper_parameter_dict)
