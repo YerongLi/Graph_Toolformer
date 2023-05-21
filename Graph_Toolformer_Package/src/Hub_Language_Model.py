@@ -20,7 +20,7 @@ class Causal_Language_Model:
     cache_dir = './pretrained_model/'
     hyper_parameter_dict = {
         'device': 'cpu',
-        'max_length': 128,
+        'max_length': 256,
         'special_token_dict': {'bos_token': '<|startoftext|>', 'eos_token': '<|endoftext|>', 'pad_token': '<|padding|>'},
     }
 
