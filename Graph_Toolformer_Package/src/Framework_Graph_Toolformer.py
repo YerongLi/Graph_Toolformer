@@ -166,7 +166,7 @@ class Framework_Graph_Toolformer:
         if 'Input: ' in input_str:
             input_str = input_str.lstrip('Input: ')
         payload = 'Input: ' + input_str + ' Output: '
-        print(f'Returning the inference of {self.selected_language_model}')
+        # print(f'Returning the inference of {self.selected_language_model}')
         return self.language_model_hub[self.selected_language_model].inference(input_text=payload)
 
     def run(self):
