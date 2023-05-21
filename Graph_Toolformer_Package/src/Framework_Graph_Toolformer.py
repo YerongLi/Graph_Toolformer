@@ -160,12 +160,13 @@ class Framework_Graph_Toolformer:
             raise ValueError('unrecognized pretrained_model:function {}:{}, consider to expand the graph pretrained_model hub to handle the desired graph reasoning tasks.'.format(model, api_function))
 
     def inference(self, input_str=None):
-        print('entering inference')
+        # print('entering inference')
         if input_str is None or input_str == '':
             raise ValueError("The input of the inference function cannot be None or blank")
         if 'Input: ' in input_str:
             input_str = input_str.lstrip('Input: ')
         payload = 'Input: ' + input_str + ' Output: '
+        print(f'Returning the inference of {self.selected_language_model}')
         return self.language_model_hub[self.selected_language_model].inference(input_text=payload)
 
     def run(self):
