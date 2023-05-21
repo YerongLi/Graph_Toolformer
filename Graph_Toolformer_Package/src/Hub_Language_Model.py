@@ -62,6 +62,7 @@ class Causal_Language_Model_8bit_GPTJ(Causal_Language_Model):
         self.load_checkpoint()
 
     def inference(self, input_text=''):
+        print('Entering the inference of class Causal_Language_Model_8bit_GPTJ')
         if input_text is None or input_text == '':
             payload = self.tokenizer.bos_token2
         else:
