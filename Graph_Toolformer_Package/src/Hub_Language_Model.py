@@ -78,8 +78,10 @@ class Causal_Language_Model_8bit_GPTJ(Causal_Language_Model):
             pad_token_id=self.tokenizer.eos_token_id,
             num_return_sequences=1, max_length=self.hyper_parameter_dict['max_length'],
         )
-        print('sample outputs : There is only one sentence')
-        print(self.tokenizer.decode(sample_outputs.squeeze()))
+        # print('sample outputs : There is only one sentence')
+        # print(self.tokenizer.decode(sample_outputs.squeeze()))
+        # sample outputs : There is only one sentence
+        # Input: According to the Freebase knowledge graph, from entity#/m/05sxzwc, via relation #/film/film/film_casting_director, we can derive entity#[TBR] Output:  According to the Freebase knowledge graph, from entity#/m/05sxzwc, via relation #/film/film/film_casting_director, we can derive entity#[GR(GL("freebase"), "transe:tail_entity", entity#/m/05sxzwc, relation#/film/film/film_casting_
         output_str = [self.tokenizer.decode(sample_output, skip_special_tokens=True) for i, sample_output in
                       enumerate(sample_outputs)]
         return output_str
