@@ -68,6 +68,8 @@ class Causal_Language_Model_8bit_GPTJ(Causal_Language_Model):
             payload = self.tokenizer.bos_token2
         else:
             payload = input_text
+        print('payload')
+        print(payload)
         inputs = self.tokenizer(text=payload, return_tensors="pt")
         inputs = inputs.to(self.hyper_parameter_dict['device'])
         sample_outputs = self.model.generate(
