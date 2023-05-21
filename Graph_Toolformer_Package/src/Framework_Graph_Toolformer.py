@@ -38,7 +38,7 @@ class Framework_Graph_Toolformer:
             'max_length': 256,
             'special_token_dict': {'bos_token': '<|startoftext|>', 'eos_token': '<|endoftext|>', 'pad_token': '<'},
         }
-        print('Entering prepare_setting')
+        # print('Entering prepare_setting')
         self.language_model_hub.prepare(hyper_parameters=hyper_parameter_dict)
 
     def statement_updating(self, statement, result_dict):
