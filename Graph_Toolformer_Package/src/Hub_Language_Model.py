@@ -78,8 +78,8 @@ class Causal_Language_Model_8bit_GPTJ(Causal_Language_Model):
             pad_token_id=self.tokenizer.eos_token_id,
             num_return_sequences=1, max_length=self.hyper_parameter_dict['max_length'],
         )
-        print('sample outputs')
-        print(sample_outputs)
+        print('sample outputs : There is only one sentence')
+        print(self.tokenizer.decoode(sample_outputs.unsqeeze()))
         output_str = [self.tokenizer.decode(sample_output, skip_special_tokens=True) for i, sample_output in
                       enumerate(sample_outputs)]
         return output_str
