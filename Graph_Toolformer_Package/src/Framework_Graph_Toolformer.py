@@ -201,7 +201,8 @@ if __name__ == "__main__":
         panel.prepare_setting()
         panel.run()
 
-    if 1:
+    if 0:
+        # My example : .inference() Only generate result without execution
         input_str = 'Input: According to the Freebase knowledge graph, from entity#/m/05sxzwc, via relation #/film/film/film_casting_director, we can derive entity#[TBR]'
         panel = Framework_Graph_Toolformer()
         panel.prepare_setting()
@@ -214,7 +215,7 @@ if __name__ == "__main__":
         print(panel.inference(input_str=input_str))
         # ['Input: The radius of the truncated tetrahedron graph is the minimum eccentricity of any node, which in this case is [TBR]. Output: \nthe radius of the truncated tetrahedron graph is the minimum eccentricity of any node, which in this case is [GR(GL("gpr", {"truncated_tetrahedron_graph"}), "toolx:eccentricity")-->r].']
 
-    if 0:
+    if 1:
         # property reasoning testing
         generation_output = 'Output: \nThe radius of the truncated tetrahedron graph is the minimum eccentricity of any node, which in this case is [GR(GL("gpr", {"truncated_tetrahedron_graph"}), "toolx:eccentricity")-->r].'
         panel = Framework_Graph_Toolformer()
