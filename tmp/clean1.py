@@ -6,6 +6,8 @@ def reformat_conversation(file_path):
         lines = file.readlines()
 
         for line in lines:
+            print(line)
+            break
             if line.startswith("WATTENBERG:"):
                 speaker = "Host"
             elif line.startswith("MUSK:"):
