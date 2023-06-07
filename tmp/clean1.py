@@ -18,6 +18,7 @@ def reformat_conversation(file_path):
 
     return conversation
 
-# Reformat the conversation in 1.txt
+# Reformat the conversation in 1.txt and save it to 1_clean.txt
 formatted_conversation = reformat_conversation("1.txt")
-print(formatted_conversation)
+with open("1_clean.txt", "w") as output_file:
+    output_file.write(formatted_conversation)
