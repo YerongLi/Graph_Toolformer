@@ -14,7 +14,7 @@ def reformat_conversation(input_file, output_file):
         
         if match:
             if current_speaker and current_statement:
-                cleaned_lines.append(f'{current_speaker} {current_statement}')
+                cleaned_lines.append(f'{current_speaker} {current_statement.strip()}')
             
             current_speaker = '[Host]' if match.group(1) == 'WATTENBERG' else '[Musk]'
             current_statement = line[len(match.group(0)):]
@@ -23,7 +23,9 @@ def reformat_conversation(input_file, output_file):
 
     # Append the last statement
     if current_speaker and current_statement:
-        cleaned_lines.append(f'{current_speaker} {current_statement}')
+        cleaned_lines.append(f'{current_speaker} {current_statement.strip()}')
+
+    cleaned_lines = [re.sub(r'\s+', ' ', line) for line in cleaned_lines]  # Remove duplicated spaces
 
     with open(output_file, 'w') as file:
         file.write('\n'.join(cleaned_lines))
@@ -34,4 +36,3 @@ output_file = '01_clean.txt'
 
 # Reformat the conversation
 reformat_conversation(input_file, output_file)
-
