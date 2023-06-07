@@ -7,9 +7,9 @@ def reformat_conversation(file_path):
 
         for line in lines:
             print(line)
-            break
             if line.startswith("WATTENBERG:"):
                 speaker = "Host"
+                print('matches Host')
             elif line.startswith("MUSK:"):
                 speaker = "Musk"
             elif line.strip() == "":
@@ -17,7 +17,7 @@ def reformat_conversation(file_path):
             else:
                 line = f"[{speaker}] {line}"
                 conversation += line
-
+            break
     return conversation
 
 # Reformat the conversation in 02.txt and save it to 02_clean.txt
