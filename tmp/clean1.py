@@ -1,26 +1,23 @@
-def reformat_conversation(file_path):
-    conversation = ""
-    speaker = "Host"
+import re
 
-    with open(file_path, "r") as file:
+def reformat_conversation(input_file, output_file):
+    with open(input_file, 'r') as file:
         lines = file.readlines()
 
-        for line in lines:
-            if line.startswith("WATTENBERG:"):
-                speaker = "Host"
-            elif line.startswith("MUSK:"):
-                speaker = "Musk"
-            elif line.strip() == "":
-                continue
-            else:
-                line = f"[{speaker}] {line}"
-                conversation += line
-        
-    return conversation
+    cleaned_lines = []
+    for line in lines:
+        line = line.strip()
+        match = re.match(r'^(WATTENBERG|MUSK):', line)
+        if match:
+            speaker = '[Host]' if match.group(1) == 'WATTENBERG' else '[Musk]'
+            cleaned_lines.append(f'{speaker} {line[len(match.group(0)):]}')
 
-# Reformat the conversation in 02.txt and save it to 02_clean.txt
-formatted_conversation = reformat_conversation("01.txt")
-with open("01_clean.txt", "w") as output_file:
-    output_file.write(formatted_conversation)
+    with open(output_file, 'w') as file:
+        file.write('\n'.join(cleaned_lines))
 
-print("Conversation reformatted and saved to 01_clean.txt.")
+# Specify the input and output file paths
+input_file = '01.txt'
+output_file = '01_clean.txt'
+
+# Reformat the conversation
+reformat_conversation(input_file, output_file)
