@@ -7,6 +7,7 @@ def reformat_conversation(file_path):
 
         for line in lines:
             print(line)
+            print(line.startswith("WATTENBERG:"))
             if line.startswith("WATTENBERG:"):
                 speaker = "Host"
                 print('matches Host')
