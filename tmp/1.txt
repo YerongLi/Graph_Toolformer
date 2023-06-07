@@ -1,0 +1,202 @@
+WATTENBERG: Elon Musk, welcome to THINK TANK. We normally begin these sessions by asking you a little bit about background, where you were born, where you went to school, what you do and then we’ll just pick it up from there.
+MUSK: Well, I was born in South Africa, lived there until I was 17. Came to North America of my own accord, against my parent’s wishes. And was in Canada for a few years. I started school there which is where I met my wife.
+Transferred down to the University of Pennsylvania and got a degree in physics, degree in business at Wharton. Came out to California with the intent of doing a PHD in the material science and physics [unintelligible] with an eye towards using that as an energy storage unit for electric vehicles.
+I ended up deferring that graduate work to start a couple to start a couple of area companies, one of which people have heard about, such as Pay Pal.
+WATTENBERG: What is that? I’m sort of a techie ignoramus. What does Pay Pal do?
+MUSK: Pay Pal is the leading internet payment mechanism. It’s probably like an American Express of the Twenty First Century.
+WATTENBERG: What does it do that my American Express card doesn’t do? I mean, I can order things on the internet with a credit card, can’t I?
+MUSK: Yeah you can. It’s hard to explain Pay Pal by analogy since it’s really a new sort of entity.
+So, what that allows you to do is to send money to a business or person just by entering an email address. And the money easily transfers from your Pay Pal account to their Pay Pal account.
+If you have money in Pay Pal account, it will do an internal transfer, almost like a bank transfer. If you don’t have money in your account, it’ll draw from your credit card or draw from your real world bank --
+WATTENBERG: This was your idea.
+MUSK: There were two other people involved but I was responsible for many of the core idea.
+MUSK: I had just sold my first internet company which -- internet software primarily for media companies, allowing it to publish and manage contents on the web. I had also some special functionality. We also had map and directions functionality, yellow pages functionality, white pages.
+And it’s -- you know, when you went to a web site -- a web site like a Knight Ridder newspaper web site or New York Times you wouldn’t know you would actually be using our software, but not know -- you wouldn’t that you were using our software, but you would be.
+So, any way, we sold that to Compaq for about 300 million dollars in cash in -- early in 99. And after I left the company and started what was originally called X.com which later became Pay Pal.
+WATTENBERG: So, now we’re on this most remarkable factory floor of SpaceX. I felt I’ve been around. I’ve never quite seen anything like this. What are you doing here?
+MUSK: SpaceX is developing markets for taking satellites and people to orbit and beyond. So, we’ve finished development of and done a few test launches in our small rocket, which is the Falcon One, which you see part of over here.
+And we have in development a big rocket which is the Falcon 9. And that’s intended to service the space station, as well as deliver very large satellites to orbit.
+WATTENBERG: Did you design these or are they your concept?
+MUSK: Yes, I’m the chief designer in the company.
+WATTENBERG: -- designer and the businessman.
+MUSK: Yes.
+WATTENBERG: A good combination.
+MUSK: Yeah, I think it is a good combination.
+WATTENBERG: And as I understand it -- so you make your money on these by taking up other people’s satellites to --
+MUSK: Yes.
+WATTENBERG: Satellites are used for communications, business, military, whatever?
+MUSK: Yes.
+WATTENBERG: Now, you want to go to Mars?
+MUSK: I wouldn’t say -- I mean, I wouldn’t say it’s a personal interest of mine to go to Mars, but really my interest in going to Mars is from the standpoint of the extension of life beyond earth. To the best of my knowledge life exists only on earth. And this is the first time in the 4 billion year history of earth that it’s possible to extend life to another planet.
+WATTENBERG: So, you want to go to Mars -- I mean, the way they went to Mount Everest, because it’s there.
+MUSK: No, no, I think in the case of the sort of flippant remark by Hillary was -- it’s sort of a noteworthy achievement to have climbed the highest mountain on earth and all that [unintelligible] in the same way people want to break records of various kinds around the world, sailing journeys and that sort of thing.
+But this is not in that category, this is really much thicker, deeper philosophical underpinings better financed to why I think it’s important to extend life beyond earth.
+It goes to the nature of importance. How do you decide that one thing is important versus another. And the layers of history -- I guess a good way to distinguish whether something is important or not.
+If you look at the history of the earth upon a geological grand scale -- what are the really important milestones in the history of life itself. Forget about the parochial concerns of humanity.
+Then you say, well, certainly there was the advent of single cell life, multi cellular life, plants versus animals --
+WATTENBERG: invention of fire, the wheel, that kind of thing.
+MUSK: That’s actually a very [unintelligible] humanity. That’s actually [unintelligible] factor (speaking over each other) Those are only important in the context of humanity.
+WATTENBERG: Oh, I see, okay.
+MUSK: I’m talking about things that are important in the context of life itself. So, you know, there’s life extending -- life emerging from the oceans and moving up to land.
+There’s the advent of mammals, the devopment of consciousness. These are -- there’s maybe ten or twelve things that fed on to that scale.
+And then within a subset of man’s achievements would be things like fire, wheel, the internet and that sort of thing.
+WATTENBERG: Do you believe that there was an unmoved mover? Did something otherworldly start it all?
+MUSK: I think the universe can be explained by the laws of physics and does not require any supreme being --
+WATTENBERG: Let’s get on to some other things. Much of the space program and its origins of course was governmental.
+MUSK: Yes.
+WATTENBERG: I mean it was military, it was NASA -- is the basic future of the space program and space exploration -- should that be done governmentally or privately or both?
+MUSK: Probably both. I mean, yes, space exploration [unintelligible] it’s both a government and a private endeavor.
+WATTENBERG: Could you operate without the government help?
+MUSK: Yes.
+WATTENBERG: I mean, it’s reached a point where you can design your rockets and do things and you don’t need to --
+MUSK: Correct. We started with no government help. The government is a customer but we also have main commercial customers as well.
+WATTENBERG: Who’s your customer? Defense and NASA and --
+MUSK: Well, we have -- assuming NASA is probably our single biggest customer -- the Defense Department, particularly DARPA is a customer.
+But then we also have McDonald Detweiler, a Canadian company, a customer we recently signed up for this commercial geo [unintelligible] satellite launch contract with Avanti which is a -- the UK commercial satellite operator.
+WATTENBERG: Do you find yourself at a disadvantage or advantage dealing with these great big industrial behemoths, where you’re competitors are Boeing and people like that?
+MUSK: I think the advantage, because it’s very hard for those large companies to track the best engineers. They’re really not great environments to work in.
+So -- you know we’ve been very successful in recruiting the top people out of those organizations. And they’re just really inefficient -- cost inefficient.
+WATTENBERG: The bigger the more inefficient something is?
+[speaking over each other]
+WATTENBERG: That’s a pretty good rule isn’t it.
+MUSK: As a company grows and you get to be able to use division of labor and specialization of labor, far too many person increases.
+But once you reach a certain point where the communication inefficiency overwhelms the specialization of labor, then you actually get a declining – per employee
+WATTENBERG: How fast is SpaceX growing in terms of people?
+MUSK: About a 100 percent a year. But that won’t continue in the future. We may have 50 percent in the future --
+WATTENBERG: At what point are you worrying that you’re falling victim of this idea of being too large. Is that way off in the distance?
+MUSK: I think it’s pretty far off yeah. I think you know we’ll probably stabilize at maybe a thousand or two thousand. I think Boeing is like 100 thousand people.
+WATTENBERG: Just to jump around a little bit, another one of your very noteworthy entrepreneurial activities is a new electric car.
+MUSK: Yes.
+WATTENBERG: Will you tell us about that?
+MUSK: Sure -- and so I’m chairman and principal founder of Tesla, which -- Tesla motors, which is making a revolutionary electric sports car. It’s all electric, it has almost 250 miles range. It has acceleration which is less than four seconds to 60 miles an hour. And it’s about 100 thousand dollars, so it’s a compelling price for car of that performance.
+WATTENBERG: Will the price go down as the production goes up?
+MUSK: Well, the sports car will probably remain at that price point. But Tesla is developing a lower cost car, which is a sedan, it’s five passenger, four door sedan, quite large and it’s intended to be something that could be a family sedan or it can replace a small -- smallish SUV. It’s going to be in the 50 thousand dollar range. We’ll be producing 10 to 20 thousand of these a year.
+Then we’ve got Model which will be after that and that’ll be hopefully in the 30 to 35 thousand dollar range and we’ve got 100 to 200 thousand [unintelligible] volume.
+So, we try to do higher and higher volume and they become more and more affordable over time. The Tesla Roadster, the sports car, is really the beachhead of the technology. It’s the introductory product, allows us to refine the technology and make more affordable over time.
+WATTENBERG: What is the purpose of building an electric car? Can it ever be as economically competitive as a vehicle powered by fossil fuel?
+MUSK: Yes, actually I think the long term electric cars will be more economically competitive than the -- than the gasoline car. Also, the price of gasoline is going to rise over time given finite supplies and rapidly increasing demand, particularly from China and India, as we’ve seen.
+But in addition to the price of gas going up, the cost of electric transportation is going to go down, drive in part by companies like Tesla.
+WATTENBERG: What is the most efficient way to create the power to charge the batteries, to charge the engine in Tesla?
+MUSK: Sure -- well, first of all it should be said that the efficiency of an electric car -- the electric car by Tesla is so great that if you were to take a gallon of oil and you would put power -- use that oil in an electric power station and take the efficiency of that power station -- subtract the transmission losses [unintelligible] of the electric power lines -- subtract the charging losses. And it said how many miles do you get out of that gallon of oil versus refine that gallon of oil into gasoline and run an equivalent sized car, using that gallon of gasoline -- what you’ll find is the electric car gives you at least twice as much mileage.
+So, that’s called the well to wheel efficiency. We do the fully [unintelligible] efficiency of a particular mode of transport. What it comes down to -- the reason -- the primary reason for that is that a gasoline engine is typically around 17 or 18 percent efficient.
+So, the energy in that gallon of gasoline -- the [unintelligible] [speaking over each other]
+MUSK: Basically it’s roughly one part emission, four parts heat of the energy in that gallon of gasoline.
+But in comparison, the electric motor is a far more efficient device. The energy efficiency of electric motors is on the order of 90 percent. So that even after you take all those charging losses and all those other things into account, just have a fundamentally more efficient engine -- motor in the case of [unintelligible]
+But to answer your original question of what will charge -- we need the energy to charge the batteries for the cars and are we not simply extending the tail pipe to the power switch, so it’s a long tailpipe to the power station essentially.
+And the answer to that is -- well, first of all, electricity is the universal currency. You can generate electricity in many ways, including renewable ways such as solar power, wind, geothermal -- and in ways which are less damaging to the environment such as nuclear and -- and then even if you would generate energy with hydrocarbons such as coal or oil or natural gas, the energy efficiency of electric transportation is so much greater that you can still be twice as better off than you would otherwise be.
+WATTENBERG: Do you think we ought to be doing more to encourage the use of nuclear power in the United States. My understanding is that we have not built a new nuclear plant in about 25 years here.
+MUSK: Right. It’s true we’ve not built new nuclear plants in a couple decades. Although what most people don’t realize is that the existing nuclear plants have been massively upgraded. [Laughter]
+So, our percentage of nuclear power has actually not declined as much -- [speaking over each other]
+WATTENBERG: About 20 percent total.
+MUSK: Yeah, we should build more nuclear power plants. I think that’s a better way to generate energy than certainly a coal power plant or a natural gas power plant.
+Burning hydrocarbons -- I think people now recognize is a pretty bad thing. You know over time there’s a certain limit to the CO2 capacity of the atmosphere and the oceans.
+WATTENBERG: You came from South Africa at age 17.
+MUSK: Yes.
+WATTENBERG: You have been quoted as saying -- Elon you came here from South Africa at age 17, is that right.
+MUSK: Yes, I did.
+WATTENBERG: You were an immigrant -- a legal immigrant --
+MUSK: No, no -- yes, a legal one. [Laughter]
+WATTENBERG: I got to think a lot of illegals add a lot of value to the United States. You have been quoted as saying that you are nauseatingly pro American.
+MUSK: Yes, that’s true.
+WATTENBERG: What do you mean?
+MUSK: Well, I mean, I think the United States is the greatest country that’s ever existed on earth. And I think that it will be difficult to argue on objective grounds that it is not. I think the facts really point in that direction. It’s the greatest force for good of any country that’s ever been.
+There would not be democracy in the world if not for the United States. We’re obviously falling in the recent few occasions -- maybe three separate occasions in the Twentieth Century -- democracy would have fallen with World War 1, World War 2 and the Cold War, but for the United States.
+WATTENBERG: And perhaps the threat of terrorism would be much greater if it were not for the United States.
+MUSK: Yeah, absolutely. I think it would be a mistake to say the United States is perfect, it certainly is not. There have been many foolish things the United States has done and bad things the United States has done.
+But when historians look at these things on balance and measure the good with the bad -- and I think if you do that and -- on a rational basis and make a fair assessment -- I think it’s hard to [unintelligible] that the United States -- is there anything better [speaking over each other]
+WATTENBERG: I have a reputation of interrupting my guests. But when they say exactly what I believe, I just let them talk and talk. I think you’re 100 percent right.
+MUSK: And -- you know I wasn’t born in America -- I got here as fast as I could.
+WATTENBERG: My sense is to use that old classical economic term, that perhaps the greatest comparative advantage we have in the United States is the fact we take in lots of immigrants, legal and to some extent illegal and we have the only really good assimilation factory in the world.
+And that this provides us with such power and strength and influence -- as you said, unimaginable in human history.
+MUSK: Yeah. Yeah. I totally agree. And I do agree with assimilation. I mean, it doesn’t mean erasing someone’s you know -- the culture that someone came from.
+Because I think what actually happens is that the whole melting pot things with the cultures that people came from get added to the greater mix and actually enriches the diversity of the country more than if people simply retain their -- you know their original country’s culture unmodified, which seems like an odd thing to me.
+Because if you want the unmodified culture of your original country, then why would you move.
+WATTENBERG: Well, you know they say there’s a lot of public opinion [unintelligible] evidence to that effect that immigrants are more patriotic than Americans. Because those of us who were born here were born here and you know most Americans love their country, but they didn’t make the rational choice to say this is where I’m going to hang my hat.
+And the levels of -- I mean, America -- all the transnational polling shows that this is the most patriotic country in the world, but at the top of that high rating, its immigrants were saying this is a great place.
+MUSK: Sure absolutely.
+WATTENBERG: What is the X Prize?
+MUSK: Well, the X Prize Foundation is an organization that creates these prizes for things that -- things are important -- for which there should be an incentive to get to happen.
+And, so, there are actually many X Prizes. There’s the subliminal X Prize which was won by [unintelligible], sponsored by Paul Allen.
+WATTENBERG: Who sponsors the X Prize?
+MUSK: Well, it varies. So in the case of the subliminal X Prize there were many sponsors. In fact I was one of the sponsors. But the main sponsor was [unintelligible] Ansari. So, it’s called Ansari X Prize. [unintelligible] Ansari, actually, so the Ansari family sponsored several X Prizes.
+WATTENBERG: [unintelligible]
+MUSK: But there are others. For example, there’s a genomics X Prize for low cost decoding of the human genome and that’s sponsored by Craig Ventor [phonetic].
+WATTENBERG: One of our -- my occasional cohosts on this program is Francis Collins who is the Director of the Human Genome project at NIH.
+MUSK: Oh, yeah.
+WATTENBERG: We just did two programs with him. He’s a very remarkable guy.
+Revenues in your company have been going in what direction?
+MUSK: Up quite dramatically.
+WATTENBERG: How much percentage per year -- is that the way to measure it?
+MUSK: Sure, well, of course SpaceX revenue have been growing about 150 to 200 percent a year. For Tesla -- well Tesla is kind of a -- Tesla will only start shipping cars next month and, so, real actually recognized revenue would only occur. So, the percentage would be ridiculously gigantic.
+So, part of it would [unintelligible] revenues percentage standpoint. But suffice it to say that next year Tesla will probably do 60 or 70 million dollars in revenue.
+WATTENBERG: SpaceX is already profitable.
+MUSK: Yes.
+WATTENBERG: Tesla obviously cannot be profitable.
+MUSK: It’s not profitable yet.
+WATTENBERG: Now, you are not a public -- none of your ventures are public?
+MUSK: None of my major ventures are public.
+WATTENBERG: But they may well become --
+MUSK: Correct. I suspect over time all three of my most significant ventures will become public companies, SpaceX, Tesla and Solar City.
+WATTENBERG: And the reason for this is to provide more capital to expand.
+MUSK: Yeah go public -- provides more capital to expand, it provides some measure of liquidity for investors in the company and it’s also helpful as a currency for acquiring other companies.
+WATTENBERG: Is that what you’d like to do --
+[Break In Interview] [CHANGING TAPES]
+WATTENBERG: So, you want to go public and issue stock?
+MUSK: Well, I wouldn’t say -- I said public is a -- going public is a consequence of you know a certain maturity level of the company down the road. But I wouldn’t -- I wouldn’t go public as a goal. It’s not really a goal, it’s --
+WATTENBERG: One of the reasons that entrepreneurs go public if they have ambition -- is to use the stock to buy other companies -- [speaking over each other]
+MUSK: Absolutely.
+WATTENBERG: You were [unintelligible]
+MUSK: Absolutely
+WATTENBERG: And that’s what you want to do?
+MUSK: Among other things, certainly one of the reasons.
+WATTENBERG: How big would you like to grow in your mind’s eye? Very very very big or medium big, I mean, do you want to be as big as Microsoft?
+MUSK: [Laughs] Do I want to be as big as Microsoft.
+WATTENBERG: Well, somebody -- Gates did it, it’s not inconceivable.
+MUSK: Well, the size of the company market cap isn’t really a metric by which I would judge my own achievement.
+I’m much more interested in the case of Tesla, Solar City, making impact on climate change and CO2 production and energy independence for those two companies and the case of SpaceX -- really primarily interested in making progress towards helping [unintelligible] become a space [unintelligible] civilization and ultimately extending life beyond earth.
+As a result, I expect that the companies will be valuable. Because it would be hard I think to accomplish those objectives and not be a valuable company.
+WATTENBERG: Well, it’s very interesting. I have am, you know, in awe of what you guys do, not only because you create goods and services that we all need. But you know I was deeply involved in the whole cold war struggle.
+And you know SDI -- Star Wars -- probably never would have worked [unintelligible] hitting a bullet with a bullet when they have 25 thousand MRVS. I mean, you can hit a few of them.
+But it’s very interesting it may have been the most successful military program in history, put a few million bucks in it, give it to the Russians -- scare the hell out of the Russians.
+Now, the question is why did it scare the Russians. It scared the Soviets because it was basically -- this industry was created by a bunch of guys in their backyards diddling around. They didn’t allow kids to diddle around in their backyards if it was against state policy.
+So, they said, they can do it and we can’t do it. And, so, they started making deals which they would not have made if they weren’t afraid of SDI, which was nothing really to be afraid of.
+But again I mean, [speaking over each other] my world view on this thing is the best thing we have going for it is [unintelligible]. It shows up in the market place, it shows up in health, it shows up in longevity, it shows up in technology, it shows up in politics and geo politics and -- you know, within certain limits.
+If you allow free people to do things, they do great things.
+MUSK: Yeah I agree absolutely.
+WATTENBERG: Okay -- now let me ask you this: Who are your heroes?
+
+MUSK: My heroes. Well, Winston Churchill, Thomas Edison -- I mean, I could go on with this long list, I suppose.
+WATTENBERG: Any of the American techie guys, the guys who were doing the sorts of things you are doing?
+MUSK: Oh, you mean [unintelligible]
+WATTENBERG: Yeah, you’re case. Go ahead counselor.
+MUSK: [Laughter] Well, for people that [unintelligible] contemporary -- I mean, I think Larry and Sergey at Google. I suppose they’re my heroes -- they’re also my Friends.
+WATTENBERG: Did you hang out socially with these guys?
+MUSK: Yes.
+
+WATTENBERG: Is there anyone in the political world that you admire now particularly
+MUSK: Who’s alive today?
+WATTENBERG: Yeah, who’s alive today. Is there anyone you admire, is there anyone you detest?
+MUSK: Who do I admire?
+WATTENBERG: Yes.
+MUSK: [pause] You know I’m not a huge admirer of politicians in general.
+WATTENBERG: Most Americans aren’t. [Laughter]
+[speaking over each other]
+WATTENBERG: It’s very interesting -- I mean, I think it’s a very healthy sign that the country’s okay and people don’t like politicians and don’t choose to vote. I mean, they say I got better things to do at the moment.
+MUSK: Yeah I wouldn’t say I’m a huge admirer of anyone in particular on the political stage today. I mean, historically I would say Winston Churchill -- on of the greats; you know maybe Teddy Roosevelt, Disraeli.
+WATTENBERG: What about the more recent ones. Do you think Reagan did a good job?
+MUSK: Yeah, absolutely. I think Reagan was great. Actually I think he was -- he should be up there among one of the great -- as one of the greater [unintelligible] Presidents.
+WATTENBERG: How about Bill Clinton?
+MUSK: Probably certainly above average as American Presidents go, not quite as good as a lot of people would make him out to be. I think if you look at the actual track record on things like Rwanda, should have taken action.
+
+WATTENBERG: What do you think of the President incumbent, George W. Bush?
+MUSK: You know, George Bush is like Reagan without the brains.
+[Laughter]
+MUSK: Reagan was a smart man.
+WATTENBERG: It’s funny, that’s what they said about Reagan and he didn’t have any brains and he had a lot of brains.
+You don’t need knowledge to be a good President, you need that V thing, the vision thing and I think Reagan had it. I think Bush has it. People disagree. To say, you know, the analogy is you can’t turn your boat around -- the ship around -- you got to say -- it’s an ocean liner -- you move it -- and Reagan had the ability -- I sort of think Bush does -- but history will tell -- to say well take it over that way and don’t bother me with the details. You know what I want.
+You know Kennedy and Reagan they brought something to the table that you can’t put a price on. They made Americans feel very good about themselves.
+Now Kennedy didn’t do a whole lot, he died. He was killed too early. But for those years, people all around the world in America were saying that’s what America is like.
+MUSK: I think the current President Bush does the right thing, in his view. But the really -- the big difference President Bush -- current Bush -- and Reagan -- is that Reagan actually had strong intellectual underpinnings for his decisive actions. He read -- he read a lot of books. He thought deeply about the subjects.
+And particularly prior to the stroke, his writings were actually quite smart. He was a smart guy--
+
+WATTENBERG: Elon Musk, thank you very much for joining us on THINK TANK. Please come back again -- and thank you -- and thank you please remember to send your email comments to THINK TANK. We think it makes our program better. For THINK TANK I’m Ben Wattenberg.
