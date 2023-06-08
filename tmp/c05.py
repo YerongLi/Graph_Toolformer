@@ -27,7 +27,7 @@ for i, oline in enumerate(content):
     if line_match:
         timestamp = line_match.group(1)
         speaker = line_match.group(2)
-        line = re.sub(line_pattern, "", line).strip()
+        line = re.sub(line_pattern, "", oline).strip()
         # Extract the real_speaker from the line
         try:
             real_speaker_match = re.match(r"\b([A-Za-z\s]+)\b", line)
