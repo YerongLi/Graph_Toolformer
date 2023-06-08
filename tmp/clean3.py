@@ -11,6 +11,7 @@ speaker_pattern = r"^(.*?)(?: \(\d{2}:\d{2}:\d{2}\))?:"
 # Clean and format the lines
 formatted_lines = []
 current_speaker = None
+current_utterance = ""
 for line in content:
     # Remove leading/trailing whitespaces
     line = line.strip()
@@ -34,9 +35,17 @@ for line in content:
             else:
                 speaker = "[User]"
 
-            formatted_lines.append(f"{speaker} {line} [{speaker} ({timestamp})]")
+            # Start a new utterance if the speaker changes
+            if current_speaker and current_speaker != speaker:
+                formatted_lines.append(current_utterance.strip())
+                current_utterance = ""
+
+            current_speaker = speaker
+            current_utterance += f"{current_speaker} {line}\n"
         else:
-            formatted_lines.append(line)
+            current_utterance += line
+
+formatted_lines.append(current_utterance.strip())
 
 # Save the cleaned content to a new file
 with open("clean_03.txt", "w") as file:
