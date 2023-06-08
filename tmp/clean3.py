@@ -29,7 +29,7 @@ for line in content:
         else:
             speaker = "[User]"
 
-        formatted_line = f"{speaker} {line} ({timestamp})"
+        formatted_line = f"{speaker}"
         formatted_lines.append(formatted_line)
     else:
         formatted_lines.append(line)
