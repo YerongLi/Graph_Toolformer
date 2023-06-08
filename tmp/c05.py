@@ -19,7 +19,7 @@ for i, line in enumerate(content):
     # Skip empty lines
     if not line:
         continue
-    if len(line) == 0：
+    if len(line) == 0:
         continue
 
     # Match the line pattern
