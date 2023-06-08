@@ -36,13 +36,14 @@ for line in content:
                 speaker = "[User]"
                 
             # Start a new utterance if the speaker changes
-            if current_speaker != speaker:
-                if current_speaker:
-                    formatted_lines.append(current_utterance.strip())
-                current_speaker = speaker
-                current_utterance = f"{current_speaker} ({timestamp}): {line}"
-            else:
-                current_utterance += f" {line}"
+            if current_speaker and current_speaker != speaker:
+                formatted_lines.append(current_utterance.strip())
+                current_utterance = ""
+            
+            current_speaker = speaker
+            current_utterance += f"{current_speaker} ({timestamp}): {line}\n"
+        else:
+            current_utterance += line
     
     formatted_lines.append(current_utterance.strip())
 
