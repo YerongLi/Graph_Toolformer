@@ -10,8 +10,10 @@ timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 # Clean and format the lines
 formatted_lines = []
 current_speaker = None
-current_line = ""
-for line in content:
+current_line = "[User] "
+for i, line in enumerate(content):
+    # print('before')
+    # print(line)
     # Remove leading/trailing whitespaces
     line = line.strip()
 
@@ -31,16 +33,16 @@ for line in content:
             speaker = "[Musk]"
         else:
             speaker = "[User]"
-
         if current_speaker is not None and current_speaker != real_speaker:
-            if current_line:
-                formatted_lines.append(current_line.strip())
-            current_line = f'{speaker} {line[timestamp_match.end():].strip()}'
-            current_speaker = real_speaker
+            formatted_lines.append(current_line.strip())
+            current_line = f'{speaker} '
+            current_speaker = speaker
         else:
-            current_line += " " + line
-
-# Append the last line if it exists
+            current_line += line
+    else:
+        current_line += line
+    # print('after', current_line)
+    # if i > 30: break
 if current_line:
     formatted_lines.append(current_line.strip())
 
