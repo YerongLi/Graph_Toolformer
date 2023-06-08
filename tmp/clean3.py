@@ -38,7 +38,7 @@ for i, line in enumerate(content):
         current_line += " " + line
     else:
         current_line += " " + line
-
+    print(current_line)
 if current_line:
     formatted_lines.append(current_line.strip())
 
