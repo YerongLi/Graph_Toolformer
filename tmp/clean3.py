@@ -26,6 +26,7 @@ for i, line in enumerate(content):
     if timestamp_match:
         timestamp = timestamp_match.group(1)
         line = line.replace(timestamp_match.group(0), "")
+        line = re.sub(r"(\(.*?\))", "", line).strip().encode("ascii", "ignore").decode()
 
         # Extract the speaker from the line
         if "Elon Musk" in line:
@@ -37,9 +38,9 @@ for i, line in enumerate(content):
             current_line = f'{speaker}'
             current_speaker = speaker
         else:
-            current_line += " " + line
+            current_line += line
     else:
-        current_line += " " + line
+        current_line += line
     # print('after', current_line)
     if i > 30: break
 if current_line:
