@@ -12,8 +12,8 @@ formatted_lines = []
 current_speaker = None
 current_line = ""
 for i, line in enumerate(content):
-    # print('before')
-    # print(line)
+    print('                  before')
+    print(line)
     # Remove leading/trailing whitespaces
     line = line.strip()
 
@@ -33,7 +33,7 @@ for i, line in enumerate(content):
             speaker = "[Musk]"
         else:
             speaker = "[User]"
-        print(real_speaker)
+        # print(real_speaker)
         if current_speaker is not None and current_speaker != real_speaker:
             formatted_lines.append(current_line.strip())
             current_line = f'{speaker} '
@@ -42,7 +42,7 @@ for i, line in enumerate(content):
             current_line += line
     else:
         current_line += line
-    # print('after', current_line)
+    print('       after', current_line)
     if i > 30: break
 if current_line:
     formatted_lines.append(current_line.strip())
