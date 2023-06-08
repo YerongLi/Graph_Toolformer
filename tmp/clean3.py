@@ -11,7 +11,9 @@ timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 formatted_lines = []
 current_speaker = None
 current_line = ""
-for line in content:
+for i, line in enumerate(content):
+    print('before')
+    print(line)
     # Remove leading/trailing whitespaces
     line = line.strip()
 
@@ -28,7 +30,6 @@ for line in content:
         # Extract the speaker from the line
         if "Elon Musk" in line:
             speaker = "[Musk]"
-            line = line.replace("Elon Musk", "")
         else:
             speaker = "[User]"
 
@@ -40,7 +41,8 @@ for line in content:
         current_line += " " + line
     else:
         current_line += " " + line
-
+    print('after', current_line)
+    if i > 10: break
 if current_line:
     formatted_lines.append(current_line.strip())
 
