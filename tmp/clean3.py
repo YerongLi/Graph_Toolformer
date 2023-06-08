@@ -29,6 +29,8 @@ for i, line in enumerate(content):
         line = re.sub(r"(\(.*?\))", "", line).strip().encode("ascii", "ignore").decode()
         real_speaker = line[:timestamp_match.start()].strip()
         # Extract the speaker from the line
+        if current_speaker is None:
+            current_speaker = real_speaker
         if "Elon Musk" in line:
             speaker = "[Musk]"
         else:
