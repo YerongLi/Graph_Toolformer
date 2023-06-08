@@ -20,7 +20,6 @@ for i, oline in enumerate(content):
     if not line:
         continue
 
-
     # Match the line pattern
     line_match = re.match(line_pattern, line)
 
@@ -28,8 +27,8 @@ for i, oline in enumerate(content):
         timestamp = line_match.group(1)
         speaker = line_match.group(2)
         try:
-            real_speaker_match = re.match(r"\b([A-Za-z\s]+)\b", line)
-            real_speaker = real_speaker_match.group(1).strip()
+            real_speaker_match = re.match(r"\[(\d{2}:\d{2}:\d{2})\]\s*([A-Za-z\s]+)", oline)
+            real_speaker = real_speaker_match.group(2).strip()
         except AttributeError:
             print(f"Error extracting real_speaker from line: {oline}")
             print(len(line))
