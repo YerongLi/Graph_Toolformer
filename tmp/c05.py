@@ -12,15 +12,14 @@ formatted_lines = []
 current_speaker = None
 current_line = ""
 
-for i, line in enumerate(content):
+for i, oline in enumerate(content):
     # Remove leading/trailing whitespaces
-    line = line.strip()
+    line = oline.strip()
 
     # Skip empty lines
     if not line:
         continue
-    if len(line) == 0:
-        continue
+
 
     # Match the line pattern
     line_match = re.match(line_pattern, line)
@@ -29,13 +28,14 @@ for i, line in enumerate(content):
         timestamp = line_match.group(1)
         speaker = line_match.group(2)
         line = re.sub(line_pattern, "", line).strip()
-
+        if len(line) == 0:
+            continue
         # Extract the real_speaker from the line
         try:
             real_speaker_match = re.match(r"\b([A-Za-z\s]+)\b", line)
             real_speaker = real_speaker_match.group(1).strip()
         except AttributeError:
-            print(f"Error extracting real_speaker from line: {line}")
+            print(f"Error extracting real_speaker from line: {oline}")
             print(len(line))
             break
 
