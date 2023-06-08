@@ -9,11 +9,9 @@ timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 
 # Clean and format the lines
 formatted_lines = []
-current_speaker = '[User] '
-current_line = "[User] "
-for i, line in enumerate(content):
-    # print('before')
-    # print(line)
+current_speaker = None
+current_line = ""
+for line in content:
     # Remove leading/trailing whitespaces
     line = line.strip()
 
@@ -27,22 +25,22 @@ for i, line in enumerate(content):
         timestamp = timestamp_match.group(1)
         line = line.replace(timestamp_match.group(0), "")
         line = re.sub(r"(\(.*?\))", "", line).strip().encode("ascii", "ignore").decode()
-        line = line.replace("<E2><80><99>", "'")
+        real_speaker = line[:timestamp_match.start()].strip()
         # Extract the speaker from the line
         if "Elon Musk" in line:
-            speaker = "[Musk] "
+            speaker = "[Musk]"
         else:
-            speaker = "[User] "
-        if current_speaker is not None and current_speaker != speaker:
-            formatted_lines.append(current_line.strip())
-            current_line = f'{speaker}'
-            current_speaker = speaker
+            speaker = "[User]"
+
+        if current_speaker is not None and current_speaker != real_speaker:
+            if current_line:
+                formatted_lines.append(current_line.strip())
+            current_line = f'{speaker} {line[timestamp_match.end():].strip()}'
+            current_speaker = real_speaker
         else:
-            current_line += line
-    else:
-        current_line += line
-    # print('after', current_line)
-    # if i > 30: break
+            current_line += " " + line
+
+# Append the last line if it exists
 if current_line:
     formatted_lines.append(current_line.strip())
 
