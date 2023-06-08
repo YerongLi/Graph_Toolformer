@@ -43,7 +43,7 @@ for i, oline in enumerate(content):
         if current_speaker != real_speaker:
             if current_speaker != "":
                 formatted_lines.append(current_line.strip())
-            current_line = f'{speaker_tag} {line}'
+            current_line = f'{speaker_tag}'
             current_speaker = real_speaker
         else:
             current_line += f' {line}'
