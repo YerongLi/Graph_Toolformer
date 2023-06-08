@@ -26,7 +26,8 @@ with open("05.txt", "r") as file:
     content = file.readlines()
 
 # Regular expression pattern for matching timestamps and speaker names
-line_pattern = r"\[(\d{2}:\d{2}:\d{2})\] (\w+):"
+line_pattern = r"\[\s*(\d{2}:\d{2}:\d{2})\s*\]\s*(\w+)\s*"
+
 
 # Clean and format the lines
 formatted_lines = []
