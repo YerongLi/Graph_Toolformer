@@ -33,7 +33,7 @@ for i, line in enumerate(content):
         real_speaker = real_speaker_match.group(1).strip()
         print(real_speaker)
         # Determine the speaker tag
-        if speaker == "Elon Musk":
+        if real_speaker == "Elon Musk":
             speaker_tag = "[Musk]"
         else:
             speaker_tag = "[User]"
