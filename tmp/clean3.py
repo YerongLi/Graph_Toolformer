@@ -10,7 +10,7 @@ timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 # Clean and format the lines
 formatted_lines = []
 current_speaker = None
-current_line = "[User] "
+current_line = ""
 for i, line in enumerate(content):
     # print('before')
     # print(line)
