@@ -47,7 +47,8 @@ for i, line in enumerate(content):
 
         # Check if the speaker has changed
         if current_speaker != real_speaker:
-            formatted_lines.append(current_line.strip())
+            if current_speaker != "":
+                formatted_lines.append(current_line.strip())
             current_line = f'{speaker_tag} {line}'
             current_speaker = real_speaker
         else:
@@ -57,10 +58,6 @@ for i, line in enumerate(content):
 
 if current_line:
     formatted_lines.append(current_line.strip())
-
-# Remove redundant last names after speaker tags
-formatted_lines = [re.sub(r"\[Musk\]\s*Musk", "[Musk]", line) for line in formatted_lines]
-formatted_lines = [re.sub(r"\[User\]\s*Rogan", "[User]", line) for line in formatted_lines]
 
 # Save the cleaned content to a new file
 with open("clean_05.txt", "w") as file:
