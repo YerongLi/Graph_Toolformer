@@ -4,8 +4,8 @@ import re
 with open("05.txt", "r") as file:
     content = file.readlines()
 
-# Regular expression pattern for matching timestamps
-timestamp_pattern = r"\[(\d{2}:\d{2}:\d{2})\]"
+# Regular expression pattern for matching timestamps and speaker names
+line_pattern = r"\[(\d{2}:\d{2}:\d{2})\] (\w+):"
 
 # Clean and format the lines
 formatted_lines = []
@@ -19,28 +19,39 @@ for line in content:
     if not line:
         continue
 
-    # Match the timestamp
-    timestamp_match = re.search(timestamp_pattern, line)
-    if timestamp_match:
-        timestamp = timestamp_match.group(1)
-        line = line.replace(timestamp_match.group(0), "")
-        line = re.sub(r"(\[.*?\])", "", line).strip()
-        real_speaker = line[:line.index(":")].strip()
-        # Extract the speaker from the line
+    # Match the line pattern
+    line_match = re.match(line_pattern, line)
+    if line_match:
+        timestamp = line_match.group(1)
+        speaker = line_match.group(2)
+        line = re.sub(line_pattern, "", line).strip()
+        
+        # Extract the real_speaker from the line
+        real_speaker_match = re.search(r"(.*?)\s*\:\s*", line)
+        if real_speaker_match:
+            real_speaker = real_speaker_match.group(1).strip()
+        else:
+            real_speaker = ""
+
+        # Set the current_speaker if not already set
         if current_speaker is None:
             current_speaker = real_speaker
-        if "Elon Musk" in line:
-            speaker = "[Musk]"
+
+        # Determine the speaker tag
+        if speaker == "Elon Musk":
+            speaker_tag = "[Musk]"
         else:
-            speaker = "[User]"
-        if current_speaker is not None and current_speaker != real_speaker:
+            speaker_tag = "[User]"
+
+        # Check if the speaker has changed
+        if current_speaker != real_speaker:
             formatted_lines.append(current_line.strip())
-            current_line = f'{speaker} {line[line.index(":") + 1:].strip()}'
+            current_line = f'{speaker_tag} {line}'
             current_speaker = real_speaker
         else:
-            current_line += f' {line[line.index(":") + 1:].strip()}'
+            current_line += f' {line}'
     else:
-        current_line += f' {line.strip()}'
+        current_line += f' {line}'
 
 if current_line:
     formatted_lines.append(current_line.strip())
