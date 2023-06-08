@@ -1,7 +1,5 @@
 import re
 
-
-
 # Read the input file
 with open("05.txt", "r") as file:
     content = file.readlines()
@@ -9,15 +7,15 @@ with open("05.txt", "r") as file:
 # Regular expression pattern for matching timestamps and speaker names
 line_pattern = r"\[(\d{2}:\d{2}:\d{2})\]\s*(\w+)\s*"
 
-
-
 # Clean and format the lines
 formatted_lines = []
 current_speaker = None
 current_line = ""
+
 for i, line in enumerate(content):
     # Remove leading/trailing whitespaces
     line = line.strip()
+
     # Skip empty lines
     if not line:
         continue
@@ -59,6 +57,10 @@ for i, line in enumerate(content):
 
 if current_line:
     formatted_lines.append(current_line.strip())
+
+# Remove redundant last names after speaker tags
+formatted_lines = [re.sub(r"\[Musk\]\s*Musk", "[Musk]", line) for line in formatted_lines]
+formatted_lines = [re.sub(r"\[User\]\s*Rogan", "[User]", line) for line in formatted_lines]
 
 # Save the cleaned content to a new file
 with open("clean_05.txt", "w") as file:
