@@ -9,6 +9,8 @@ timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 
 # Clean and format the lines
 formatted_lines = []
+current_speaker = None
+current_line = ""
 for line in content:
     # Remove leading/trailing whitespaces
     line = line.strip()
@@ -29,10 +31,15 @@ for line in content:
         else:
             speaker = "[User]"
 
-        formatted_line = f"{speaker}"
-        formatted_lines.append(formatted_line)
+        if current_speaker is not None and current_speaker != speaker:
+            formatted_lines.append(current_line.strip())
+
+        current_speaker = speaker
+        current_line = f"{speaker}"
     else:
-        formatted_lines.append(line)
+        current_line += " " + line
+
+    formatted_lines.append(current_line.strip())
 
 # Save the cleaned content to a new file
 with open("clean_03.txt", "w") as file:
