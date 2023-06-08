@@ -57,5 +57,5 @@ if current_line:
     formatted_lines.append(current_line.strip())
 
 # Save the cleaned content to a new file
-with open("clean.05.txt", "w") as file:
+with open("clean_05.txt", "w") as file:
     file.write("\n".join(formatted_lines))
