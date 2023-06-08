@@ -35,7 +35,7 @@ for i, oline in enumerate(content):
             break
         print(real_speaker)
         # Determine the speaker tag
-        if speaker == "Elon Musk":
+        if real_speaker == "Elon Musk":
             speaker_tag = "[Musk]"
         else:
             speaker_tag = "[User]"
