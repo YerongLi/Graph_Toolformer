@@ -35,7 +35,7 @@ for i, line in enumerate(content):
             current_line = ""
 
         current_speaker = speaker
-        current_line += " " + line
+        # current_line += " " + line
     else:
         current_line += " " + line
     if i > 6: break
