@@ -1,6 +1,11 @@
 import re
 
 
+
+# Read the input file
+with open("05.txt", "r") as file:
+    content = file.readlines()
+
 # Regular expression pattern for matching timestamps and speaker names
 line_pattern = r"\[(\d{2}:\d{2}:\d{2})\]\s*(\w+)\s*"
 
