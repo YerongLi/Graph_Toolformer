@@ -12,8 +12,8 @@ formatted_lines = []
 current_speaker = None
 current_line = ""
 for i, line in enumerate(content):
-    print('before')
-    print(line)
+    # print('before')
+    # print(line)
     # Remove leading/trailing whitespaces
     line = line.strip()
 
@@ -41,7 +41,7 @@ for i, line in enumerate(content):
             current_line += " " + line
     else:
         current_line += " " + line
-    print('after', current_line)
+    # print('after', current_line)
     # if i > 10: break
 if current_line:
     formatted_lines.append(current_line.strip())
