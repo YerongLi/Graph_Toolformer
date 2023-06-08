@@ -9,8 +9,8 @@ timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 
 # Clean and format the lines
 formatted_lines = []
-current_speaker = None
-current_line = ""
+current_speaker = '[User]'
+current_line = "[User]"
 for i, line in enumerate(content):
     # print('before')
     # print(line)
@@ -32,7 +32,6 @@ for i, line in enumerate(content):
             speaker = "[Musk]"
         else:
             speaker = "[User]"
-        print(speaker)
         if current_speaker is not None and current_speaker != speaker:
             formatted_lines.append(current_line.strip())
             current_line = f'{speaker}'
@@ -42,7 +41,7 @@ for i, line in enumerate(content):
     else:
         current_line += " " + line
     # print('after', current_line)
-    if i > 10: break
+    if i > 30: break
 if current_line:
     formatted_lines.append(current_line.strip())
 
