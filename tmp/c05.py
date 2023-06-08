@@ -1,5 +1,26 @@
 import re
 
+
+import re
+
+# Line pattern for matching timestamps and speaker names
+line_pattern = r"\[\s*(\d{2}:\d{2}:\d{2})\s*\]\s*(\w+)\s*"
+
+# Example lines
+lines = [
+    "[00:19:26] Joe Rogan",
+    "[00:19:27] Elon Musk",
+    "This line doesn't match the pattern",
+]
+
+for line in lines:
+    # Check if the line matches the pattern
+    line_match = re.match(line_pattern, line)
+    if line_match:
+        print(f"Line matches the pattern: {line}")
+    else:
+        print(f"Line does not match the pattern: {line}")
+
 # Read the input file
 with open("05.txt", "r") as file:
     content = file.readlines()
