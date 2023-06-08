@@ -35,7 +35,7 @@ current_line = ""
 for i, line in enumerate(content):
     # Remove leading/trailing whitespaces
     line = line.strip()
-
+    print(line)
     # Skip empty lines
     if not line:
         continue
@@ -75,7 +75,7 @@ for i, line in enumerate(content):
             current_line += f' {line}'
     else:
         current_line += f' {line}'
-    if i > 30: break
+    if i > 5: break
 
     # Print if the timestamp regex matches
     if line_match:
