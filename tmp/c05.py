@@ -1,53 +1,9 @@
 import re
 
 
-import re
-
-# Line pattern for matching timestamps and speaker names
-line_pattern = r"\[\s*(\d{2}:\d{2}:\d{2})\s*\]\s*(\w+)\s*"
-
-# Example lines
-lines = [
-    "[00:19:26] Joe Rogan",
-    "[00:19:27] Elon Musk",
-    "This line doesn't match the pattern",
-]
-
-
-
-for line in lines:
-    # Check if the line matches the pattern
-    line_match = re.match(line_pattern, line)
-    if line_match:
-        print(f"Line matches the pattern: {line}")
-    else:
-        print(f"Line does not match the pattern: {line}")
-
-
-import re
-print('===================')
-# Line pattern for matching timestamps and speaker names
+# Regular expression pattern for matching timestamps and speaker names
 line_pattern = r"\[(\d{2}:\d{2}:\d{2})\]\s*(\w+)\s*"
 
-# Read the original file
-with open("05.txt", "r") as file:
-    lines = file.readlines()
-
-# Process the first 10 lines
-for i, line in enumerate(lines[:10]):
-    # Check if the line matches the pattern
-    line_match = re.match(line_pattern, line)
-    if line_match:
-        print(f"Line {i + 1} matches the pattern: {line.strip()}")
-    else:
-        print(f"Line {i + 1} does not match the pattern: {line.strip()}")
-
-# Read the input file
-with open("05.txt", "r") as file:
-    content = file.readlines()
-
-# Regular expression pattern for matching timestamps and speaker names
-line_pattern = r"\[\s*(\d{2}:\d{2}:\d{2})\s*\]\s*(\w+)\s*"
 
 
 # Clean and format the lines
