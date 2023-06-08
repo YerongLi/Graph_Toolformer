@@ -34,6 +34,7 @@ for i, line in enumerate(content):
             real_speaker = real_speaker_match.group(1).strip()
         except AttributeError:
             print(f"Error extracting real_speaker from line: {line}")
+            print(len(line))
             break
 
         # Determine the speaker tag
