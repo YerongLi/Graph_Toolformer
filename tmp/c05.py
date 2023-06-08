@@ -21,6 +21,7 @@ for line in content:
 
     # Match the line pattern
     line_match = re.match(line_pattern, line)
+    print(line_match)
     if line_match:
         timestamp = line_match.group(1)
         speaker = line_match.group(2)
