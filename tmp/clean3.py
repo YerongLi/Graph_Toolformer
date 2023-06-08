@@ -33,12 +33,14 @@ for line in content:
 
         if current_speaker is not None and current_speaker != speaker:
             formatted_lines.append(current_line.strip())
+            current_line = ""
 
         current_speaker = speaker
-        current_line = f"{speaker}"
+        current_line += " " + line
     else:
         current_line += " " + line
 
+if current_line:
     formatted_lines.append(current_line.strip())
 
 # Save the cleaned content to a new file
