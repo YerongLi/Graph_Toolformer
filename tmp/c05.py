@@ -5,7 +5,7 @@ with open("05.txt", "r") as file:
     content = file.readlines()
 
 # Regular expression pattern for matching timestamps and speaker names
-line_pattern = r"\[(\d{2}:\d{2}:\d{2})\]\s*(\w+):"
+line_pattern = r"\[(\d{2}:\d{2}:\d{2})\] (\w+):"
 
 # Clean and format the lines
 formatted_lines = []
@@ -55,7 +55,7 @@ for line in content:
 
     # Print if the timestamp regex matches
     if line_match:
-        print("Timestamp Match:", True)
+        print("Timestamp Match:", line_match.groups())
 
 if current_line:
     formatted_lines.append(current_line.strip())
