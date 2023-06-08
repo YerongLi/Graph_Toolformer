@@ -17,7 +17,7 @@ for i, line in enumerate(content):
     line = line.strip()
 
     # Skip empty lines
-    if not line and len(line) == 0:
+    if not line or len(line) == 0:
         continue
 
     # Match the line pattern
