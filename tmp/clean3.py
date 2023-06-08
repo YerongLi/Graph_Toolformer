@@ -27,7 +27,7 @@ for i, line in enumerate(content):
         timestamp = timestamp_match.group(1)
         line = line.replace(timestamp_match.group(0), "")
         line = re.sub(r"(\(.*?\))", "", line).strip().encode("ascii", "ignore").decode()
-
+        line = line.replace("<E2><80><99>", "'")
         # Extract the speaker from the line
         if "Elon Musk" in line:
             speaker = "[Musk] "
