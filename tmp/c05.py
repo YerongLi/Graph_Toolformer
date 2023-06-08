@@ -53,6 +53,10 @@ for line in content:
     else:
         current_line += f' {line}'
 
+    # Print if the timestamp regex matches
+    if re.match(line_pattern, line):
+        print("Timestamp Match:", True)
+
 if current_line:
     formatted_lines.append(current_line.strip())
 
