@@ -38,5 +38,5 @@ for line in lines:
     formatted_lines.append(line)
 
 # Save the cleaned content to a new file
-with open("cleaned_03.txt", "w") as file:
+with open("clean_03.txt", "w") as file:
     file.write("\n".join(formatted_lines))
