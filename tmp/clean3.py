@@ -35,10 +35,10 @@ for i, line in enumerate(content):
 
         if current_speaker is not None and current_speaker != speaker:
             formatted_lines.append(current_line.strip())
-            current_line = ""
-
-        current_speaker = speaker
-        current_line += " " + line
+            current_line = speaker
+            current_speaker = speaker
+        else:
+            current_line += " " + line
     else:
         current_line += " " + line
     print('after', current_line)
