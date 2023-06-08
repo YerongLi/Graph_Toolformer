@@ -34,6 +34,8 @@ for i, line in enumerate(content):
         else:
             speaker = "[User]"
         # print(real_speaker)
+        print('     ================= ')
+        print(current_speaker != real_speaker)
         if current_speaker is not None and current_speaker != real_speaker:
             formatted_lines.append(current_line.strip())
             current_line = f'{speaker} '
