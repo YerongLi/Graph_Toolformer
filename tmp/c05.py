@@ -29,11 +29,15 @@ for i, line in enumerate(content):
         line = re.sub(line_pattern, "", line).strip()
 
         # Extract the real_speaker from the line
-        real_speaker_match = re.match(r"\b([A-Za-z\s]+)\b", line)
-        real_speaker = real_speaker_match.group(1).strip()
-        print(real_speaker)
+        try:
+            real_speaker_match = re.match(r"\b([A-Za-z\s]+)\b", line)
+            real_speaker = real_speaker_match.group(1).strip()
+        except AttributeError:
+            print(f"Error extracting real_speaker from line: {line}")
+            break
+
         # Determine the speaker tag
-        if real_speaker == "Elon Musk":
+        if speaker == "Elon Musk":
             speaker_tag = "[Musk]"
         else:
             speaker_tag = "[User]"
