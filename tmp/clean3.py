@@ -4,8 +4,8 @@ import re
 with open("03.txt", "r") as file:
     content = file.readlines()
 
-# Regular expression pattern for matching speaker lines
-line_pattern = r"^\[(.*?)\]\s*(.*)$"
+# Regular expression pattern for matching timestamps
+timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 
 # Clean and format the lines
 formatted_lines = []
@@ -18,21 +18,26 @@ for line in content:
     if not line:
         continue
 
-    # Match the speaker line
-    line_match = re.match(line_pattern, line)
-    if line_match:
-        speaker = line_match.group(1)
-        utterance = line_match.group(2)
+    # Match the timestamp
+    timestamp_match = re.search(timestamp_pattern, line)
+    if timestamp_match:
+        timestamp = timestamp_match.group(1)
+        line = line.replace(timestamp_match.group(0), "")
 
-        # Format the line with speaker and utterance
-        formatted_line = f"[{speaker}] {utterance}"
-
-        # Append the line to the previous speaker's utterance if it's the same speaker
-        if speaker == previous_speaker:
-            formatted_lines[-1] += f" {utterance}"
+        # Extract the speaker from the line
+        if "Elon Musk" in line:
+            speaker = "[Musk]"
         else:
-            formatted_lines.append(formatted_line)
-            previous_speaker = speaker
+            speaker = "[User]"
+
+        formatted_line = f"{speaker} {line}"
+        if speaker != previous_speaker:
+            formatted_line += f" ({timestamp})"
+        formatted_lines.append(formatted_line)
+        previous_speaker = speaker
+    else:
+        # Append the line to the previous speaker's utterance
+        formatted_lines[-1] += f" {line}"
 
 # Save the cleaned content to a new file
 with open("clean_03.txt", "w") as file:
