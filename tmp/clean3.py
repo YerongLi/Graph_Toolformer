@@ -28,6 +28,7 @@ for line in content:
         # Extract the speaker from the line
         if "Elon Musk" in line:
             speaker = "[Musk]"
+            line = line.replace("Elon Musk", "")
         else:
             speaker = "[User]"
 
