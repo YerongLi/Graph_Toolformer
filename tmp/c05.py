@@ -25,7 +25,6 @@ for i, line in enumerate(content):
 
     # Match the line pattern
     line_match = re.match(line_pattern, line)
-    print(line_match)
 
     if line_match:
         timestamp = line_match.group(1)
@@ -58,11 +57,6 @@ for i, line in enumerate(content):
             current_line += f' {line}'
     else:
         current_line += f' {line}'
-    if i > 5: break
-
-    # Print if the timestamp regex matches
-    if line_match:
-        print("Timestamp Match:", line_match.groups())
 
 if current_line:
     formatted_lines.append(current_line.strip())
