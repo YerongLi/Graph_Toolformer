@@ -2,10 +2,7 @@ import re
 
 # Read the input file
 with open("03.txt", "r") as file:
-    content = file.read()
-
-# Split the content into lines
-lines = content.splitlines()
+    content = file.readlines()
 
 # Regular expression patterns for matching timestamps and speakers
 timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
@@ -13,9 +10,15 @@ speaker_pattern = r"^(.*?)(?: \(\d{2}:\d{2}:\d{2}\))?:"
 
 # Clean and format the lines
 formatted_lines = []
-for line in lines:
+current_speaker = None
+current_utterance = ""
+for line in content:
     # Remove leading/trailing whitespaces
     line = line.strip()
+    
+    # Skip empty lines
+    if not line:
+        continue
     
     # Match the timestamp
     timestamp_match = re.search(timestamp_pattern, line)
@@ -32,10 +35,16 @@ for line in lines:
             else:
                 speaker = "[User]"
                 
-            # Format the line
-            line = f"{speaker} ({timestamp}): {line}"
+            # Start a new utterance if the speaker changes
+            if current_speaker != speaker:
+                if current_speaker:
+                    formatted_lines.append(current_utterance.strip())
+                current_speaker = speaker
+                current_utterance = f"{current_speaker} ({timestamp}): {line}"
+            else:
+                current_utterance += f" {line}"
     
-    formatted_lines.append(line)
+    formatted_lines.append(current_utterance.strip())
 
 # Save the cleaned content to a new file
 with open("clean_03.txt", "w") as file:
