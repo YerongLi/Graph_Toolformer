@@ -33,7 +33,7 @@ for i, oline in enumerate(content):
             print(f"Error extracting real_speaker from line: {oline}")
             print(len(line))
             break
-
+        print(real_speaker)
         # Determine the speaker tag
         if speaker == "Elon Musk":
             speaker_tag = "[Musk]"
