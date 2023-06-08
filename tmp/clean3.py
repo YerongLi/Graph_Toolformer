@@ -1,5 +1,4 @@
 import re
-
 # Read the input file
 with open("03.txt", "r") as file:
     content = file.readlines()
@@ -11,7 +10,7 @@ timestamp_pattern = r"\((\d{2}:\d{2}:\d{2})\):"
 formatted_lines = []
 current_speaker = None
 current_line = ""
-for line in content:
+for i, line in enumerate(content):
     # Remove leading/trailing whitespaces
     line = line.strip()
 
