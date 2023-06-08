@@ -1,0 +1,633 @@
+FABER: Carl, thank you. I am here with Elon Musk. He’s getting everything ready on Twitter spaces. So join us there as well. But of course you can just watch us live here at the Gigafactory in Austin, thank you for allowing us to be here.  
+
+MUSK: You’re welcome.  
+
+FABER: It’s quite something to just sit and watch for quite some time. 
+
+MUSK: Yeah, this this is actually where I don’t actually have an office here. I either walk before or I hold meetings in this room. And this room allows me to see what’s going on with production. While I’m holding meetings, 
+
+FABER: Is there one particular production that you focus on when you’re here or that you sort of your eyes always go to or you’re you actually walk over to? 
+
+MUSK: Well, this is the end of line that we’re seeing here. So if cars aren’t moving, that means this there’s some blockage upstream and then I can go and see what that blockage is. So I think we might be on a break right now. But if this end of line is not moving, that means there’s something upstream that’s wrong. 
+
+FABER: Got it. Well, it’s been amazing just to walk around the facility a bit and get a sense for the size. Alright, you just finished your annual meeting. You took a lot of questions from a very eager audience. I feel like most of it you’ve shared before but there was some news and I want to start there. Advertising. You got big applause you didn’t sound like you’re going to advertise that much. But you did at least seem to open the way to saying okay, we might consider doing some advertising. Why? 
+
+MUSK: Well, I mean, I believe in listening to shareholders and I actually was surprised by the level of enthusiasm for advertising. Since we’re not historically done that but  perhaps there is some good logic to it in that if we’re simply saying yeah, information bias, say that it has a Twitter account on my Twitter account or someone preaching to the converted. And, and not reaching people that are not already convinced, essentially. So I think they probably have a good point. Well, I mean, I think it’s worth a try and we’ll see how effective it is.
+
+FABER: Do you have any idea how you’d like to try it or what that would involve? 
+
+MUSK: Well, I’m gonna have some general thoughts about advertising. That you know, if advertising is informative, and entertaining, then it is it can start to approach content. So I think sometimes advertising is perhaps not informative, or perhaps in som cases a bit misleading. And in fact, we’ve lost some advertisers on Twitter because community notes, applies to advertising too. And so if somebody advertises something that is perhaps a bit inaccurate, then it gets community noted, and then they get mad and stop advertising. But we’re, we care enough about the truth that we’re willing to give up advertiser give up advertising dollars on Twitter, even if in order to have the least inaccurate source of information 
+
+FABER: Right so I want to talk about that. But I want to obviously spend some time on Tesla again, back to ads, though. I mean, am I going to start to see Tesla ads during the NFL broadcast on a given Sunday, Monday, Thursday, the NFL, is always on 
+
+MUSK: Well bear in mind that, you know, I only just agreed to it. So  I don’t have a fully formed strategy.  
+
+FABER: Okay. Well, how much time does go into when you think about these things? I mean, was it something you’ve decided to do up on stage  
+
+MUSK: Yeah. 
+
+FABER: Or at least Did you know coming in, I may, you know, this comes up that I may go there.
+
+MUSK: No, I mean, the questions are not scripted in any way.  
+
+FABER: Right. So in that moment, you just said, Alright, yeah we’ll do some ads. So we’re only like 20 minutes later, and I’m asking detailed questions. You don’t have any answers I guess. 
+
+MUSK: I’m not sure what the most effective thing is, except that like I said, I believe that advertising should be informative about a product it should be ideally aesthetically pleasing should be you know, beautiful, should have some artistic element to it. And it should be something that you don’t regret watching after it’s done. And I think if advertising fits those criteria, that it starts to approach content, you want advertising that is as close to  content as possible, such that you don’t regret the time you spent watching it.  
+
+FABER: But you did say something as well, which is that you’ve been preaching to the converted. You mentioned a few statistics for example, about safety, about price during the meeting that may not be fully understood by the general auto buying public at large. 
+
+MUSK: Yeah, so a lot of people still think Tesla’s are super expensive because we did start out with an expensive sports car then a slightly less expensive sedan, and SUV but now we’re at the point where the starting price of Tesla is actually below the average selling price of a car in the United States. So it Teslas are actually much more affordable than people realize. And so, we just make sure people at least know that.  
+
+FABER: Right. 
+
+MUSK: And that Teslas are also the safest cars on the road in so many ways that people actually people at Tesla don’t even know you know, sort of the cabin overheat protection, for example, or the fact that we continuously update the automatic emergency braking software and the way the airbags deploy. So we look at we look at an accident, we say is there anything we could do from a software standpoint to improve the cars that are already on the road? And then what can we update in the design to improve safety? So I think you know the statistics speak for themselves. This is not simply a matter of opinion. It’s statistically it’s safer than anything else. 
+
+FABER: You mentioned affordability. It’s something you discussed during your meeting. You’ve also discussed it a bit on the call on the earnings call recently as well, in relation to the Federal Reserve raising interest rates and obviously the monthly costs were typical auto buyer you think it’s going to be a tough 12 months ahead? You’ve said that a few times. 
+
+MUSK: Yes. For everyone not just Tesla 
+
+FABER: Understood.   
+
+MUSK: So it’s I mean, it’s simply you can think of raising the Fed rate as somewhat of a brake pedal on the economy, frankly, it’s so it makes a lot of things more expensive. Certainly things that are bought with credit, but then it has downstream effects on even things that aren’t bought with credit. So you know, if the car payments or your home mortgage payment is absorbing more of your monthly budget, then you have less money to buy other things. So actually, it affects everything, even those that aren’t things that are not bought on credit. And my concern  with the way that the Federal Reserve is making decisions is that they they’re just operating with too much latency. Basically, the data is somewhat stale. So they so the Federal Reserve was was slow to raise interest rates. And now I think they’ll slow to whoever they’re going to be slow to lower them. That appears to be the case.   
+
+FABER: Yeah that may well be we spend a lot of time talking about that as you can imagine on CNBC Perhaps too much. But when it comes to latency that takes me to pricing, because you’ve discussed the lack of latency and your own ability to understand exactly what’s going on in the market for those cars, as opposed to many of the legacy and other competitors. 
+
+MUSK: Yes. We have real time information on demand. So we know how many people place an order for Tesla yesterday. So the computer calculates that all and literally, every day, we get a an automated email to the exec staff that says how many people placed an order in which countries for which cars so we know what the orders were yesterday. And you don’t overreact to these things. Because sometimes you get like little dips for you know, reasons that are hard to explain  
+
+FABER: Do you look at them every day. 
+
+MUSK: Yeah. 
+
+FABER: Yeah. 
+
+MUSK: But like I said, you don’t overreact to, you know, if like the week is slow or something, you don’t overreact to that. But if you look at the trend say for the, over two, two weeks span or something like that, you can see that okay, there’s this for some reason, the demand is less than it was or it’s higher. 
+
+FABER: Do you adjust pricing?  
+
+MUSK: Yeah, yeah— 
+
+FABER: To that, I mean is that are you are you almost like an airline at this point in terms of kind of dynamic pricing model?  
+
+MUSK: Yes. So, we’re basically adjust our pricing to match demand. And we obviously did a big price drop in Q1, but quickly, now January, it’s usually a terrible time for car buying. So there’s the seasonality to car purchases with January, January is often the worst month so so we did a big price drop and then recently, we did a price increase. So as I mentioned to the audience, the the reality is that all companies do significant, all car companies make significant adjustments to price because you’ve got the MSRP number and then if demand is high, our dealers will charge some premium over MSRP. If demand is lower, they will they will have manufacturing setups. So you can actually see a very big difference over the course of say six months between the peak to trough of of all cars. It’s just that Tesla is so immediate and obvious and transparent. It’s not a question of MSRP and then markups or discounts. 
+
+FABER: Right. But after your last earnings, a lot of investors came away wanting to talk about your margins and wanting to talk about your pricing. In particular, I think, you know, you talked about vehicle cost reduction. You sort of even said, “It’s hard to explain the profundity of technically selling cars now for no profit and still yielding tremendous economics over time.”  
+
+MUSK: Yes.  
+
+FABER: I’d like you to explain a little bit more of what that means. You did a bit in the meeting as well. You’re talking about sort of the move I think from manual to autonomous and the value add that will come along with that but explain to people why that’s profound and why conceivably not that you want to you could sell automobiles now for no profit and still make enormous profit in the future. 
+
+MUSK: Yeah, so Tesla is the only car company selling cars that where we believe that the car is capable of achieving full autonomy with a software update. So the value of a fully autonomous, fully autonomous car is we think perhaps five times more valuable than a non-autonomous car. 
+
+FABER: Why?  
+
+MUSK: Well, the utility of a car, typically a passenger car is going to be maybe 10, 10 hours a week, maybe 12. If you say like somebody’s going to drive an hour and a half a day, on average, so maybe an hour commute per day and then an occasional long trip but figure it’s like 10, 12 hours a week is typical for a passenger vehicle. And then you also have a lot of costs associated with parking. You need a garage or you’ve got to buy a parking space or you’ve got to get a parking ticket at the mall. There’s a lot of costs associated with cars. And now if you’ve got a car that’s autonomous, that can go around and essentially be like an autonomous Uber, the utility I think is going to be what’s gonna be much higher perhaps, you know, and this again, there’s so much speculative. 
+
+FABER: I understand. We’re talking about robo taxis here, or at least what people have called it you have called robo taxis.   
+
+MUSK: Like an autonomous Uber is a way of thinking about it. So perhaps, the utility then would be on an order of 50 hours a week. This is just a guess. Say there’s 168 hours in a week, and probably as a rough guess, an autonomous car is, will be able to be active instead of for 10 hours a week, probably in our view for about 50. But it’s the same car. So and it costs the same to build 
+
+FABER: But your, I want to understand the business model a little bit because I’m buying the car, and instead of it parking at my lot while I’m working, it goes off and picks people up and drops them off.  
+
+MUSK: Yes.  
+
+FABER: Who’s making the money from that? I assume that that’s the value add you’re talking about, is it a revenue share?  
+
+MUSK: Yeah— 
+
+FABER: Do you have this model sort of planned out specifically as how it would look? 
+
+MUSK: Yeah, it’s been in Tesla’s terms and conditions for quite a long time. 
+
+FABER: Oh it has. 
+
+MUSK: Yeah. So the, the owner of the car would make, I don’t know, some amount, who knows what it would be, but perhaps it could be a 50/50 split or 70/30. I don’t know but the cars are if you buy a Tesla car, it can only be used in a Tesla network. It cannot be used in someone else’s network. So that means that if the car is able to be used five times as much and Tesla is likely to make basically two or three times the original value, or sale value of the car in robo taxi revenue.
+
+FABER: Right.  
+
+MUSK: This this is this is gigantic. It’d be like selling cars for software margins because in fact it is software. And so instead of effectively having say 25 cent margins, it might be 70% or more and I mean the the free cash flow associated with that it is actually truly a staggering amount. The best analysis that I’ve seen thus far about this is from Cathie Wood’s firm, Ark Invest. 
+
+FABER: Yeah, we know Cathie well.    
+
+MUSK: Yeah, she’s great.  
+
+FABER: Yup. I would assume you like her, obviously. She’s been a huge proponent of your stock for many years. Was right, by the way very early on.
+
+MUSK: She was right.
+
+FABER: Yeah.
+
+MUSK: And so I thought she was being optimistic, but I, she turned out to be in fact almost spot on. 
+
+FABER: Yeah. And I am familiar somewhat with her analysis. What a lot of investors come back or where everybody is is your promises of full autonomy. And you seem to be saying again, it’s close.   
+
+MUSK: Yeah.  
+
+FABER: You said it before you know that.  
+
+MUSK: Yeah no, I mean— 
+
+FABER: You said at 19, I think about 20 and sort of—  
+
+MUSK: I’ve certainly been, you know, if I guess I have somewhat of a pathological optimism. 
+
+FABER: Well, it works by the way because you don’t end up with this unless you’re optimistic but—  
+
+MUSK: Yeah, exactly. I mean, who would try to do this and rockets if they weren’t pathologically optimistic.
+
+FABER: No, I, you have to be.
+
+MUSK: Yeah. So there’s a, you know, a double edged sword, I guess—
+
+FABER: But, you know, do you ever say to yourself, alright, I’m getting a little ahead of myself here. I mean, when you said again, we’re going to have full autonomy. 
+
+MUSK: No, I didn’t say we will. I said, I think. 
+
+FABER: You think. 
+
+MUSK: In my opinion, we probably will. 
+
+FABER: Okay, right. There’s a number of qualifiers there. I think, in my opinion, we probably will. So what do you think in your opinion, you probably will, when?  
+
+MUSK: I mean, it does look like it’s gonna happen this year. 
+
+FABER: Why? 
+
+MUSK: Well, we’re now at the point where the car can drive on highways and in cities with and where a human dimension is extremely rare. So I mean, just – I was able to drive for several days, just dropping a navigation pin in random locations in the Greater Austin area with no interventions. And the same in San Francisco, which is a very difficult place to drive. So I mean, it’s – you’ve got bus lanes, one-way streets. You know, it’s quite a challenging homeless situation.  
+
+FABER: You were driving recently in San Francisco or the car was? 
+
+MUSK: I have been doing that quite a lot because of Twitter is headquartered there. 
+
+FABER: Of course. Maybe less. Maybe a little less soon. 
+
+MUSK: Yeah.  
+
+FABER: Well, we’ll get to that. But go finish your point, though, in terms of why you feel more – why you’re optimistic.   
+
+MUSK: I’m optimistic for that reason, which is that the – I’ve actually never – this is first time I’ve had a situation where there’s been several days in a row going, picking random destinations and having no safety related intervention. So the first time ever.   
+
+FABER: I want to get to a lot of other topics, but you know, I am curious on Tesla in particular. One thing I haven’t heard you discuss is the impact on your business of the inflation Reduction Act. At least I haven’t heard it. Maybe you’ve discussed it. You know, Adam Jonas, who follows your company at Morgan Stanley said we believe the IRA’s so advantageous to Tesla in terms of absolute dollars versus the legacy OAMs, it could equal as much as 45% of current earnings per share. Is the IRA going to be usually beneficial to your company?   
+
+MUSK: I’m not sure it’s going to be that beneficial. There are significant advantages for having domestic production of batteries, which I think is important for strategic reasons. I think as we move to an electric transport economy, I think it’s important for the United States to have some independence with respect to battery production, including all of the precursors necessary for a battery. So the IRA strongly – that and I think that will prove to be something of important – of national strategic importance in the future. So I’m not sure I would say it’s as good as say a 45 cent increase in earnings per share, or 40%. It’s –   
+
+FABER: Is it significant, though? 
+
+MUSK: Helpful. Yeah.  
+
+FABER: It’s helpful. 
+
+MUSK: I’d say it’s maybe it’s half that or something.  
+
+FABER: Okay, but I mean 20% is quite significant.  
+
+MUSK: Still significant, yeah. 
+
+FABER: Have you mapped it out at all? Do you have a sense I mean, obviously, you talked about storage, for example, which is so important. You spend time on that as well with Megapack. Is it beneficial in that particular area beyond obviously the credits, tax credits that certain people get for buying a Tesla? 
+
+MUSK: Yeah, there’s really two parts to the IRA. There’s the incentive for battery manufacturing, and it’s really quite a detailed, it’s essentially a very well written – well, in that it really makes sure that you can’t game it, you know. So you actually have to build up the batteries in the U.S. and you actually have to build the precursors to the batteries. But if you do, it is, I believe $30 at the cell level and $15 at the pack level, I believe, if I recall correctly. So that is very significant for batteries, and then you’ve got the consumer tax credit for EVs provided they’re both in the U.S. and that the package is built in the U.S. So this is the really the first time that we’ve actually had – the first time in many years that Tesla’s actually had the consumer tax credit. Because we actually exceeded the limit for the consumer tax credits several years ago. And so up until December – until January this year, I should say – there was no consumer tax incentive to buy a Tesla. But there was for the other car companies because they have not reached – they’ve not made that many electric cars.  
+
+FABER: Right. They didn’t reach their limit. 
+
+MUSK: Yeah. 
+
+FABER: Before I wrap on Tesla, I would like to get to China, which is obviously an important market for you. You know, I noticed that chart you put up. BYD is the only company that seems to be making money so far. Are you concerned at all about you know ruthless pricing sort of at the low end in the Chinese market and what that will mean to your market share there? 
+
+MUSK: Well currently a limitation with – is the production rate of our Shanghai factory it’s not demand. So that’s – there’s some constraints on our ability to expand in China. And so we’re making as many cars as we can. It’s not a demand issue. 
+
+FABER: And you could be making batteries soon as well. 
+
+MUSK: Yes, for the Megapack, for mostly for non U.S. markets. 
+
+FABER: Are you concerned at all about the growing belligerence between China and the U.S.?  
+
+MUSK: I think that shouldn’t be a concern for everyone. 
+
+FABER: I think you’re right. I think it is shared by many people who run large organizations and smaller ones. Do you think for example, China will make a move to take control of Taiwan? 
+
+MUSK: The official policy of China is that Taiwan should be integrated. One does not need to read between the lines one can certainly read the lines.
+
+FABER: Do you think—
+
+MUSK: I think there’s a certain there’s some inevitability to the situation. 
+
+FABER: That would not be good for Tesla conceivably or for any, any company in the world, frankly—
+
+MUSK: Yes, or any company in the world. Also no one really realizes that the Chinese economy and the goal the rest of the global economy are like conjoined twins, it would be like trying to separate conjoined twins. That’s the severity of the situation. It’s actually worse for a lot of other companies than it is for Tesla I mean, I’m not sure where you’re gonna get an iPhone, for example. And Apple’s recently started doing some sort of small amount of production in India but it’s tiny. 
+
+FABER: It’s tiny. Not to mention advanced semiconductor chip if they take over Taiwan Semi  
+
+MUSK: Correct.  
+
+FABER: You design your own chips, but you’re manufacturing with Taiwan semi too right. 
+
+MUSK: We do some. We use Samsung and TSMC. But—
+
+FABER: But you seem to think it’s likely to happen. 
+
+MUSK: I’m simply saying that that is their policy. And I think you should take their word seriously. They mean it. 
+
+FABER: You know, your time I think you’ve said, fact some of the brief conversations we’ve had, you know, it’s one of the most valuable things in your own control. And I am curious now and Tesla investors sort of seem to rejoice at the announcement of a new CEO at Twitter in part because they thought well, it’s gonna have more time for Tesla.  
+
+MUSK: That’s true.
+
+FABER:  Is it true. How do you see sort of allocating your time now that you will soon no longer be the CEO of Twitter? 
+
+MUSK: Yeah, so you know, it was really a very challenging situation. At the point at which the Twitter acquisition closed because in rough terms there was a billion and a half dollars of debt servicing that was added. While at the same time, there was a massive cycling. 
+
+FABER: Yes you said you were four months away from bankruptcy, it was $3 billion in a year conceivably unless you did.
+
+MUSK: Negative $3 billion cash flow and had a billion dollars in bank. 
+
+FABER: No that’s not good. Anybody who knows anything about corporate finance knows that’s bad 
+
+MUSK: I’d say that the analogy I was using was like being teleported into a plane that’s in a nosedive, headed to the ground with the engines on fire and the controls don’t work. 
+
+FABER: Right. You were the guy who chose to get into the plane. 
+
+MUSK: Well, I did try to exit the deal. They wouldn’t let me I mean, it was a funny situation where when I first was proposed, the acquisition they said hell no, they adopted a poison pill, basically saying they’d rather die than be they’d be acquired. Like they’d rather chew on cyanide. And then a few months later that they’re like, basically have a gun to my head saying, No, you must acquire us. I mean, that’s quite a change. 
+
+FABER: It is quite a change. But you seem to think I can figure out a way out of this until finally I guess you realize I can’t.  
+
+MUSK: It was made clear to me that the decision would not come down in my favor legally. 
+
+FABER: Yeah. All right. Well, now you have a new CEO. Why?  
+
+MUSK: I think Linda Yaccarino is gonna be great.  
+
+FABER: Why?  
+
+MUSK: Well, Twitter, it’s very much an advertising dependent business. Linda is obviously incredible at that. She’s just a great executive in general. So the and, you know, my skills and interests are in technology. So you know, I will continue to play a role, advancing the software. And, you know, getting the features and product stuff basically. So, I mean, the general idea is Linda will operate the company and I will build products. And I think that’s a good—
+
+FABER: And that will take less of your time.  
+
+MUSK: Yeah. And I had that situation at SpaceX. Gwynne Shotwell, who’s amazing operates the company and I work in the sort of advanced technology right but the sort of designing the new rockets and that kind of thing and everyone should play to their strengths. And that’s, that’s mine. 
+
+FABER: So although I wonder You mean in 2021, you said you spend most of your time on the development of starship. I think he’s also been quoted I read where I think I heard you say actually, most of your mental energy at certain points has been on starship. Yes. So I wonder Have you been diverted from starship a little bit and were returned to it as the main focus? Or is it Tesla, you know, again, your time? I know having tried to schedule this interview.
+
+MUSK: Time triage is a real thing. Yeah. In fact, I say the only real currency is time. Time is the only true currency.  
+
+FABER: So where are you going to spend the currency now that you don’t have to spend as much at Twitter.
+
+MUSK: Well, I’m going to be devoting a lot more time to Tesla and especially on the AI development and new product development, then I will be allocating some more time to get a starship to orbit. The in the case of SpaceX but what I was able to do there was to as the Starlink constellation started working, I was able to move some of the best people from the Starlink program to the starship program. So they, the timing kind of worked out well, that we really have some of the world’s best engineers at SpaceX and Tesla, really some incredible human beings. 
+
+FABER: There was some statistic you shared, I think 3.6 million people applied for a job at Tesla. I think I didn’t, I wrote it down. I didn’t write it down here its from memory, but that was that the number. 
+
+MUSK: That’s crazy. There’s a lot of demand.
+
+FABER: You have 127 almost 120,000 employees but 3.6 million people applying for a job. 
+
+MUSK: Yeah, so I mean, there’s, you know, we would only add like to 20 or 30,000 jobs. So it’s sort of the acceptance rate for Tesla it’s much more difficult to get into Tesla. Or SpaceX than Harvard.  
+
+FABER: Or Stanford too.
+
+MUSK: Yeah, it’s it’s the acceptance rate is lower than the most demanding universities in the world. Yeah, it’s insane. 
+
+FABER: Speaking of employment, though, you had 7800 people at Twitter when the plane was nosediving I think you’re at 1500 now so roughly 6300 people where they all superfluous.
+
+MUSK: No not all.
+
+FABER: You figure out which ones aren’t or is it a little late you know, sometimes it gets a little late. 
+
+MUSK: I mean, look desperate times call for desperate measures. So there’s no question that some of the people who were let go probably shouldn’t have been let go, because we certainly did not have the time to figure out we had to be, you know, make widespread cuts to get the run rate under control. So you know, and so this is not to say that, hey, everyone who was let go from Twitter is like somehow terrible or something. It’s just, we have to with very little information, get the headcount expenses and the non-personnel expenses down to where we’re at least breakeven and we’re not quite at breakeven yet but we’re close. We need to do it fast and if you do it fast, unfortunately, there are going to be some babies thrown out with the bathwater so I definitely would not want to say disparage you know, anyone who was let go.
+
+FABER: but it’s funny, you know, I hear from other I’ve heard from other tech CEOs quietly. They look at what you did at Twitter, and they sort of, they won’t admit it publicly, but they, you know, they said wow, that was something mean, to cut that deeply and still be able to run the company people will argue about how well things are running. Have you heard from any of these CEOs who said thank you for doing that giving us the runway or leeway to at least make some cuts of our own?
+
+MUSK: I have. I’ve heard that from a few people and I’ve heard that through the grapevine. Yeah. But I’m, like I said, if Desperate times call for desperate measures. And unfortunately, those were desperate times. 
+
+FABER: So do you see starting to me will Linda hiring people do you think are you ready for people to be hired at Twitter? 
+
+MUSK: Yes absolutely. I think we absolutely need to hire people. And if they’re not too mad at us, probably rehire some of the people that we let go. 
+
+FABER: And they’re gonna have to come into the office. 
+
+MUSK: Look, I I’m a big believer that people are more productive when they’re in person. And, really the whole sort of work from home thing. It’s like I think it’s, too but there are some exceptions, but I kind of think that the whole notion of work from home is a bit like the you know, the fake Marie Antoinette quote, let them eat cake. It’s like, really, you’re gonna work from home and you’re gonna make everyone else who made your car come work to the back or the factory. You’re gonna make the people who make your food that gets delivered that they can’t work from home, that, you know, the people like they can’t fix your house. They can’t work from home. But you can. Does that seemed morally right. That’s messed up.
+
+FABER: You see it as a moral issue.  
+
+MUSK: Yes.
+
+FABER: I mean, I see it more as—
+
+MUSK: It’s a productivity issue but it’s also a moral issue. You also get off the god damn moral high horse with the work from home bullshit. Because they’re asking everyone else to not work from home while they do. It’s wrong.
+
+FABER: And yet, there’s still pushback battle, it’s still going on this battle is still happening. I mean, leaders of organizations that I speak to plenty of them. I want people back. I want people that three days a week, they’re still battling. It’s not clear that it’s ever going to change to people are not gonna go back to five days a week.
+
+MUSK: The laptop class living in la la land, okay. But as I said, the you can’t but look at the cars are people working from home here, of course not. So people were building cars, servicing the cars, building houses, fixing houses, making the food making all the things that people consume. It’s messed up to assume that yes they have to go to work but you don’t. How is that that is it’s not just a productivity thing. I think it’s morally wrong. 
+
+FABER: Although productivity is definitely impacted too. And the ability of people to learn. 
+
+MUSK: Yes I agree.   
+
+FABER: I mean, on and on. But listen, I—
+
+MUSK: So I mean, look, you know, people will disagree with me about this, but you know, it’s like—
+
+FABER: So if you want to work at Tesla, you want to work at SpaceX, you want to work at Twitter, you got to come into the office every day.  
+
+MUSK: Yes, I mean, you know, like, I’m not saying I’m saying like, look, put 40 hours in, you know, and frankly, it doesn’t even need to be like, you know, Monday through Friday, you know, work Monday through Thursday, and also not saying no one should take I think people should take vacations, like I work seven days a week, but  I’m not expecting others to do that.  
+
+FABER: How much sleep do you get, by the way?   
+
+MUSK: About six hours.
+
+FABER: You do six hours, typically?
+
+MUSK: Yeah.
+
+FABER: that’s not bad I thought it would be less. 
+
+MUSK: I tried less. But my productivity even though I am awake more hours I get less done. On the brain pain level is bad if I get less than six hours.
+
+FABER: But you work seven days a week. 
+
+MUSK: Yes. Yeah. I actually only in terms of actually, you say like, how many days in a year? Do I not put in some meaningful amount of work? It’s probably about two or three.
+
+FABER: two or three days a year. I want to get to some more specific questions about Twitter that sort of have a more global aspect and I still want to get to AI you’re gonna give us some time.  
+
+MUSK: Yes I think we have a board meeting coming up. I’m happy to give as much time as reasonably possible I think it’s maybe it’s six or so.  
+
+FABER: Okay, well, what time is it now. I love another 20 can you spare another 20.  
+
+MUSK: Sure. 
+
+FABER: Great. Let’s talk about free speech a bit. You know, you call yourself a free speech absolutist. You want Twitter.
+
+MUSK: Aspirationally.
+
+FABER: Aspirationally. You want Twitter to be as truthful as possible, most accurate source of information about the world. So what does that mean for how you police lies on the platform? You mentioned community notes is that.
+
+MUSK: I think community notes Yeah, I’d say so. My overall kind of vision for actual Twitter is to be a cybernetic collective mind for humanity. This is gonna sound quite esoteric and sci fi but so the if in pursuit of that objective, you want to have information move quickly have that information be accurate, and you want to have error correction on that information. So you can think of community notes as like an error correction on information in the network. And the effect of community notes is actually bigger than it would seem it’s bigger than the number of notes because if somebody knows that they’re gonna get noted. They are less likely to say something that is false, because it’s embarrassing to get community noted.  
+
+FABER: Okay.  
+
+MUSK: And that applies even to advertisers. We’ve lost at this, but that’s so far. $40 million in advertising.
+
+FABER: Because it was misleading or because there was community notes says it was? 
+
+MUSK: Community notes two pretty big advertisers got community noted. And I Yes. I think unbalanced, the community notes were correct. And I did I did say to those advertisers look, provide. Just go on Twitter and provide some facts that contradict the community note, that’s the way to deal with the community note is to say is that the community note is saying that the ad is misleading for the following reasons if you’ve got information, that rebuts that note then just to add that to the ad.
+
+FABER: Okay. Oh, we’re coming up on an election. I mean, it’s a ways away, but it’s going to all start. President Trump is allowed back on the platform. He hasn’t actually come back.  
+
+MUSK: Right.  
+
+FABER: But one would imagine if and when he does, or there are others who will say 2020 election was rigged. Is that something I assume that’s not something you believe?  
+
+MUSK: I well, I think the answer their answers is nuanced. Like do I believe Biden won? Yes, I believe he won—
+
+FABER: And you voted for him.  
+
+MUSK: I did. Actually. 
+
+FABER: Do you regret that? 
+
+MUSK: I mean, man, I wish we could have just a normal human being as President. That’s what I want. I think if we could, you know, there’s that old saying of like, we’re better. We’re better off being run by people picked at random from the phonebook than the faculty of Harvard. I don’t know who said that but someone very wise. And I would say if we could do that for the President, that would be great.
+
+FABER: You think that would be beneficial. I say, you’re obviously you’re not happy with Biden.
+
+MUSK: Don’t we all just want a normal human being to be President.  
+
+FABER: Whatever that means I am not even sure anymore what normal means.
+
+MUSK: Like, you know, just—
+
+FABER: You want somebody who’s competent, that’s helpful.  
+
+MUSK: Yes. I think definitely. Somebody’s executive ability is underrated. Since the President is effectively the Chief Executive Officer of the country. It actually matters if they’re a good executive officer. It’s not simply a matter of do they share your beliefs and you know, but are they good at getting things done? There’s a lot of decisions that need to be made every day. Many of them are unrelated to moral beliefs. And you just want a good executive who said they’re CEO of America.  
+
+FABER: They are, they are.
+
+MUSK:  We want a good CEO of America who’s going to do be an effective- 
+
+FABER: Unfortunately, we live in highly partisan times where there is war about everything, including ideas, including the truth, which gets back to it’s not true that the election in 2020 was rigged. It wasn’t stolen. And I wonder on the platform, when you see that, does that end up in a community note or is that something you take more action on? And obviously, there’s so many—  
+
+MUSK: I mean to be clear, I don’t think it was, it was a stolen election. But by the same token, if somebody’s gonna say that there’s never any election fraud anywhere, this is obviously also false.  
+
+FABER: Yeah.   
+
+MUSK: If 100 million people vote, the probability that the fraud is zero is zero. There’s gonna be— 
+
+FABER: Oh no of course, there’s always going to be some— 
+
+MUSK: A little.
+
+FABER: Right I mean the tiniest bit perhaps. I mean, there were, this election was audited. It was so many judges— 
+
+MUSK: Sure. 
+
+FABER: It went on and on and on and there was no nothing whatsoever that, I don’t want to debate this with you. My question is more about— 
+
+MUSK: I think it’s important to say like that in any given election, even if you try your hardest if you got a 100 million votes, there’s gonna be some some amount of fraud that is not zero. And that that it’s important to acknowledge that without saying that the fraud was of sufficient magnitude to change the outcome. So so my opinion would be that there was some there was some small amount of fraud but it was not enough to change the outcome.  
+
+FABER: And by the way, it might have been either way. I mean, you know— 
+
+MUSK: Yeah, there’s probably a little bit each way. 
+
+FABER: Again, it’s gonna be you’re gonna let people say that though on Twitter, and then you’re gonna hope that they’re corrected and— 
+
+MUSK: They will be corrected.  
+
+FABER: They will be.  
+
+MUSK: Oh, yeah 100%.  
+
+FABER: Let’s talk a bit about your tweets because it comes up a lot. Even today, it came up and you know, anticipation of this, I mean, you do some tweets that seem to be or at least give support to some would call others conspiracy theories. 
+
+MUSK: Well, yes, but I mean, honestly, you know, some of these conspiracy theories have turned out to be true.  
+
+FABER: Which ones? 
+
+MUSK: Well like the Hunter Biden laptop. 
+
+FABER: That’s true.  
+
+MUSK: Yeah.  
+
+FABER: Yeah. 
+
+MUSK: So, you know, that was a pretty big deal. There was Twitter and, and others engaged in active suppression of information that was relevant to the public. That’s, that’s a terrible thing that happened. That’s like an interference.  
+
+FABER: But how do you make a choice? You don’t see I mean, in terms of when you’re going to engage. I mean, for example, even today, Elon, you tweeted this thing about George Soros. I’m looking for it because I want to make sure I quote it properly. But I mean, you know what you wrote but you basically—  
+
+MUSK: I said he reminds me of Magneto. This is like, you know, calm down people. Let’s not like make a metaphorical case out of it.  
+
+FABER: You also said, you said he wants to rule the very fabric of civilization and Soros hates humanity. Like when you do something like that, the— 
+
+MUSK: Yeah I think that’s true, that’s my opinion.  
+
+FABER: Okay but why share it? Why share it especially, I mean, why share it when people who buy Teslas may not agree with you, advertisers on Twitter may not agree with you. Why not just say, hey, I think this. You can tell me, we can talk about it over there. And you can tell your friends, but why share it widely? 
+
+MUSK: I mean, there’s freedom of speech. I’m allowed to say what I want to— 
+
+FABER: You absolutely are, but I’m trying to understand why you do because you have to know it’s gotta there, it puts you in a, in the middle of the partisan divide in the country. It makes you a lightning rod for criticism. I mean, do you like that? You know, people today saying he’s an antisemite. I don’t think you are.  
+
+MUSK: No, I’m definitely not I’m like, I’m like a pro-semite, if anything. 
+
+FABER: I believe that probably is the case.  
+
+MUSK: Yes. 
+
+FABER: But why would you even introduce the idea then that would be the case. 
+
+MUSK: I mean, it looks we want to make this a George Soros interview. 
+
+FABER: No, god, no, I don’t want to at all. But what I’m trying, it even came up though in the annual meeting, I mean, you know, do your tweets hurt the company? Are there Tesla owners who say I don’t agree with his political position because and I know it because he shares so much of it. Or are there advertisers on Twitter that Linda Yaccarino will come and say, you got to stop man or, you know, I can’t get these ads because of some of the things you tweet. 
+
+MUSK: You know, I’m reminded of a scene in “The Princess Bride.” Great movie. 
+
+FABER: Great movie.  
+
+MUSK: Where he confronts the person who killed his father. And he says, “Offer me money. Offer me power. I don’t care.” 
+
+FABER: So, you just don’t care. You want to share what you have to say? 
+
+MUSK: I’ll say what I want to say and if the consequence of that is losing money, so be it.  
+
+FABER: Okay. But I mean, when you when you link to somebody who’s talking about the guy who killed children in a mall in Allen, Texas, you say something like it might be a bad Psyop. I’m not quite sure what you meant but. 
+
+MUSK: In that particular case, there was a somehow that’s, not that the most of the people were killed, but it was, I think incorrectly described to be a white supremacist action. And the evidence for that was some obscure Russian website that no one’s ever heard of that had no followers and the company that, that found this is Bellingcat. 
+
+FABER: Right. 
+
+MUSK: Have you heard what Bellingcat does? Psyops.   
+
+FABER: Right. I couldn’t really even follow exactly what it was you were trying to express there. So that’s in part why I was curious— 
+
+MUSK: I’m saying that I thought ascribing it to white supremacy was bullshit.  
+
+FABER: Okay.  
+
+MUSK: And, and that the information for that came from an obscure Russian website and was somehow magically found by Bellingcat, which is a company that does Psyops. 
+
+FABER: And there’s no proof by the way that he was not. 
+
+MUSK: There’s no, I would say that there’s no proof that he is. 
+
+FABER: And that’s a debate you want to get into on Twitter?   
+
+MUSK: Yes. Because we should not be ascribing things to white supremacy if there, if it’s false. 
+
+FABER: Okay. Can we talk about AI now?  
+
+MUSK: Sure. 
+
+FABER: Actually, I want to talk about AI. Well, let me end with Twitter in the sense of Sam Altman was on the Hill today. And he said AI’s ability to manipulate interactive disinformation is a significant area of concern. It’s— 
+
+MUSK: Yes. 
+
+FABER: It’s moving so quickly— 
+
+MUSK: It is a significant area of concern— 
+
+FABER: And how, you know, yeah, I’m curious as to whether you agree with that, how you see that even playing out on Twitter with people who, who knows, somebody could be like you and or me and use our voice. I don’t know what it could be. 
+
+MUSK: Oh, that that is happening big time. So the the reason that I’m asking people to be verified on Twitter and and that we’re saying, okay, verification means you’ve got a phone number from a reputable carrier, which means that you’ve at least passed through whatever their security mechanisms are, that you have a credit card, which so you now have passed or whatever security mechanisms that the credit card company has, and that there’s some small amount of money paid per month. That sort of actions significantly increases the cost of fake accounts. And the with modern with the latest AI, it can bypass basically every test for are you a human. So then how do you know that a million accounts were created? How do you know that those were people?  
+
+FABER: I don’t know. How do you?  
+
+MUSK: Exactly you have to, you have to do account verification. And the thing that makes the like, I sort of put myself in a position of like, if it was my goal to manipulate public opinion and create millions of accounts and make it seem as though a topic was trending and and that this is actually what the public believes, but in order to do so I had to get a million phone numbers and million credit card numbers and pay, you know, eight bucks a month and have that all not be traceable and clustered. I’d say it’s impossible. Impossible. So that the goal of the of the sort of Twitter verification is fundamentally to prevent AI manipulation of the system. 
+
+FABER: Got it. Final question on Twitter. Walter Isaacson, your biographer, he said your big goal for Twitter is disrupting the banking industry.  
+
+MUSK: Ah well— 
+
+FABER: Is that accurate?  
+
+MUSK: I’d say that’s that’s that’s a, look first of all, I don’t want to disrupt something for the sake of disrupting it. It’s more like if there was a better product, that’s great, but I’m not out for disruption for the sake of disruption. I’m like, if we’re gonna make a product that improves quality of life of people that they find more useful. That’s great. And what people see and PayPal is sort of like, sort of a halfway it’s sort of a, sort of a, it’s frankly, sort of a half-baked version of what it could be. And so I think there’s potential to create a more efficient financial system. And here we can get again quite quite esoteric and sort of into information theory, but the actual financial system today is a heterogeneous set of databases running on mainframes and COBOL that still engage in batch processing. It’s really quite, very inefficient. So things are still not real time. And so it’s possible to have a much more efficient, homogenous real time data system. Money is just information and and so that’s not like the only reason. It’s just a thing that that would be, I think, poetic to fulfill ultimately the vision that I had for X over 23 years ago, and actually see that come to fruition would be nice, but, but there are many other things for for Twitter. It’s not just natural—  
+
+FABER: You talk about enhancing humanity. You know, I’m curious then about AI, which many people say will lead to great productivity gains. You showed those robots. I mean, I can imagine what they conceivably could do when powered by AI but I’m also curious because you’ve certainly been concerned what percentage do you give the chance that it will destroy humanity? 
+
+MUSK: Well, the advent of artificial general intelligence is called a singularity because it is so hard to predict what will happen after that. But I think it’s very much a double-edged sword. I think it’s, there’s there’s a there’s a strong probability that it will make life much better and that we’ll have an age of abundance. And there’s some chance that it goes wrong and destroys humanity. Hopefully that chance is small, but it’s not zero. And so I think we want to take whatever actions we can think of to minimize the probability that AI goes wrong. 
+
+FABER: And you’ve called for a pause, along with a number of other people. 
+
+MUSK: Yes, Iook, when I called for –  a friend of mine, Max Tegmark, is a physicist at MIT, you know, wanted me to sign on to the letter. And it’s like, I knew it would be futile.  
+
+FABER: It is futile. 
+
+MUSK: I knew it’d be futile. I just wanted to call it – it’s one of those things. Well, for the record, I have recommended that we pause. Did I think we would – there would be a pause? Absolutely not. 
+
+FABER: But you’re starting X.AI. I think that’s what you’re calling it. Or some new AI effort. How’s it going to be different than OpenAI? Or Alphabet? 
+
+MUSK: This is not the time to –  this is not – we don’t have enough time and nor is this the moment to really talk about it. We will have a launch event and we’ll explore the issues in more detail. But I should say that and I mentioned this at the shareholder meeting that Tesla has actually tremendous capacity in real world AI.  
+
+FABER: Yes. 
+
+MUSK: In fact it is far ahead of anyone– 
+
+FABER: I mean, people actually on Twitter prior to our interview were saying you know he never gets asked about how advanced his AI is at Tesla, you always talk about the other names. 
+
+MUSK: Tesla AI it’s like – I’m not even sure who second frankly. 
+
+FABER: Why is that? Then what are people not understanding about what you have and why are we talking so much about ChatGPT and generative AI and OpenAI and what Microsoft’s going to be able to do with it and not about Tesla? 
+
+MUSK: I don’t know. I mean, people do talk about it online. I think Tesla will have sort of ChatGPT moment maybe if not this year, I’d say no later than next year. 
+
+FABER: Wait, say that again. I’m sorry. You’re going to have a– 
+
+MUSK: A sort of ChatGPT moment.  
+
+FABER: Oh, you will? In terms of suddenly it will– 
+
+MUSK: Yeah, suddenly 3 million cars will be able to drive themselves with no one. 
+
+FABER: Right. It goes back to that. Right. 
+
+MUSK: Yeah. And then 5 million cars and then 10 million cars. So and I will also say that if positions were reversed and say – well in fact, the positions are reverse. For example, Google has Waymo, which is you know, sort of attempting self-driving and they are able to make self-driving work in a very limited geography with very tightly mapped streets. But as soon as anything goes wrong with those streets like there’s an accident or a parade or road construction, it stops working. Basically, Google is unable to produce a generalized solution to self-driving that works anywhere. They’ve been trying to do that for a long time. They have been unsuccessful. Tesla basically has that and is far more advanced than Google. And so if the positions were reversed, and you said, okay, Tesla’s got to produce a large language model that has output equal to or greater than ChatGPT or Microsoft OpenAI has to do self-driving, and we just flip the tasks, Tesla would win. 
+
+FABER: You’d win? 
+
+MUSK: Yes.  
+
+FABER: You have the computing power and everything else you need to do it.  
+
+MUSK: Yeah. Absolutely.  
+
+FABER: I’m being told we don’t have that much time. Can you give me another five minutes or? 
+
+MUSK: Yeah, I think so.  
+
+FABER: You can? 
+
+MUSK: I do have a board meeting.  
+
+FABER: I know.  
+
+MUSK: But five minutes is probably fine. Sure. 
+
+FABER: Okay. Thank you. OpenAI. I mean, you seem somewhat frustrated with them. You were one of the big contributors early on. 
+
+MUSK: The reason -- I am the reason OpenAI exists.  
+
+FABER: How much money did you give them? 
+
+MUSK: I’m not sure the exact number but it’s some number on the order of $50 million. So man, fate loves irony. Next level. So I used to be close friends with Larry Page and I would stay at his house and we’d have these conversations long into the evening about AI and I would be constantly urging him to be careful about the danger of AI and he just he was really not concerned about the nature of AI and was quite cavalier about it. And at the time, Google especially after their acquisition of DeepMind, had three quarters of the world’s AI talent they had obviously a lot of computers and a lot of money. So it was a unipolar world for AI. And we’ve got a unipolar world, but the person who controls that just did not seem to be concerned about AI safety. That sounds like a real problem. So and then the final straw was Larry calling me a specist for being pro human consciousness instead of machine consciousness. I’m like, Well, yes, I guess I am I, I am a specist.
+
+FABER: So right, so you helped to the creation of OpenAI. You put in as much as $50 million–  
+
+MUSK: More than helped. It wouldn’t exist without me.  
+
+FABER: It wouldn’t exist without you, so– 
+
+MUSK: I came up with the name. The name OpenAI refers to open source. So the intent was – okay, so what was the opposite? What’s the opposite of Google? Would it be an open source nonprofit, because Google is closed source for profit. And that profit motivation can be potentially dangerous. 
+
+FABER: Should you have gotten governance for that money? Should you have gotten some level of control perhaps in retrospect? 
+
+MUSK: Yeah, I fully admit to being a huge idiot here. So anyway, so OpenAI was meant to be OpenAI, open as an open source, it was created as a – and so part of it is also in the beginning, I thought, look, this is probably a hopeless endeavor. How could we possibly compete with – how could OpenAI possibly compete with Google DeepMind. I mean, this seemed like an ant against an elephant, you know, not a contest. And I was also – I was instrumental in recruiting the key scientists and engineers most specifically, most notably Ilya Sutskever, in fact, Ilya went back and forth several times, because he would say he’s going to join OpenAI and then – would convince him not to then I would convince him to do so. And this went back and forth several times and ultimately decided to join OpenAI. And really Ilya joining was the linchpin for OpenAI being ultimately successful.  
+
+FABER: You’re very disappointed in what’s happened there in terms of it becoming a for profit. Did you take any action? Sue them in some way? 
+
+MUSK: I do think that there’s some look, it does seem weird that something can be a nonprofit, open source and somehow transform itself into a for profit, closed source. I mean, this would be like, let’s say you funded an organization to save the Amazon rainforest, and instead they became a lumber company, and chopped down the forest and sold it for money. And you’d be therefore like, oh, wait a second, that’s the exact opposite of what I gave the money for. Is that legal? That doesn’t seem legal. And if it is, in general, if it is legal to start a company as a nonprofit, and then take the IP and transfer it to a for profit, that then makes tons of money, shouldn’t everyone start – shouldn’t that be the default? And then I also think it’s important to understand the like, when push comes to shove let’s say they do create some digital super intelligence, almost godlike intelligence, well, who’s in control? And what exactly is the relationship between OpenAI and Microsoft? And I do worry that Microsoft actually may be more in control than, say, the leadership team at OpenAI realizes. I mean, Microsoft, as part of Microsoft’s investment, they have rights to all of the software, all of the model weights and everything necessary to run the inference system. 
+
+FABER: So they essentially have a great deal of control.
+
+MUSK: At any point Microsoft could cut off OpenAI. 
+
+FABER: Elon, I’m being told we have to wrap up. Your board has been very patient.  
+
+MUSK: Sure. 
+
+FABER: I want to end on one AI question. You have a lot of kids. I have some kids. I have one who’s actually soon to go into the workforce. I struggle with how to advise him about a career when this technology exists and will only approve. I’m just curious when you think about advising your children on a career with so much that is changing, what do you tell them is going to be of value? 
+
+MUSK: Well, that’s a tough question to answer. I guess I would just say, you know, to sort of follow their heart in terms of what they find interesting to do or fulfilling to do. And try to be as useful as possible to the rest of society. If we do get to the sort of like magic genie situation where you can ask the AI for anything. And let’s say it’s even the benign scenario – let’s say it’s benign scenario, how do we actually find fulfilment? You know, how do we find meaning in life if the AI could do your job better than you can? I mean, if I think about it too hard, it can be just dispiriting and demotivating. Because, I mean, I go through I put a lot of blood, sweat and tears into building the companies. And then I’m like, wait, should I be doing this? Because if I’m sacrificing time with friends and family that I would prefer to do, but then ultimately, the AI can do all these things. Does that make sense? I don’t know. To some extent, I have to have deliberate suspension of disbelief in order to remain motivated. So I guess I would say just, you know, work on things that you find interesting, fulfilling and that contribute some good to the rest of society. 
+
+FABER: Well, that’s a great place to end. There’s so much we didn’t get to I hope you’ll give me another chance to sit down again. But Elon, thank you for being so generous with your time. Thanks to your board for waiting as well. And thanks for having us here at this incredible facility.
