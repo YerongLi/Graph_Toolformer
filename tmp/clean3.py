@@ -42,7 +42,7 @@ for i, line in enumerate(content):
     else:
         current_line += " " + line
     print('after', current_line)
-    if i > 10: break
+    # if i > 10: break
 if current_line:
     formatted_lines.append(current_line.strip())
 
