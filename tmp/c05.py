@@ -25,9 +25,9 @@ for line in content:
         timestamp = line_match.group(1)
         speaker = line_match.group(2)
         line = re.sub(line_pattern, "", line).strip()
-        
+
         # Extract the real_speaker from the line
-        real_speaker_match = re.search(r"(.*?)\s*\:\s*", line)
+        real_speaker_match = re.match(r"\b([A-Za-z\s]+)\b", line)
         if real_speaker_match:
             real_speaker = real_speaker_match.group(1).strip()
         else:
