@@ -18,7 +18,6 @@ current_line = ""
 for i, line in enumerate(content):
     # Remove leading/trailing whitespaces
     line = line.strip()
-    print(line)
     # Skip empty lines
     if not line:
         continue
