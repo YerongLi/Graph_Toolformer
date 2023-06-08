@@ -35,8 +35,9 @@ for i, line in enumerate(content):
             speaker = "[User]"
         # print(real_speaker)
         print('     ================= ')
-        print(current_speaker != real_speaker)
+        print(current_speaker is not None and current_speaker != real_speaker)
         if current_speaker is not None and current_speaker != real_speaker:
+            print('Entering')
             formatted_lines.append(current_line.strip())
             current_line = f'{speaker} '
             current_speaker = real_speaker
