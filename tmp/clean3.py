@@ -36,7 +36,7 @@ for i, line in enumerate(content):
         if current_speaker is not None and current_speaker != real_speaker:
             formatted_lines.append(current_line.strip())
             current_line = f'{speaker} '
-            current_speaker = speaker
+            current_speaker = real_speaker
         else:
             current_line += line
     else:
