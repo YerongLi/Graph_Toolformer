@@ -11,7 +11,7 @@ line_pattern = r"\[(\d{2}:\d{2}:\d{2})\] (\w+):"
 formatted_lines = []
 current_speaker = None
 current_line = ""
-for line in content:
+for i, line in enumerate(content):
     # Remove leading/trailing whitespaces
     line = line.strip()
 
@@ -20,6 +20,7 @@ for line in content:
         continue
 
     # Match the line pattern
+    print(line_match)
     line_match = re.match(line_pattern, line)
     if line_match:
         timestamp = line_match.group(1)
@@ -52,6 +53,7 @@ for line in content:
             current_line += f' {line}'
     else:
         current_line += f' {line}'
+    if i > 30: break
 
     # Print if the timestamp regex matches
     if line_match:
