@@ -56,7 +56,7 @@ That's why I'm asking for examples. Can you name one example?
 
 Interviewer (00:01:23):
 
-I honestly don't…
+I honestly don't...
 
 Elon Musk (00:01:24):
 
@@ -120,7 +120,7 @@ You just lied.
 
 Interviewer (00:02:13):
 
-No, no. What I claimed was there are many organizations that say that that kind of information is on the rise. Now whether it has on my feed or not…
+No, no. What I claimed was there are many organizations that say that that kind of information is on the rise. Now whether it has on my feed or not...
 
 Elon Musk (00:02:21):
 
@@ -200,7 +200,7 @@ No, I'm talking about the BBC's misinformation about Covid.
 
 Interviewer (00:03:15):
 
-I'm literally asking you about… You changed the labels, the Covid misinformation labels. There used to be a policy and then it disappears. Why do that?
+I'm literally asking you about... You changed the labels, the Covid misinformation labels. There used to be a policy and then it disappears. Why do that?
 
 Elon Musk (00:03:26):
 
@@ -312,7 +312,7 @@ All right. Okay. Just so everyone knows, Elon Musk gave me about 20 minutes' not
 
 Elon Musk (00:05:20):
 
-Yeah, that's true. Look, this whole thing only came together in a matter of hours. So…
+Yeah, that's true. Look, this whole thing only came together in a matter of hours. So...
 
 Interviewer (00:05:29):
 
@@ -408,7 +408,7 @@ You can kind of keep it-
 
 Elon Musk (00:06:56):
 
-Yeah, right. This is…
+Yeah, right. This is...
 
 Interviewer (00:06:58):
 
@@ -440,7 +440,7 @@ All right. First of all, why did you agree to do this interview with the BBC?
 
 Elon Musk (00:07:22):
 
-I don't know. I like spontaneity. And there's a lot going on and it seems like… I actually do have a lot of respect for the BBC. Although I sometimes forget what the BBC stands for. What is it? Just kidding.
+I don't know. I like spontaneity. And there's a lot going on and it seems like... I actually do have a lot of respect for the BBC. Although I sometimes forget what the BBC stands for. What is it? Just kidding.
 
 Interviewer (00:07:39):
 
@@ -676,7 +676,7 @@ Cue a whole bunch of court cases.
 
 (00:16:43):
 
-“You have said in the BBC interview…”
+“You have said in the BBC interview...”
 
 Interviewer (00:16:50):
 
@@ -684,7 +684,7 @@ So you then came into Twitter with a sink. What were your first impressions?
 
 Elon Musk (00:16:57):
 
-Well, I thought, “Wow, this is a really nice office building.” And…
+Well, I thought, “Wow, this is a really nice office building.” And...
 
 Interviewer (00:17:06):
 
@@ -748,7 +748,7 @@ Okay. What would you do?
 
 Interviewer (00:20:20):
 
-Well, you might want to give someone some notice. By the way, I'm not running Twitter, but this is the criticism and this is what actual staff members say. A little bit of notice…
+Well, you might want to give someone some notice. By the way, I'm not running Twitter, but this is the criticism and this is what actual staff members say. A little bit of notice...
 
 Elon Musk (00:20:30):
 
@@ -808,7 +808,7 @@ I think the issue some people have is that a lot of people were brought back. I 
 
 Interviewer (00:24:00):
 
-… misinformation and hate speech.
+... misinformation and hate speech.
 
 Elon Musk (00:24:04):
 
@@ -828,7 +828,7 @@ Well, no, you are the arbiter on Twitter because you own Twitter.
 
 Elon Musk (00:24:18):
 
-Yeah. So I'm saying who is to say that one person's misinformation is another person's information? The point at which you say that this is… Who is starting to decide that?
+Yeah. So I'm saying who is to say that one person's misinformation is another person's information? The point at which you say that this is... Who is starting to decide that?
 
 Interviewer (00:24:34):
 
@@ -868,7 +868,7 @@ But you accept there has to be a line in terms of hate speech. I mean, you are n
 
 Elon Musk (00:25:16):
 
-Well, I generally… I'm often seen in that view, if the people in a given country are against a certain type of speech, they should talk to their elected representatives and pass a law to prevent it. So for example, you cannot advocate murdering someone. That's illegal in the United States, everywhere really, I suspect. So there are limits to speech.
+Well, I generally... I'm often seen in that view, if the people in a given country are against a certain type of speech, they should talk to their elected representatives and pass a law to prevent it. So for example, you cannot advocate murdering someone. That's illegal in the United States, everywhere really, I suspect. So there are limits to speech.
 
 Interviewer (00:25:45):
 
@@ -944,7 +944,7 @@ That's why I'm asking for examples. Can you name one example?
 
 Interviewer (00:28:04):
 
-I honestly don't use… honestly, I don't-
+I honestly don't use... honestly, I don't-
 
 Elon Musk (00:28:07):
 
@@ -1236,7 +1236,7 @@ How is it going? Is Twitter in profit now?
 
 Elon Musk (00:35:29):
 
-No, Twitter is… I'd say we're roughly breakeven at this point.
+No, Twitter is... I'd say we're roughly breakeven at this point.
 
 Interviewer (00:35:35):
 
@@ -1256,7 +1256,7 @@ Possibly, yeah.
 
 Interviewer (00:36:02):
 
-Wow. And do you have a message for the… I mean, can you say which advertisers haven't come back?
+Wow. And do you have a message for the... I mean, can you say which advertisers haven't come back?
 
 Elon Musk (00:36:10):
 
@@ -1316,7 +1316,7 @@ You said that you-
 
 Elon Musk (00:37:39):
 
-It's been quite difficult. I'd say the pain level of Twitter has been extremely high. This hasn't been some sort of party, so it's been really quite a stressful situation for the last several months. Not an easy one, but apart from the pain… So it's been quite painful, but I think at the end the day it should have been done. I think were there many mistakes made along the way? Of course, but all's well that ends well. And so I feel like we're headed to a good place. We're roughly breakeven, I think we're trending towards being cash flow positive very soon, literally in a matter of months. The advertisers are returning. I think the quality of recommended tweets has improved significantly, and we've taken a lot of feedback from people that have looked at the open source recommendation algorithm, and we've made a lot of improvements even since that was made open source and we're going to keep doing that. So overall, I think the trend is very good.
+It's been quite difficult. I'd say the pain level of Twitter has been extremely high. This hasn't been some sort of party, so it's been really quite a stressful situation for the last several months. Not an easy one, but apart from the pain... So it's been quite painful, but I think at the end the day it should have been done. I think were there many mistakes made along the way? Of course, but all's well that ends well. And so I feel like we're headed to a good place. We're roughly breakeven, I think we're trending towards being cash flow positive very soon, literally in a matter of months. The advertisers are returning. I think the quality of recommended tweets has improved significantly, and we've taken a lot of feedback from people that have looked at the open source recommendation algorithm, and we've made a lot of improvements even since that was made open source and we're going to keep doing that. So overall, I think the trend is very good.
 
 Interviewer (00:38:53):
 
@@ -1348,7 +1348,7 @@ It is, or it can be. But just can you just talk me through the emotional strain 
 
 Elon Musk (00:39:19):
 
-Yeah, I mean, look, I'm been under constant attack. I mean, it's not like I have a stone-cold heart or something like that. If you're under constant criticism and attack and then that gets fed to you nonstop, including through Twitter, that is rough. Now, at the end of the day, I kind of think that if you do lose your feedback loop, that's actually not good. So I think it is actually important to get negative feedback. I don't turn replies off, and I actually got rid of… I removed my entire block list, so I don't block anyone either. So I get a lot of negative feedback.
+Yeah, I mean, look, I'm been under constant attack. I mean, it's not like I have a stone-cold heart or something like that. If you're under constant criticism and attack and then that gets fed to you nonstop, including through Twitter, that is rough. Now, at the end of the day, I kind of think that if you do lose your feedback loop, that's actually not good. So I think it is actually important to get negative feedback. I don't turn replies off, and I actually got rid of... I removed my entire block list, so I don't block anyone either. So I get a lot of negative feedback.
 
 Interviewer (00:40:13):
 
@@ -1428,7 +1428,7 @@ I mean, that's a different question.
 
 Elon Musk (00:43:20):
 
-Yeah. But you are sort of saying who knows best, the average citizen or someone who is a journalist? And I think in a lot of cases, it is the average citizen that knows more than the journalist. In fact, very often when I see an article about something that I know a lot about, and I read the article, and it's like they get a lot wrong. And the best interpretation is there is someone who doesn't really understand what's going on in the industry, has only a few facts to play with, has to come up with an article. It's going to be… It's not going to hit the bullseye.
+Yeah. But you are sort of saying who knows best, the average citizen or someone who is a journalist? And I think in a lot of cases, it is the average citizen that knows more than the journalist. In fact, very often when I see an article about something that I know a lot about, and I read the article, and it's like they get a lot wrong. And the best interpretation is there is someone who doesn't really understand what's going on in the industry, has only a few facts to play with, has to come up with an article. It's going to be... It's not going to hit the bullseye.
 
 (00:44:03):
 
@@ -1520,11 +1520,11 @@ If you pay, but a lot of organizations have already said they're not going to pa
 
 Elon Musk (00:46:38):
 
-Well, then that's up to them if they… Can't make them pay, it's a small amount of money, so I don't know what their problem is. But we're going to treat everyone equally, so what we're not going to do is say that there's some anointed class of journalists who are the special ones, who get to tell everyone what they should think, that it should be up to the people what they think. And even if an article is completely accurate and comprehensive and everything, they're still, in writing that article, the media is choosing the narrative. They're deciding what to write an article about.
+Well, then that's up to them if they... Can't make them pay, it's a small amount of money, so I don't know what their problem is. But we're going to treat everyone equally, so what we're not going to do is say that there's some anointed class of journalists who are the special ones, who get to tell everyone what they should think, that it should be up to the people what they think. And even if an article is completely accurate and comprehensive and everything, they're still, in writing that article, the media is choosing the narrative. They're deciding what to write an article about.
 
 (00:47:21):
 
-So I'm hopeful that this can be more a case of the public choosing the narrative as opposed to the media choosing narrative. But the media can choose narrative… At least a combination of the media and the public choosing the narrative, and the public getting to weigh in on stories if they think that they should add something to it or we've got something wrong. And over time, I think if Twitter is the best source of truth, it will succeed. And if we are not the best source of truth, we will fail.
+So I'm hopeful that this can be more a case of the public choosing the narrative as opposed to the media choosing narrative. But the media can choose narrative... At least a combination of the media and the public choosing the narrative, and the public getting to weigh in on stories if they think that they should add something to it or we've got something wrong. And over time, I think if Twitter is the best source of truth, it will succeed. And if we are not the best source of truth, we will fail.
 
 Interviewer (00:47:50):
 
@@ -1952,7 +1952,7 @@ I can't remember whether I've asked you. This is my sort of wrapping up at this 
 
 Elon Musk (00:55:38):
 
-What was… Hindsight's 2020, so a bunch of decisions that could have been made better for sure. But as I said, alls well that ends well. I think it's gone pretty well. So the grand scheme of things, I can't complain.
+What was... Hindsight's 2020, so a bunch of decisions that could have been made better for sure. But as I said, alls well that ends well. I think it's gone pretty well. So the grand scheme of things, I can't complain.
 
 Interviewer (00:55:55):
 
@@ -1984,7 +1984,7 @@ That is a lot.
 
 Elon Musk (00:56:14):
 
-Let's see, how do we see, okay. Let me see who… I'll just look at my tweet and see what people are saying or what questions they have. Do you like the BBC? Do you like BBC?
+Let's see, how do we see, okay. Let me see who... I'll just look at my tweet and see what people are saying or what questions they have. Do you like the BBC? Do you like BBC?
 
 Interviewer (00:56:35):
 
@@ -2016,7 +2016,7 @@ I'm not engaging. All right, Elon, it honestly has been a pleasure talking to yo
 
 Elon Musk (00:57:06):
 
-Okay. Well, I'm just trying to see if there's like any good… There's a lot of comments here.
+Okay. Well, I'm just trying to see if there's like any good... There's a lot of comments here.
 
 Interviewer (00:57:11):
 
@@ -2100,7 +2100,7 @@ We do [inaudible 00:59:37]. Yeah.
 
 Interviewer (00:59:37):
 
-… because we try and get bots. Because we try and take down bots, [inaudible 00:59:40] effective at bots. Where there's actually less misinformation on the platform.
+... because we try and get bots. Because we try and take down bots, [inaudible 00:59:40] effective at bots. Where there's actually less misinformation on the platform.
 
 Elon Musk (00:59:44):
 
@@ -2148,7 +2148,7 @@ A mine that your father part owned?
 
 Elon Musk (01:01:09):
 
-Yeah. My father never owned a… So you're thinking of an emerald mine.
+Yeah. My father never owned a... So you're thinking of an emerald mine.
 
 Interviewer (01:01:13):
 
@@ -2204,7 +2204,7 @@ Right. But at this point, I'm just saying the Community Note says it is. So you 
 
 Elon Musk (01:02:42):
 
-If they're referencing an article, then the article may not be wrong, which they're still… Community Notes is not going to be perfect. The batting average of Community Notes I found to be extremely high.
+If they're referencing an article, then the article may not be wrong, which they're still... Community Notes is not going to be perfect. The batting average of Community Notes I found to be extremely high.
 
 Interviewer (01:02:58):
 
@@ -2356,7 +2356,7 @@ Now, if somebody has organizational affiliation, they can't change their name or
 
 (01:07:49):
 
-I think this is going to be really powerful for avoiding impersonation. I've heard from a lot of people that impersonation is a serious issue, actually more on other platforms than Twitter. And I think that if you can say that you really do belong to… If some organization can say that you really do belong to them, that's a great way to address impersonation risk.
+I think this is going to be really powerful for avoiding impersonation. I've heard from a lot of people that impersonation is a serious issue, actually more on other platforms than Twitter. And I think that if you can say that you really do belong to... If some organization can say that you really do belong to them, that's a great way to address impersonation risk.
 
 Alex (01:08:11):
 
@@ -2516,7 +2516,7 @@ What about him?
 
 Interviewer (01:12:00):
 
-… texted me.
+... texted me.
 
 Elon Musk (01:12:00):
 
@@ -2736,7 +2736,7 @@ Yeah, like I said, my opinion is that any social media organization that does no
 
 Speaker 6 (01:19:53):
 
-Makes sense. Speaking of generative content, is it possible for you guys to add a flag that says that, “Hey, this video or this image is…” I make a lot of AI generative content, and a lot of it looks real. I put one of Donald Trump making out with Gavin Newsom, and a lot of people thought it was real-
+Makes sense. Speaking of generative content, is it possible for you guys to add a flag that says that, “Hey, this video or this image is...” I make a lot of AI generative content, and a lot of it looks real. I put one of Donald Trump making out with Gavin Newsom, and a lot of people thought it was real-
 
 Elon Musk (01:20:12):
 
@@ -2804,7 +2804,7 @@ Absolutely.
 
 Speaker 6 (01:22:08):
 
-… actually original.
+... actually original.
 
 Elon Musk (01:22:11):
 
@@ -2872,7 +2872,7 @@ Alex (01:25:03):
 
 Elon Musk (01:25:04):
 
-… be very skeptically, any organization that claims to be completely truthful, because they're not and so that very claim is false. So I think it's important to reflect on what mistakes we're making and try to make fewer of them in the future.
+... be very skeptically, any organization that claims to be completely truthful, because they're not and so that very claim is false. So I think it's important to reflect on what mistakes we're making and try to make fewer of them in the future.
 
 Speaker 6 (01:25:27):
 
@@ -2928,7 +2928,7 @@ Tune in next [inaudible 01:26:12].
 
 Speaker 6 (01:26:11):
 
-… Twitter. Twitter's taken my time. Yeah. Thank you for that. It's very entertaining. Very entertaining.
+... Twitter. Twitter's taken my time. Yeah. Thank you for that. It's very entertaining. Very entertaining.
 
 Elon Musk (01:26:17):
 
@@ -3108,7 +3108,7 @@ Great.
 
 Elon Musk (01:30:07):
 
-But the W is now a background color, so…
+But the W is now a background color, so...
 
 Speaker 6 (01:30:10):
 
