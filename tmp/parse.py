@@ -11,7 +11,7 @@ def parse_json(file_path, output_path):
     with open(file_path, "r") as f:
         data = json.load(f)
 
-    questions = data["questions"][:100]  # Extract first 100 questions
+    questions = data["questions"]  # Extract first 100 questions
 
     with open(output_path, "w") as f:
         for question in questions:
