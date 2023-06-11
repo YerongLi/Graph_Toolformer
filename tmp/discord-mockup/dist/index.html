@@ -18,13 +18,13 @@
 		
 		<div class="servers-collection">
 			<div class="server focusable unread" role="button" aria-label="Discord Developers unread">
-				<div class="server-icon"><img src="https://cdn.discordapp.com/icons/41771983423143937/edc44e98a690a1f76c5ddec68a0a6b9e.png" /></div>
+				<div class="server-icon"><img src="icon.png" /></div>
 			</div>
 		</div>
 		
 		<div class="servers-collection">
 			<div class="server focusable active" role="button" aria-label="My Server" aria-selected="true">
-				<div class="server-icon"><img src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png" /></div>
+				<div class="server-icon"><img src="icon.png" /></div>
 			</div>
 		</div>
 	</aside>
@@ -62,7 +62,8 @@
 		<footer class="channels-footer">
 			<img class="avatar" alt="Avatar" src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png" />
 			<div class="channels-footer-details">
-				<span class="username">yourself</span>
+				<span class="username">yerong</span>
+
 				<span class="tag">#0001</span>
 			</div>
 			<div class="channels-footer-controls button-group">
@@ -73,7 +74,7 @@
 		</footer>
 	</aside>
 		
-	<div class="vert-container">
+<!-- 	<div class="vert-container">
 		<menu type="toolbar" class="menu">
 			<h2 class="menu-name">general</h2>
 		</menu>
@@ -81,7 +82,83 @@
 		<section class="chat">
 		
 		</section>
-	</div>
+	</div> -->
+
+<head>
+  <title>Conversation Tab</title>
+  <style>
+    /* Your CSS styles here */
+  </style>
+</head>
+<body>
+  <div class="vert-container">
+    <menu type="toolbar" class="menu">
+      <h2 class="menu-name">general</h2>
+    </menu>
+    
+    <section class="chat">
+      <script>
+        // Define the conversation data as a JavaScript object
+        var conversationData = {
+  "user1": "dogman",
+  "image1": "./48.png",
+  "user2": "castmom",
+  "image2": "./48.png",
+  "conversation": [
+    {
+      "timestamp": "2023-02-03 10:37 AM",
+      "sender": "dogman",
+      "message": "Your eyes are so beautiful"
+    },
+    {
+      "timestamp": "",
+      "sender": "",
+      "message": ""
+    },
+    
+    {
+      "timestamp": "",
+      "sender": "",
+      "message": ""
+    },
+    {
+      "timestamp": "2023-02-03 10:38 AM",
+      "sender": "castmom",
+      "message": "Thanks"
+    } 
+
+  ]
+}
+
+        
+        // Display the conversation data in the chat section
+        var chatSection = document.querySelector('.chat');
+        
+        conversationData.conversation.forEach(function(message) {
+          var chatBubble = document.createElement('div');
+          chatBubble.classList.add('chat-bubble');
+          
+          var userImage = document.createElement('img');
+          userImage.src = message.user === 'dogman' ? conversationData.image1 : conversationData.image2;
+          
+          var messageText = document.createElement('p');
+          messageText.textContent = message.message;
+          
+          var timestampText = document.createElement('span');
+          timestampText.classList.add('timestamp');
+          timestampText.textContent = message.timestamp;
+          
+          chatBubble.appendChild(userImage);
+          chatBubble.appendChild(messageText);
+          chatBubble.appendChild(timestampText);
+          chatSection.appendChild(chatBubble);
+        });
+      </script>
+    </section>
+  </div>
+</body>
+
+
 </main>
 
 
