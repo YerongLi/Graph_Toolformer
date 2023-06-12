@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 # Set the path to the Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Set the path to the video file
 video_path = 'discord_conversations.mp4'
