@@ -1,0 +1,172 @@
+// .mainpage{
+//     display: flex;
+//     &__servers{
+//         flex:0 0 4.62%;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//          background-color: #202225;
+//     }
+// }
+.homepage{
+    position: absolute;
+    top:0;
+    left:7.1rem;
+    right:0;
+    height: 100vh;
+    font-size: 1.5rem;
+    overflow: hidden;
+    font-family: 'Whitney-semibold', sans-serif;
+    &__header{
+        display: flex;
+        height: 4.8rem;
+        &-sidebar{
+            display: flex;
+            min-width: 24rem;
+            flex:0 0 16.45%;
+            background-color: #2f3136;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            padding: 1.75rem 1rem 1.75rem 1rem;
+            font-size: 1.7rem;
+            border-bottom: 1px solid #23272a;
+        }
+        &-inputcontainer{
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            width: 100%;
+            background-color: #202225;
+            padding: .55rem;
+        }
+        &-input{
+            border:0;
+            color:#fff;
+            font-family: 'Whitney-medium';
+            outline: none;
+            width: 100%;
+            font-size: 1.4rem;
+            background-color: #202225;
+        }
+        &-chatbar{
+            flex:1;
+        }
+        &--chat{
+            width: 100%;
+            height: 100%;
+        }
+        
+    }
+    &__content{
+        display: flex;
+        height: 93vh;
+    }
+    &__sidebar{
+        flex:0 0 16.45%;
+        min-width: 24rem;
+        background-color: #2C2F33;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        &-container{
+            padding: 1rem;
+        }
+        &-content{
+            border-radius: 3px;
+            display: flex;
+            height: 4rem;
+            align-items: center;
+            padding: 1rem;
+            &:hover{
+                background-color: #34373c;
+            }
+        }
+        &-avatar{
+            font-size: 2rem;
+            margin-right: 1.6rem;
+            width:2.5rem;
+            svg{
+                height:2.5rem;
+                display:flex;
+                align-items:center;
+            }
+        }
+        &-title{
+            font-family: 'Whitney-medium';
+            font-size: 1.65rem;
+            padding-bottom: .2rem;
+        }
+
+       
+    }
+    &__mid{
+        background-color: #36393f;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Whitney-light';
+        color:#72767D;
+        &-imagecontainer{
+            height: 21.8rem;
+            width: 42.1rem;
+        }
+        &-text{
+            font-size: 1.5rem;
+            margin-top: 5rem;
+            letter-spacing: .05rem;
+        }
+    }
+    &__channels{
+        color:gray;
+        &-header{
+            display: flex;
+            align-items: center;
+            padding: 1.2rem 1.2rem .9rem 1.2rem;
+        }
+        &-addicon{
+            margin-left: auto;
+            cursor: pointer;
+        }
+    }
+    &__voice{
+        margin-top: auto;
+        border-bottom:1px solid #35383d;
+    }
+    
+}
+
+.activity{
+    flex:0 0 25%;
+    background-color: #303136;
+    padding: 1.69rem;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        color:#acaeb1;
+        &-heading{
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+        &-content{
+            background-color: #36393f;
+            padding: 1.7rem;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            text-align: center;
+        }
+        &--head{
+            color:#fff;
+            display: inline-block;
+            font-size: 1.6rem;
+            padding-bottom: .75rem;
+        }
+        &--para{
+            font-size: 1.42rem;
+            font-family: 'Whitney-light';
+        }
+    }
+}
