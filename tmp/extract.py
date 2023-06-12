@@ -15,7 +15,7 @@ video = cv2.VideoCapture(video_path)
 
 # Initialize variables
 prev_frame = None
-frame_count = 0
+frame_count = 1
 
 # Get total number of frames in the video
 total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -51,7 +51,8 @@ while True:
 
         # Save the frame only if it has significant differences from the previous frame
         if diff_count > 1000:
-            frame_filename = os.path.join(output_folder, f'frame_{frame_count}.png')
+            # Save frame with 4-digit numbering
+            frame_filename = os.path.join(output_folder, f'{frame_count:04d}.png')
             cv2.imwrite(frame_filename, frame)
             frame_count += 1
 
