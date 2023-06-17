@@ -11,22 +11,24 @@ Original file is located at
 #### Install Dependencies
 """
 
-!pip install -q bitsandbytes datasets accelerate loralib
-!pip install -q git+https://github.com/huggingface/peft.git git+https://github.com/huggingface/transformers.git
+# !pip install -q bitsandbytes datasets accelerate loralib
+# !pip install -q git+https://github.com/huggingface/peft.git git+https://github.com/huggingface/transformers.git
 
 """#### Confirm CUDA"""
+import logging
+import os
+
 
 import torch
 torch.cuda.is_available()
 
 """#### Load Base Model"""
 
-import os
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
-import torch
+
 import torch.nn as nn
 import bitsandbytes as bnb
 from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 model = AutoModelForCausalLM.from_pretrained(
     "bigscience/bloom-3b",
@@ -35,25 +37,32 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 tokenizer = AutoTokenizer.from_pretrained("bigscience/tokenizer")
+logging.basicConfig(
+    format='%(asctime)s %(levelname)-4s - %(filename)-6s:%(lineno)d - %(message)s',
+    level=logging.INFO,
+    filename='./output.log',
+    datefmt='%m-%d %H:%M:%S',
+    force=True)
 
+logging.info(f'Logger start: {os.uname()[1]}')
 """##### View Model Summary"""
 
-print(model)
+logging.info(model)
 
 for param in model.parameters():
-  param.requires_grad = False  # freeze the model - train adapters later
-  if param.ndim == 1:
-    # cast the small parameters (e.g. layernorm) to fp32 for stability
-    param.data = param.data.to(torch.float32)
+    param.requires_grad = False  # freeze the model - train adapters later
+    if param.ndim == 1:
+        # cast the small parameters (e.g. layernorm) to fp32 for stability
+        param.data = param.data.to(torch.float32)
 
 model.gradient_checkpointing_enable()  # reduce number of stored activations
 model.enable_input_require_grads()
 
 class CastOutputToFloat(nn.Sequential):
-  def forward(self, x): return super().forward(x).to(torch.float32)
+    def forward(self, x): return super().forward(x).to(torch.float32)
 model.lm_head = CastOutputToFloat(model.lm_head)
 
-"""#### Helper Function"""
+# ...
 
 def print_trainable_parameters(model):
     """
@@ -65,24 +74,13 @@ def print_trainable_parameters(model):
         all_param += param.numel()
         if param.requires_grad:
             trainable_params += param.numel()
-    print(
+    logging.info(
         f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
     )
 
-"""#### Obtain LoRA Model"""
+# ...
 
-from peft import LoraConfig, get_peft_model
-
-config = LoraConfig(
-    r=8,
-    lora_alpha=16,
-    target_modules=["query_key_value"],
-    lora_dropout=0.05,
-    bias="none",
-    task_type="CAUSAL_LM"
-)
-
-model = get_peft_model(model, config)
+logging.info(model)
 print_trainable_parameters(model)
 
 """#### Load Sample Dataset"""
