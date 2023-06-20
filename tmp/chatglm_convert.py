@@ -15,8 +15,13 @@ for line in content:
 # Prepare the data in JSON format
 data = {
     "instruction": "",
-    "output": ""
+    "output": "",
+    "history": []
 }
+history_start_idx = max(0, len(conversation) - 10)
+for i in range(history_start_idx, len(conversation) - 1):
+    data["history"].append(conversation[i]["utterance"])
+
 for i in range(len(conversation) - 1):
     if conversation[i]["role"] == "Human":
         data["instruction"] += f"{conversation[i]['role']}:{conversation[i]['utterance']}\n"
