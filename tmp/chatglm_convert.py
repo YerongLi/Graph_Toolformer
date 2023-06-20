@@ -13,14 +13,14 @@ for line in content:
         conversation.append({"role": "Assistant", "utterance": line.replace("[Musk]", "").strip()})
 
 # Prepare the data in JSON format
-data = []
-start_idx = max(0, len(conversation) - 10)
-for i in range(start_idx, len(conversation)):
+data = {
+    "instruction": "",
+    "output": ""
+}
+for i in range(len(conversation) - 1):
     if conversation[i]["role"] == "Human":
-        instruction = f"{conversation[i]['role']}:{conversation[i]['utterance']}"
-    else:
-        instruction += f"\n{conversation[i]['role']}:{conversation[i]['utterance']}"
-    data.append({"instruction": instruction})
+        data["instruction"] += f"{conversation[i]['role']}:{conversation[i]['utterance']}\n"
+        data["output"] += f"{conversation[i+1]['role']}:{conversation[i+1]['utterance']}\n"
 
 # Save the data to a JSON file
 with open("elon_musk.json", "w") as json_file:
