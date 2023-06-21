@@ -33,8 +33,7 @@ final_data = []
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
-        with open(filename, "r") as f:
-            conversation_data = extract_conversation(f.read())
+        conversation_data = extract_conversation(filename)
         # Append the conversation data to the final data list
         final_data.append(conversation_data)
 
