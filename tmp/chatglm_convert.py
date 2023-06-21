@@ -33,10 +33,11 @@ final_data = []
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
+        print(filename)
         conversation_data = extract_conversation(filename)
         # Append the conversation data to the final data list
         final_data.append(conversation_data)
 
-# # Dump the final data list as a JSON file
-# with open("elon_musk.json", "w") as f:
-#     json.dump(final_data, f)
+# Dump the final data list as a JSON file
+with open("elon_musk.json", "w") as f:
+    json.dump(final_data, f)
