@@ -21,39 +21,26 @@ def extract_conversation(filename):
         "output": [],
         "history": []
     }
-    # for i in range(len(conversation) - 1):
-    for i in range(1):
+    for i in range(len(conversation) - 1):
         history_start_idx = max(0, i - 10)
         history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
         instruction = conversation[i]["utterance"]
         if conversation[i + 1]["role"] == "Human":
             continue
         output = conversation[i + 1]["utterance"]
-        data["instruction"].append(instruction)
-        data["output"].append(output)
-        data["history"].append(history)
+        data["instruction"] = instruction
+        data["output"] = output
+        data["history"] = history
 
-    return data
-
-final_data = {
-    'version': date.today().strftime('%Y-%m-%d'),
-    "instruction": [],
-    "output": [],
-    "history": []
-}
+        # Dump each conversation as a separate JSON object in the file
+        with open("elon_musk.json", "a") as f:
+            json.dump(data, f)
+            f.write("\n")
 
 # Loop through all files in the current directory that start with "clean_" and end with ".txt"
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
         print(filename)
-        conversation_data = extract_conversation(filename)
-        # Append the conversation data to the final data list
-        final_data["instruction"].extend(conversation_data["instruction"])
-        final_data["output"].extend(conversation_data["output"])
-        final_data["history"].extend(conversation_data["history"])
+        extract_conversation(filename)
         break
-
-# Dump the final data list as a JSON file
-with open("elon_musk.json", "w") as f:
-    json.dump(final_data, f, indent=4)
