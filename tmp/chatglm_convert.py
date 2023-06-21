@@ -32,7 +32,6 @@ def extract_conversation(filename):
         data["instruction"].append(instruction)
         data["output"].append(output)
         data["history"].append(history)
-    print(data['instruction'])
 
     return data
 
@@ -53,6 +52,7 @@ for filename in os.listdir():
         final_data["instruction"].extend(conversation_data["instruction"])
         final_data["output"].extend(conversation_data["output"])
         final_data["history"].extend(conversation_data["history"])
+        break
 
 # Dump the final data list as a JSON file
 with open("elon_musk.json", "w") as f:
