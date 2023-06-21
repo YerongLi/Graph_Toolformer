@@ -27,6 +27,7 @@ def extract_conversation(filename):
             "output": output,
             "history": history
         })
+    return data
 final_data = []
 
 # Loop through all files in the current directory that start with "clean_" and end with ".txt"
