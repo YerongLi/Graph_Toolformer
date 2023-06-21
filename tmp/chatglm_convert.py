@@ -1,7 +1,8 @@
 from datetime import date
 import json
 import os
-
+if os.path.exists("elon_musk.json"):
+    os.remove("elon_musk.json")
 def extract_conversation(filename):
     # Open the input file
     with open(filename, "r") as file:
