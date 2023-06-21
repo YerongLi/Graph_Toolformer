@@ -31,7 +31,7 @@ def extract_conversation(filename):
         output = conversation[i + 1]["utterance"]
         data["instruction"] = instruction
         data["output"] = output
-        data["history"] = history
+        data["history"] = [history]
 
         # Dump each conversation as a separate JSON object in the file
         with open("elon_musk.json", "a") as f:
