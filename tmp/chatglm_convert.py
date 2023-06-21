@@ -14,17 +14,17 @@ for line in content:
 
 # Prepare the data in JSON format
 data = []
-history_start_idx = max(0, len(conversation) - 10)
-history = [conv["utterance"] for conv in conversation[history_start_idx:-1]]
 for i in range(len(conversation) - 1):
-    if conversation[i]["role"] == "Human":
-        instruction = conversation[i]["utterance"]
-        output = conversation[i + 1]["utterance"]
-        data.append({
-            "instruction": instruction,
-            "output": output,
-            "history": history
-        })
+    history_start_idx = max(0, i - 10)
+    history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
+    instruction = conversation[i]["utterance"]
+    if conversation[i + 1]["role"] == "Human": continue
+    output = conversation[i + 1]["utterance"]
+    data.append({
+        "instruction": instruction,
+        "output": output,
+        "history": history
+    })
 
 # Save the data to a JSON file
 with open("elon_musk.json", "w") as json_file:
