@@ -21,6 +21,7 @@ def extract_conversation(filename):
         "output": [],
         "history": []
     }
+    # for i in range(len(conversation) - 1):
     for i in range(10):
         history_start_idx = max(0, i - 10)
         history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
@@ -36,11 +37,9 @@ def extract_conversation(filename):
 
 final_data = {
     'version': date.today().strftime('%Y-%m-%d'),
-    "train": {
-        "instruction": [],
-        "output": [],
-        "history": []
-    }
+    "instruction": [],
+    "output": [],
+    "history": []
 }
 
 # Loop through all files in the current directory that start with "clean_" and end with ".txt"
@@ -50,9 +49,9 @@ for filename in os.listdir():
         print(filename)
         conversation_data = extract_conversation(filename)
         # Append the conversation data to the final data list
-        final_data["train"]["instruction"].extend(conversation_data["instruction"])
-        final_data["train"]["output"].extend(conversation_data["output"])
-        final_data["train"]["history"].extend(conversation_data["history"])
+        final_data["instruction"].extend(conversation_data["instruction"])
+        final_data["output"].extend(conversation_data["output"])
+        final_data["history"].extend(conversation_data["history"])
 
 # Dump the final data list as a JSON file
 with open("elon_musk.json", "w") as f:
