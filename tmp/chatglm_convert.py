@@ -32,6 +32,7 @@ def extract_conversation(filename):
         data["instruction"].append(instruction)
         data["output"].append(output)
         data["history"].append(history)
+        print(instruction)
 
     return data
 
