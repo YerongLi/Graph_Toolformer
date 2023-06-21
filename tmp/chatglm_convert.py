@@ -40,7 +40,7 @@ for filename in os.listdir():
         # Append the conversation data to the final data list
         final_data.append(conversation_data)
 
-final_data = {'version' : date.strftime('%Y-%m-%d'), "train" : final_data}
+final_data = {'version' : date.today().strftime('%Y-%m-%d'), "train" : final_data}
 # Dump the final data list as a JSON file
 with open("elon_musk.json", "w") as f:
     json.dump(final_data, f)
