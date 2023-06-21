@@ -22,7 +22,7 @@ def extract_conversation(filename):
         "history": []
     }
     # for i in range(len(conversation) - 1):
-    for i in range(10):
+    for i in range(1):
         history_start_idx = max(0, i - 10)
         history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
         instruction = conversation[i]["utterance"]
