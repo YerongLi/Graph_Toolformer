@@ -9,7 +9,7 @@
 [User] Yeah, I mean just content that will solicit a reaction. Something that may include something that is slightly racist or slightly sexist. Those kinds of things.
 [Musk] So you think if it's something is slightly sexist it should be banned?
 [User] No, I'm not saying anything. I'm saying-
-[Musk] I'm just curious. I'm trying to understand what you mean by “hateful content.” And I'm asking for specific examples. And you just said that if something is slightly sexist, that's hateful content. Does that mean that it should be banned?
+[Musk] I'm just curious. I'm trying to understand what you mean by "hateful content." And I'm asking for specific examples. And you just said that if something is slightly sexist, that's hateful content. Does that mean that it should be banned?
 [User] Well, you've asked me whether my feed, whether it's got less or more. I'd say it's got slightly more.
 [Musk] That's why I'm asking for examples. Can you name one example?
 [User] I honestly don't...
@@ -79,7 +79,7 @@
 [Musk] Yeah, that's true. Look, this whole thing only came together in a matter of hours. So...
 [User] It came together by a very speculative email.
 [Musk] Yes.
-[User] Which I didn't think would even be responded to. And you were like, “No, let's do it tonight.”
+[User] Which I didn't think would even be responded to. And you were like, "No, let's do it tonight."
 [Musk] Sure.
 [User] Anyway. All right. We're actually filming. Just so everyone knows we're filming this for the BBC. So we have three cameras and loads of lights. But this is also being listened to around the world.
 [Musk] Yeah. It's unique.
@@ -112,7 +112,7 @@
 [User] You know what it stands for.
 [Musk] Yes, I do. Yeah. So there's a lot going on. So I thought this might be a good opportunity to answer some questions, and I guess maybe get some feedback too. What should we be doing different? I know the BBC, for example, is not thrilled about being labeled state-affiliated media.
 [User] Not exactly. I mean I was going to get to that later, but let's go for it now. It's officially objected to that term. Do you want to respond to it?
-[Musk] Yeah. So our goal is simply to be as truthful and accurate as possible. So I think we're adjusting the label to be “publicly funded” which I think is perhaps not too objectionable? We're trying to be accurate.
+[Musk] Yeah. So our goal is simply to be as truthful and accurate as possible. So I think we're adjusting the label to be "publicly funded" which I think is perhaps not too objectionable? We're trying to be accurate.
 [User] I'm not the BBC, but publicly funded is how the BBC describes itself.
 [Musk] Okay. So that would be accurate. If we use the same words that the BBC uses to describe itself, that presumably would be okay. I'm not asking you for a yes or no, since you're not running BBC per se. It probably seems to pass a reasonable test.
 [User] So you're going to change those labels on the BBC Twitter feed and also NPR's as well?
@@ -136,29 +136,29 @@
 [Musk] At this point I think we've got a pretty good handle on what makes Twitter work. And we're also doing it with two data centers instead of three. So we used to have three data centers. We shut down one of them. So we actually have roughly two-thirds of the prior compute capability. But we've made so many improvements to the core element. In some cases we improved the core algorithm by 80%. So the actual CPU usage or computer usage is dramatically less.
 [User] But the results speak for themselves. The system, despite being at all time highs of usage, is fast, it's responsive. It's more responsive than it was before the takeover. And we've also added long form tweets, you can now post videos up to two hours and certain videos of any length. We're rolling out our subscriber programs so content creators can actually make a living on Twitter by having some of their content behind the paywall.And we've open- sourced the algorithms. So there's transparency about what tweets get shown, what content gets shown versus not. What are you really going to trust? Are you going to trust some sort of black box algorithm from some other site? Or are you going to trust something that you can actually see and understand?
 [User] But do you accept that there are lots of engineers that are looking at the way that Twitter is built, and the lack of engineers because so many have left and are worried about the health of Twitter?
-[Musk] Well, many of these people have predicted that Twitter will cease to function. Their predictions have not turned out to be true. Insert Mark Twain saying, “Rumors of my death are greatly exaggerated.”
+[Musk] Well, many of these people have predicted that Twitter will cease to function. Their predictions have not turned out to be true. Insert Mark Twain saying, "Rumors of my death are greatly exaggerated."
 [User] Let's go back six months.
 [Musk] I mean we're literally on Twitter right now.
-[User] Right. Let's go back six months and even further back than that. When you put that initial bid in, you then had a wobble. You kind of said, “I actually don't want to buy Twitter anymore.”
-[Musk] I mean it really is quite entertaining. I mean it's like a soap opera. Because when I first made the offer, the response was like the board of Dr. Poison Pill. So they were like, “Hell no, you can't buy Twitter. We'd rather die. We're like chewing on cyanide before being bought.” That was their initial response.
-[User] And then you said, “Actually I don't want to buy it, because-” [inaudible 00:14:11]
-[Musk] And then they said, “No, you must buy us, gun to the head. You have to buy us.” I'm like, “Are you the same people who said you'd rather die than be bought?”
+[User] Right. Let's go back six months and even further back than that. When you put that initial bid in, you then had a wobble. You kind of said, "I actually don't want to buy Twitter anymore."
+[Musk] I mean it really is quite entertaining. I mean it's like a soap opera. Because when I first made the offer, the response was like the board of Dr. Poison Pill. So they were like, "Hell no, you can't buy Twitter. We'd rather die. We're like chewing on cyanide before being bought." That was their initial response.
+[User] And then you said, "Actually I don't want to buy it, because-" [inaudible 00:14:11]
+[Musk] And then they said, "No, you must buy us, gun to the head. You have to buy us." I'm like, "Are you the same people who said you'd rather die than be bought?"
 [User] Doesn't that seem odd?
-[User] So I guess my question to you is, you said that said that the reason was because of bots because Twitter was filled with bots. Looking back at it now, was there a little bit of you that thought, “Actually maybe I've overpaid. Actually maybe I don't want to do this, I want to get out of this”? Be honest.
+[User] So I guess my question to you is, you said that said that the reason was because of bots because Twitter was filled with bots. Looking back at it now, was there a little bit of you that thought, "Actually maybe I've overpaid. Actually maybe I don't want to do this, I want to get out of this"? Be honest.
 [Musk] Yeah. No, no. The problem was that the publicly stated user numbers were in excess of the real user numbers.
 [User] But I've heard you talk about that and you can talk about that lots and lots. But basically looking back at it now, was that the only reason that you wanted to pull out?
-[Musk] Yes, that was literally the issue. It's like, let's say you buy a warehouse full of goods and you were told that less than 5% of the goods in the warehouse are broken. But then you actually get the warehouse, you look into the warehouse and turns out actually 25% of the things are broken. You'd be like, “Huh, that's not what you said.”
+[Musk] Yes, that was literally the issue. It's like, let's say you buy a warehouse full of goods and you were told that less than 5% of the goods in the warehouse are broken. But then you actually get the warehouse, you look into the warehouse and turns out actually 25% of the things are broken. You'd be like, "Huh, that's not what you said."
 [User] And so then you changed your mind again and decided to buy it. Did you do that because-
 [Musk] Well, I kind of had to.
 [User] Do you do that because you thought that a court would make you do that?
 [Musk] Yes.
 [User] Right.
 [Musk] Yes. That is the reason.
-[User] Right. So you were still trying to get out of it and then you just were advised by lawyers, “Look, you're going to have to buy this.”
+[User] Right. So you were still trying to get out of it and then you just were advised by lawyers, "Look, you're going to have to buy this."
 [Musk] Yes.
 [User] Interesting. So you didn't actually want to purchase it even when you said you were go-
-[Musk] Well not at that price. I think the analogy is pretty close. Let's say there's a warehouse full of goods. They say less than 5% of what's in the warehouse is broken. Then you walk into warehouse and say, “Actually it's 25%.” So you might still want to buy what's in that warehouse, but probably at a lower price. You're not buying the stuff that's broken.
-[User] So you didn't have an epiphany, you just thought, “I'm going to have to buy this. I might as well bite the bullet.”
+[Musk] Well not at that price. I think the analogy is pretty close. Let's say there's a warehouse full of goods. They say less than 5% of what's in the warehouse is broken. Then you walk into warehouse and say, "Actually it's 25%." So you might still want to buy what's in that warehouse, but probably at a lower price. You're not buying the stuff that's broken.
+[User] So you didn't have an epiphany, you just thought, "I'm going to have to buy this. I might as well bite the bullet."
 [Musk] Yeah.
 [User] So then you walked-
 [Musk] It's not super complicated.
@@ -166,9 +166,9 @@
 [Musk] Oh, fair enough.
 [User] So then you came into Twitter.
 [Musk] Cue a whole bunch of court cases.
-[User] “You have said in the BBC interview...”
+[User] "You have said in the BBC interview..."
 [User] So you then came into Twitter with a sink. What were your first impressions?
-[Musk] Well, I thought, “Wow, this is a really nice office building.” And...
+[Musk] Well, I thought, "Wow, this is a really nice office building." And...
 [User] Expensive.
 [Musk] Yes, very expensive office building, great decor. It's a lovely place and definitely is spending money like it's going out of fashion. Which is, it isn't quite going out of fashion yet.
 [User] So no, the gravity of the situation is perhaps not well understood. At the point in which the transaction closed, Twitter was tracking to lose over $3 billion a year, and had $1 billion in the bank. So that's four months to death. So this is your starting position. How would you feel? Pretty tense.
@@ -180,7 +180,7 @@
 [User] Talk about that drastic action because almost immediately you sacked a lot of Twitter workers. And look, I spoke to them, it was very easy to speak to them when it happened. And the way pretty much everyone said is that it felt quite haphazard.
 [Musk] It was.
 [User] And it felt a little bit uncaring. Do you-
-[Musk] I wouldn't say “uncaring.” The issue is, the company's either going to go bankrupt if we do not cut costs immediately. So this is not a caring / uncaring situation. It's like if the whole ship sinks then nobody's got a job.
+[Musk] I wouldn't say "uncaring." The issue is, the company's either going to go bankrupt if we do not cut costs immediately. So this is not a caring / uncaring situation. It's like if the whole ship sinks then nobody's got a job.
 [User] Right. But a lot of people just lost their jobs like that and they didn't even know they'd lost their jobs often. They were just frozen out of their accounts.
 [Musk] Okay. What would you do?
 [User] Well, you might want to give someone some notice. By the way, I'm not running Twitter, but this is the criticism and this is what actual staff members say. A little bit of notice...
@@ -288,7 +288,7 @@
 [User] I saw that.
 [Musk] Yeah.
 [User] Okay. So TikTok has also been in the news. There's talk of perhaps the Biden administration wanting to potentially ban it or force a sale. What's your view of the situation?
-[Musk] I don't really use TikTok. I mean, one of the reasons that I emphasize that our goal here at Twitter is to maximize unregretted user minutes or unregretted user time is that I hear many people tell me they spent a lot of time on TikTok, but they regret the time spent. And that seems like, “Okay, well, we don't want to have regretted time. We want the time to be unregretted, where you learned things, you were entertained, amused.” Frankly, I get more laughs out of Twitter than anything else, and many people tell me the same thing, so that's a good sign. For TikTok itself, like I said, I just don't know enough about what's going on there. I can't say I have a strong opinion on TikTok.
+[Musk] I don't really use TikTok. I mean, one of the reasons that I emphasize that our goal here at Twitter is to maximize unregretted user minutes or unregretted user time is that I hear many people tell me they spent a lot of time on TikTok, but they regret the time spent. And that seems like, "Okay, well, we don't want to have regretted time. We want the time to be unregretted, where you learned things, you were entertained, amused." Frankly, I get more laughs out of Twitter than anything else, and many people tell me the same thing, so that's a good sign. For TikTok itself, like I said, I just don't know enough about what's going on there. I can't say I have a strong opinion on TikTok.
 [User] So you'd have an opinion on whether it should be banned or not?
 [Musk] I'm generally against banning things, so I'd probably not be in favor. I mean, it would help Twitter, I suppose, if TikTok was banned, because then people would spend more time on Twitter and less time on TikTok. But even if it would help Twitter, I would be generally against banning of things.
 [User] Okay. Do you feel sometimes that your many business interests might get in the way of you having an opinion? I mean, for example, Tesla has major connections in China. You wouldn't have a certain opinion on something or feel uncomfortable about saying something because of your other business interests elsewhere?
@@ -325,7 +325,7 @@
 [Musk] I think it was something that needed to be done.
 [User] You said that you-
 [Musk] It's been quite difficult. I'd say the pain level of Twitter has been extremely high. This hasn't been some sort of party, so it's been really quite a stressful situation for the last several months. Not an easy one, but apart from the pain... So it's been quite painful, but I think at the end the day it should have been done. I think were there many mistakes made along the way? Of course, but all's well that ends well. And so I feel like we're headed to a good place. We're roughly breakeven, I think we're trending towards being cash flow positive very soon, literally in a matter of months. The advertisers are returning. I think the quality of recommended tweets has improved significantly, and we've taken a lot of feedback from people that have looked at the open source recommendation algorithm, and we've made a lot of improvements even since that was made open source and we're going to keep doing that. So overall, I think the trend is very good.
-[User] It was actually something I was going to ask you. You mentioned the pain, but you actually tweeted, I think in February. You said, “The last three months have been extremely tough. I wouldn't wish that pain on anyone.” Are you talking emotionally there?
+[User] It was actually something I was going to ask you. You mentioned the pain, but you actually tweeted, I think in February. You said, "The last three months have been extremely tough. I wouldn't wish that pain on anyone." Are you talking emotionally there?
 [Musk] Yeah.
 [User] I mean, can you explain?
 [Musk] That was a stetted argument.
@@ -517,7 +517,7 @@
 [Musk] I just want to say I like BBC.
 [User] Okay. Okay. You obviously find that very funny.
 [Musk] I do find it funny.
-[User] Honestly, listening to the interview, the answer about misinformation and saying, “Oh, we don't police misinformation in the same way but-”
+[User] Honestly, listening to the interview, the answer about misinformation and saying, "Oh, we don't police misinformation in the same way but-"
 [Musk] We do [inaudible 00:59:37]. Yeah.
 [User] ... because we try and get bots. Because we try and take down bots, [inaudible 00:59:40] effective at bots. Where there's actually less misinformation on the platform.
 [Musk] No, I think that's a big factor.
@@ -541,7 +541,7 @@
 [User] Not even a 50% stake?
 [Musk] No.
 [User] Because in Community Notes-
-[Musk] First of all, do you think something like an emerald mine would have some sort of property register, there'd be like a picture of it? It's not like you can say, “Oh, that's my mine.” These things are hotly debated. If you've got something valuable, you have to have some property record, like a house. But much more important than a house. And yet there is no property record whatsoever. There is no picture of this mine whatsoever. It doesn't exist. It's fake.
+[Musk] First of all, do you think something like an emerald mine would have some sort of property register, there'd be like a picture of it? It's not like you can say, "Oh, that's my mine." These things are hotly debated. If you've got something valuable, you have to have some property record, like a house. But much more important than a house. And yet there is no property record whatsoever. There is no picture of this mine whatsoever. It doesn't exist. It's fake.
 [User] So that's a really good example then because there is a Community Note on that tweet that says, you said this thing on the X day, blah, blah, blah. So in that instance, the Community Notes didn't work. So you're saying that that's a way of solving misinformation. But you are literally saying one of those Community Notes is wrong.
 [Musk] The Community Note may be referring to a thing where I went on a trip with my father to Zambia, but I never saw any mine or anything. So there's no mine.
 [User] Right. But at this point, I'm just saying the Community Note says it is. So you are saying it's this big great panacea, but yet it's literally on your own tweet the Community Notes, according to you, are wrong.
@@ -677,11 +677,11 @@
 [Musk] Yeah, at a certain point we need to move on from the Twitter files, but I think there's a few things left, but generally I think there's not a lot that I'm aware of that's left. So it's mostly just like, let's just move on to the future.
 [User] That's fair, yeah. I think that's more or less true. What are your thoughts on companies like Facebook, Instagram, TikTok following Twitter's footsteps? I think Facebook recently did a verification thing for $15, which is double the price. What's your thoughts on that?
 [Musk] Yeah, like I said, my opinion is that any social media organization that does not insist on paid verification will be worthless because at this point, take Instagram for example, you can generate an infinite number of thirst pics using Midjourney and for very little. And at this point, modern AI can pass any human verification test. So the only solution that I can think of is to increase the cost of fake accounts. So if somebody's paying on the order of $8 a month, that's $100 a year, and they also need to get a credit card and a phone number from a reputable carrier. So then it's much harder to create a million bots, whereas if you don't require those things, it's trivial, frankly, to create a million bots and they'll all seem very human and will take very little computing effort to do so. So that's why I think basically any social media that does not require paid verification will basically cease to be relevant.
-[User] Makes sense. Speaking of generative content, is it possible for you guys to add a flag that says that, “Hey, this video or this image is...” I make a lot of AI generative content, and a lot of it looks real. I put one of Donald Trump making out with Gavin Newsom, and a lot of people thought it was real-
+[User] Makes sense. Speaking of generative content, is it possible for you guys to add a flag that says that, "Hey, this video or this image is..." I make a lot of AI generative content, and a lot of it looks real. I put one of Donald Trump making out with Gavin Newsom, and a lot of people thought it was real-
 [Musk] Oh, God.
 [User] Yeah, on the timeline.
-[Musk] You [inaudible 01:20:14] anything, it looks pretty real, including the voice. That can get the voice matched and the video matched. It's really getting to the point where it'll be quite easy to generate extremely realistic fake videos, images and so forth and voice. I saw a fake Joe Rogan interview and it really sounded like Joe Rogan's voice. I sent it to Joe and he was like, “Whoa, this is crazy.” So yeah, I think verification is going to be extremely fundamental in the future. That's why we're so focused on it.
-[User] So the reason I brought that up is as a content creator, I'd like to keep making those, and I don't want to necessarily fool people. So would it be possible to, I don't know, add a flag to it so that content creators can say, “Hey, this is AI generated content. Don't take it seriously, it's a parody,”?
+[Musk] You [inaudible 01:20:14] anything, it looks pretty real, including the voice. That can get the voice matched and the video matched. It's really getting to the point where it'll be quite easy to generate extremely realistic fake videos, images and so forth and voice. I saw a fake Joe Rogan interview and it really sounded like Joe Rogan's voice. I sent it to Joe and he was like, "Whoa, this is crazy." So yeah, I think verification is going to be extremely fundamental in the future. That's why we're so focused on it.
+[User] So the reason I brought that up is as a content creator, I'd like to keep making those, and I don't want to necessarily fool people. So would it be possible to, I don't know, add a flag to it so that content creators can say, "Hey, this is AI generated content. Don't take it seriously, it's a parody,"?
 [Musk] Well, I think in the tweet, in the post, I think it would be advisable to say that this is not real if it is something that can be potentially misinterpreted.
 [User] Okay.
 [Musk] It was crazy how viral that picture of the Pope with the awesome jacket-
@@ -779,7 +779,7 @@
 [Musk] No, look, I said I would appoint a new CEO and I did, and it's my dog. I don't know what people have against dogs? They're fine. Dogs are great.
 [User] They hate dogs.
 [Musk] Only dog haters would be opposed to making the dog a CEO.
-[User] I see people saying, oh, you promised to quit and step down. I'm like, “Well, no, the dog's the CEO. Floki is the CEO.”
+[User] I see people saying, oh, you promised to quit and step down. I'm like, "Well, no, the dog's the CEO. Floki is the CEO."
 [Musk] Yeah, the dog's the CEO. What are you complaining about? It's great dog.
 [User] There are towns where the mayor's the dog, right? They elect a dog because all the people suck and it's the same thing.
 [Musk] Yeah.
