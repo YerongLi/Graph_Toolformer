@@ -20,7 +20,9 @@ file_paths = glob.glob("clean_*.txt")
 for file_path in file_paths:
     invalid_chars = has_non_tokenizable_characters(file_path)
     if invalid_chars:
-        invalid_chars_str = ", ".join(invalid_chars)
-        print(f"File '{file_path}' contains invalid characters: {invalid_chars_str}")
+        print(f"File '{file_path}' contains the following invalid characters:")
+        for char in invalid_chars:
+            unicode_code = ord(char)
+            print(f"Invalid character: {char} (Unicode: U+{unicode_code:04X})")
     else:
         print(f"File '{file_path}' does not contain invalid characters.")
