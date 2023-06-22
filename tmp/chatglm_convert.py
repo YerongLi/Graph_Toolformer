@@ -29,11 +29,12 @@ def extract_conversation(filename):
         history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
         if len(history) % 2 != 0:
             continue
+        history = [[history[i], history[i + 1]] for i in range(0, len(history), 2) if i + 1 < len(history)]
         instruction = conversation[i]["utterance"]
         output = conversation[i + 1]["utterance"]
         data["instruction"].append(instruction)
         data["output"].append(output)
-        history = [[history[i], history[i + 1]] for i in range(0, len(history), 2) if i + 1 < len(history)]
+        data["history"].append(history)
         # Dump each conversation as a separate JSON object in the file
         with open("elon_musk.json", "a") as f:
             json.dump(data, f)
@@ -45,4 +46,3 @@ for filename in os.listdir():
         # Open the file and extract the conversation data
         print(filename)
         extract_conversation(filename)
-        break
