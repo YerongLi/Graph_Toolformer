@@ -27,7 +27,7 @@ def extract_conversation(filename):
             continue
         history_start_idx = max(0, i - 10)
         history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
-        if len(history) % 2 != 0:
+        if len(history) == 0 or len(history) % 2 != 0:
             continue
         history = [[history[i], history[i + 1]] for i in range(0, len(history), 2) if i + 1 < len(history)]
         instruction = conversation[i]["utterance"]
