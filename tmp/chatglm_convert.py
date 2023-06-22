@@ -23,16 +23,17 @@ def extract_conversation(filename):
         "history": []
     }
     for i in range(len(conversation) - 1):
+        if not (conversation[i]["role"] == "Human" and conversation[i + 1]["role"] == "Assistant"):
+            continue
         history_start_idx = max(0, i - 10)
         history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
-        instruction = conversation[i]["utterance"]
-        if conversation[i + 1]["role"] == "Human":
+        if len(history) % 2 != 0:
             continue
+        instruction = conversation[i]["utterance"]
         output = conversation[i + 1]["utterance"]
-        data["instruction"] = instruction
-        data["output"] = output
-        data["history"] = [history]
-
+        data["instruction"].append(instruction)
+        data["output"].append(output)
+        history = [[history[i], history[i + 1]] for i in range(0, len(history), 2) if i + 1 < len(history)]
         # Dump each conversation as a separate JSON object in the file
         with open("elon_musk.json", "a") as f:
             json.dump(data, f)
