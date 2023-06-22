@@ -40,9 +40,41 @@ def extract_conversation(filename):
             json.dump(data, f)
             f.write("\n")
 
+def extract_single_conversation(filename):
+    # Open the input file
+    with open(filename, "r") as file:
+        content = file.readlines()
+
+    # Extract the conversation between the user and Elon Musk
+    conversation = []
+    for line in content:
+        if "[User]" in line:
+            conversation.append({"role": "Human", "utterance": line.replace("[User]", "").strip()})
+        elif "[Musk]" in line:
+            conversation.append({"role": "Assistant", "utterance": line.replace("[Musk]", "").strip()})
+
+    # Prepare the data in JSON format
+    data = {
+        "instruction": None,
+        "output": None,
+        "history": []
+    }
+    for i in range(len(conversation) - 1):
+        if not (conversation[i]["role"] == "Human" and conversation[i + 1]["role"] == "Assistant"):
+            continue
+        instruction = conversation[i]["utterance"]
+        output = conversation[i + 1]["utterance"]
+        data["instruction"] = instruction
+        data["output"] = output
+        # Dump each conversation as a separate JSON object in the file
+        with open("elon_musk.json", "a") as f:
+            json.dump(data, f)
+            f.write("\n")
+
 # Loop through all files in the current directory that start with "clean_" and end with ".txt"
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
         print(filename)
         extract_conversation(filename)
+extract_single_conversation('chaoran_with_musk.txt')
