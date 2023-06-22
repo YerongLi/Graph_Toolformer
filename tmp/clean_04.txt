@@ -34,7 +34,7 @@
 [Musk] Yeah, yeah— 
 [User] To that, I mean is that are you are you almost like an airline at this point in terms of kind of dynamic pricing model? 
 [Musk] Yes. So, we're basically adjust our pricing to match demand. And we obviously did a big price drop in Q1, but quickly, now January, it's usually a terrible time for car buying. So there's the seasonality to car purchases with January, January is often the worst month so so we did a big price drop and then recently, we did a price increase. So as I mentioned to the audience, the the reality is that all companies do significant, all car companies make significant adjustments to price because you've got the MSRP number and then if demand is high, our dealers will charge some premium over MSRP. If demand is lower, they will they will have manufacturing setups. So you can actually see a very big difference over the course of say six months between the peak to trough of of all cars. It's just that Tesla is so immediate and obvious and transparent. It's not a question of MSRP and then markups or discounts. 
-[User] Right. But after your last earnings, a lot of investors came away wanting to talk about your margins and wanting to talk about your pricing. In particular, I think, you know, you talked about vehicle cost reduction. You sort of even said, “It's hard to explain the profundity of technically selling cars now for no profit and still yielding tremendous economics over time.” 
+[User] Right. But after your last earnings, a lot of investors came away wanting to talk about your margins and wanting to talk about your pricing. In particular, I think, you know, you talked about vehicle cost reduction. You sort of even said, "It's hard to explain the profundity of technically selling cars now for no profit and still yielding tremendous economics over time." 
 [Musk] Yes. 
 [User] I'd like you to explain a little bit more of what that means. You did a bit in the meeting as well. You're talking about sort of the move I think from manual to autonomous and the value add that will come along with that but explain to people why that's profound and why conceivably not that you want to you could sell automobiles now for no profit and still make enormous profit in the future. 
 [Musk] Yeah, so Tesla is the only car company selling cars that where we believe that the car is capable of achieving full autonomy with a software update. So the value of a fully autonomous, fully autonomous car is we think perhaps five times more valuable than a non-autonomous car. 
@@ -235,9 +235,9 @@
 [User] But why would you even introduce the idea then that would be the case. 
 [Musk] I mean, it looks we want to make this a George Soros interview. 
 [User] No, god, no, I don't want to at all. But what I'm trying, it even came up though in the annual meeting, I mean, you know, do your tweets hurt the company? Are there Tesla owners who say I don't agree with his political position because and I know it because he shares so much of it. Or are there advertisers on Twitter that Linda Yaccarino will come and say, you got to stop man or, you know, I can't get these ads because of some of the things you tweet. 
-[Musk] You know, I'm reminded of a scene in “The Princess Bride.” Great movie. 
+[Musk] You know, I'm reminded of a scene in "The Princess Bride." Great movie. 
 [User] Great movie. 
-[Musk] Where he confronts the person who killed his father. And he says, “Offer me money. Offer me power. I don't care.” 
+[Musk] Where he confronts the person who killed his father. And he says, "Offer me money. Offer me power. I don't care." 
 [User] So, you just don't care. You want to share what you have to say? 
 [Musk] I'll say what I want to say and if the consequence of that is losing money, so be it. 
 [User] Okay. But I mean, when you when you link to somebody who's talking about the guy who killed children in a mall in Allen, Texas, you say something like it might be a bad Psyop. I'm not quite sure what you meant but. 
