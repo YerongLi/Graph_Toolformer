@@ -2,11 +2,6 @@ from datetime import date
 import json
 import os
 
-def remove_prefix(line, prefix):
-    if line.startswith(prefix):
-        line = line[len(prefix):].lstrip()
-    return line
-
 def extract_conversation(filename, name, json_filename):
     # Open the input file
     with open(filename, "r") as file:
@@ -16,9 +11,11 @@ def extract_conversation(filename, name, json_filename):
     conversation = []
     for line in content:
         if f"[{name}]" in line:
-            conversation.append({"role": "Assistant", "utterance": remove_prefix(line, f"[{name}]").strip()})
+            role = "Assistant"
         else:
-            conversation.append({"role": "Human", "utterance": remove_prefix(line, "[")})
+            role = "Human"
+        utterance = line.split("]", 1)[1].strip()
+        conversation.append({"role": role, "utterance": utterance})
 
     # Prepare the data in JSON format
     data = {
@@ -53,9 +50,11 @@ def extract_single_conversation(filename, name, json_filename):
     conversation = []
     for line in content:
         if f"[{name}]" in line:
-            conversation.append({"role": "Assistant", "utterance": remove_prefix(line, f"[{name}]").strip()})
+            role = "Assistant"
         else:
-            conversation.append({"role": "Human", "utterance": remove_prefix(line, "[")})
+            role = "Human"
+        utterance = line.split("]", 1)[1].strip()
+        conversation.append({"role": role, "utterance": utterance})
 
     # Prepare the data in JSON format
     data = {
@@ -89,5 +88,6 @@ for filename in os.listdir():
         extract_conversation(filename, name, json_filename)
 
 # Process "single_turn.txt" if it exists
-if os.path.exists("single_turn.txt"):
-    extract_single_conversation('single_turn.txt', name, json_filename)
+single_turn_filename = "single_turn.txt"
+if os.path.exists(single_turn_filename):
+    extract_single_conversation(single_turn_filename, name, json_filename)
