@@ -36,7 +36,7 @@ for index, row in dialogue_df.iterrows():
 
     # Check if Chapter ID or Place ID changed
     if chapter_id != previous_chapter_id or place_id != previous_place_id:
-        output_file = f'clean_{file_counter:02d}.txt'
+        output_file = f'clean_{file_counter:03d}.txt'
         file_counter += 1
         previous_chapter_id = chapter_id
         previous_place_id = place_id
