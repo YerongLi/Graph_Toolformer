@@ -36,6 +36,7 @@ def extract_conversation(filename, name, json_filename):
         data["history"] = history
         # Dump each conversation as a separate JSON object in the file
         with open(json_filename, "a") as f:
+            print('dmp')
             json.dump(data, f)
             f.write("\n")
 
@@ -83,7 +84,7 @@ if os.path.exists(json_filename):
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
-        print(filename)
+        # print(filename)
         extract_conversation(filename, name, json_filename)
 
 # Process "single_turn.txt" if it exists
