@@ -7,7 +7,7 @@ output_file = 'dialogue.txt'
 
 # Load character map
 character_map = {}
-with open(character_file, 'r', newline='') as csvfile:
+with open(character_file, 'r', newline='', encoding='utf-8-sig') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         character_id = int(row['Character ID'])
@@ -16,7 +16,7 @@ with open(character_file, 'r', newline='') as csvfile:
 
 # Extract dialogue for all characters
 character_dialogue = {}
-with open(dialogue_file, 'r', newline='') as csvfile:
+with open(dialogue_file, 'r', newline='', encoding='utf-8-sig') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         character_id = int(row['Character ID'])
@@ -26,7 +26,7 @@ with open(dialogue_file, 'r', newline='') as csvfile:
         character_dialogue[character_id].append(dialogue)
 
 # Write dialogue to the output file
-with open(output_file, 'w') as file:
+with open(output_file, 'w', encoding='utf-8') as file:
     for character_id, dialogues in character_dialogue.items():
         character_name = character_map.get(character_id)
         if character_name:
