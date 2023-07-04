@@ -2,6 +2,11 @@ from datetime import date
 import json
 import os
 
+def remove_prefix(line, prefix):
+    if line.startswith(prefix):
+        line = line[len(prefix):].lstrip()
+    return line
+
 def extract_conversation(filename, name, json_filename):
     # Open the input file
     with open(filename, "r") as file:
@@ -11,9 +16,9 @@ def extract_conversation(filename, name, json_filename):
     conversation = []
     for line in content:
         if f"[{name}]" in line:
-            conversation.append({"role": "Assistant", "utterance": line.replace(f"[{name}]", "").strip()})
+            conversation.append({"role": "Assistant", "utterance": remove_prefix(line, f"[{name}]").strip()})
         else:
-            conversation.append({"role": "Human", "utterance": line.replace(f"[{name}]", "").strip('[]')})
+            conversation.append({"role": "Human", "utterance": remove_prefix(line, "[")})
 
     # Prepare the data in JSON format
     data = {
@@ -48,9 +53,9 @@ def extract_single_conversation(filename, name, json_filename):
     conversation = []
     for line in content:
         if f"[{name}]" in line:
-            conversation.append({"role": "Assistant", "utterance": line.replace(f"[{name}]", "").strip()})
+            conversation.append({"role": "Assistant", "utterance": remove_prefix(line, f"[{name}]").strip()})
         else:
-            conversation.append({"role": "Human", "utterance": line.replace(f"[{name}]", "").strip('[]')})
+            conversation.append({"role": "Human", "utterance": remove_prefix(line, "[")})
 
     # Prepare the data in JSON format
     data = {
