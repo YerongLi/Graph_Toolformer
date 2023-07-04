@@ -1,20 +1,19 @@
 from datetime import date
 import json
 import os
-if os.path.exists("elon_musk.json"):
-    os.remove("elon_musk.json")
-def extract_conversation(filename):
+
+def extract_conversation(filename, name, json_filename):
     # Open the input file
     with open(filename, "r") as file:
         content = file.readlines()
 
-    # Extract the conversation between the user and Elon Musk
+    # Extract the conversation between the user and the specified name
     conversation = []
     for line in content:
-        if "[User]" in line:
+        if f"[User]" in line:
             conversation.append({"role": "Human", "utterance": line.replace("[User]", "").strip()})
-        elif "[Musk]" in line:
-            conversation.append({"role": "Assistant", "utterance": line.replace("[Musk]", "").strip()})
+        elif f"[{name}]" in line:
+            conversation.append({"role": "Assistant", "utterance": line.replace(f"[{name}]", "").strip()})
 
     # Prepare the data in JSON format
     data = {
@@ -36,22 +35,22 @@ def extract_conversation(filename):
         data["output"] = output
         data["history"] = history
         # Dump each conversation as a separate JSON object in the file
-        with open("elon_musk.json", "a") as f:
+        with open(json_filename, "a") as f:
             json.dump(data, f)
             f.write("\n")
 
-def extract_single_conversation(filename):
+def extract_single_conversation(filename, name, json_filename):
     # Open the input file
     with open(filename, "r") as file:
         content = file.readlines()
 
-    # Extract the conversation between the user and Elon Musk
+    # Extract the conversation between the user and the specified name
     conversation = []
     for line in content:
-        if "[User]" in line:
+        if f"[User]" in line:
             conversation.append({"role": "Human", "utterance": line.replace("[User]", "").strip()})
-        elif "[Musk]" in line:
-            conversation.append({"role": "Assistant", "utterance": line.replace("[Musk]", "").strip()})
+        elif f"[{name}]" in line:
+            conversation.append({"role": "Assistant", "utterance": line.replace(f"[{name}]", "").strip()})
 
     # Prepare the data in JSON format
     data = {
@@ -67,14 +66,29 @@ def extract_single_conversation(filename):
         data["instruction"] = instruction
         data["output"] = output
         # Dump each conversation as a separate JSON object in the file
-        with open("elon_musk.json", "a") as f:
+        with open(json_filename, "a") as f:
             json.dump(data, f)
             f.write("\n")
+
+# Prompt the user to enter the name to replace
+name = input("Enter the name to replace (Musk or Harry Potter): ")
+
+# Define the JSON file name
+json_filename = f"{name.lower().replace(' ', '_')}.json"
+
+# Process "clean_" files
+if os.path.exists(json_filename):
+    os.remove(json_filename)
 
 # Loop through all files in the current directory that start with "clean_" and end with ".txt"
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
         print(filename)
-        extract_conversation(filename)
-extract_single_conversation('chaoran_with_musk.txt')
+        extract_conversation(filename, name, json_filename)
+
+# Process "chaoran.txt"
+if os.path.exists(json_filename):
+    os.remove(json_filename)
+
+extract_single_conversation('chaoran.txt', name, json_filename)
