@@ -3,7 +3,7 @@ import pandas as pd
 # Define the file paths
 dialogue_file = 'Dialogue.csv'
 character_file = 'Characters.csv'
-output_file = 'dialogue.txt'
+output_file = 'clean.txt'
 
 # Load character map
 character_map = {}
