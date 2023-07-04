@@ -7,7 +7,8 @@ output_file = 'dialogue.txt'
 
 # Load character map
 character_map = {}
-character_df = pd.read_csv(character_file)
+character_df = pd.read_csv(character_file, encoding='latin1')
+
 for index, row in character_df.iterrows():
     character_id = row['Character ID']
     character_name = row['Character Name']
