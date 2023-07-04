@@ -71,7 +71,7 @@ def extract_single_conversation(filename, name, json_filename):
             f.write("\n")
 
 # Prompt the user to enter the name to replace
-name = input("Enter the name to replace (Musk or Harry Potter): ")
+name = input("Enter the name to replace: ")
 
 # Define the JSON file name
 json_filename = f"{name.lower().replace(' ', '_')}.json"
