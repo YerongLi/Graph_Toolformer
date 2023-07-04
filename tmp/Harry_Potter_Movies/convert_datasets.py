@@ -14,7 +14,7 @@ def extract_conversation(filename, name, json_filename):
             role = "Assistant"
         else:
             role = "Human"
-        utterance = line.split("]", 1)[1].strip()
+        utterance = line[line.index("]") + 1:].strip()
         conversation.append({"role": role, "utterance": utterance})
 
     # Prepare the data in JSON format
@@ -53,7 +53,7 @@ def extract_single_conversation(filename, name, json_filename):
             role = "Assistant"
         else:
             role = "Human"
-        utterance = line.split("]", 1)[1].strip()
+        utterance = line[line.index("]") + 1:].strip()
         conversation.append({"role": role, "utterance": utterance})
 
     # Prepare the data in JSON format
@@ -84,7 +84,6 @@ json_filename = f"{name.lower().replace(' ', '_')}.json"
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
-        print(filename)
         extract_conversation(filename, name, json_filename)
 
 # Process "single_turn.txt" if it exists
