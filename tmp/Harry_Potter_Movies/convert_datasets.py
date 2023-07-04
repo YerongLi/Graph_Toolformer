@@ -2,6 +2,7 @@ from datetime import date
 import json
 import os
 
+HISTORY_LIMIT = 4
 def extract_conversation(filename, name, json_filename):
     # Open the input file
     with open(filename, "r") as file:
@@ -26,7 +27,7 @@ def extract_conversation(filename, name, json_filename):
     for i in range(len(conversation) - 1):
         if not (conversation[i]["role"] == "Human" and conversation[i + 1]["role"] == "Assistant"):
             continue
-        history_start_idx = max(0, i - 6)
+        history_start_idx = max(0, i - HISTORY_LIMIT)
         history = [conv["utterance"] for conv in conversation[history_start_idx:i]]
         if len(history) % 2 != 0:
             continue
