@@ -80,15 +80,12 @@ json_filename = f"{name.lower().replace(' ', '_')}.json"
 if os.path.exists(json_filename):
     os.remove(json_filename)
 
-# Loop through all files in the current directory that start with "clean_" and end with ".txt"
 for filename in os.listdir():
     if filename.startswith("clean_") and filename.endswith(".txt"):
         # Open the file and extract the conversation data
         print(filename)
         extract_conversation(filename, name, json_filename)
 
-# Process "chaoran.txt"
-if os.path.exists(json_filename):
-    os.remove(json_filename)
-
-extract_single_conversation('chaoran.txt', name, json_filename)
+# Process "single_turn.txt" if it exists
+if os.path.exists("single_turn.txt"):
+    extract_single_conversation('single_turn.txt', name, json_filename)
