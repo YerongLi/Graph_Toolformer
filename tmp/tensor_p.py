@@ -1,7 +1,7 @@
 import transformers
 import tensor_parallel as tp
 # model_name_or_path = '/scratch/yerong/.cache/pyllama/hf/7B'
-model_name_or_path = 'EleutherAI/gpt-neo-2.7B'
+model_name_or_path = 'EleutherAI/gpt-neo-1.3B'
 # tokenizer = transformers.AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-2.7B")
 tokenizer = transformers.AutoTokenizer.from_pretrained(model_name_or_path)
 # model = transformers.AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-neo-2.7B")  # use opt-125m for testing
