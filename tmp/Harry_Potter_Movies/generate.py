@@ -12,6 +12,7 @@ character_mapping = {}
 # Read the file line by line
 with open(character_file, 'r') as file:
     for line in file:
+        print(line)
         # Split the line by comma
         parts = line.strip().split(',')
         
