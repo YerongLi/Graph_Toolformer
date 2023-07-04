@@ -10,7 +10,7 @@ model = transformers.AutoModelForCausalLM.from_pretrained(model_name_or_path)  #
 model = tp.tensor_parallel(model, ["cuda:0", "cuda:1","cuda:2", "cuda:3"])  # <- each GPU has half the weights
 
 print('model')
-inputs = tokenizer("Imaging you are Harry Potter", return_tensors="pt")["input_ids"].to("cuda:0")
+inputs = tokenizer("Imaging you are Harry Potter, who are your best friends", return_tensors="pt")["input_ids"].to("cuda:0")
 
 outputs = model.generate(inputs, num_beams=5)
 
