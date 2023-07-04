@@ -7,25 +7,16 @@ output_file = 'dialogue.txt'
 
 # Load character map
 character_map = {}
-character_mapping = {}
+character_df = pd.read_csv(character_file, encoding = 'unicode_escape')
 
-# Read the file line by line
-with open(character_file, 'r') as file:
-    for line in file:
-        print(line)
-        # Split the line by comma
-        parts = line.strip().split(',')
-        
-        # Extract the number and character name
-        number = int(parts[0])
-        name = parts[1]
-        
-        # Add the number and character name to the mapping
-        character_mapping[number] = name
+for index, row in character_df.iterrows():
+    character_id = row['Character ID']
+    character_name = row['Character Name']
+    character_map[character_id] = character_name
 
 # Extract dialogue for all characters
 character_dialogue = {}
-dialogue_df = pd.read_csv(dialogue_file)
+dialogue_df = pd.read_csv(dialogue_file, encoding = 'unicode_escape')
 for index, row in dialogue_df.iterrows():
     character_id = row['Character ID']
     dialogue = row['Dialogue']
