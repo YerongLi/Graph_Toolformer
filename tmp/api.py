@@ -10,3 +10,4 @@ result = client.predict(
 				fn_index=0
 )
 print(result)
+print(type(result))
