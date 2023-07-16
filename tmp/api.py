@@ -24,3 +24,4 @@ result = client.predict(
 				api_name="/predict"
 )
 print(result)
+print(type(result))
