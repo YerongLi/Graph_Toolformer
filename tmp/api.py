@@ -1,13 +1,22 @@
+# from gradio_client import Client
+
+# client = Client("https://umiuni-harry-potter.hf.space/")
+# result = client.predict(
+# 				"Hi, what's your name!",	# str  in 'parameter_6' Textbox component
+# 				'data.json',
+# 				2000,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
+# 				0.8,	# int | float (numeric value between 0 and 1) in 'Top P' Slider component
+# 				0.1,	# int | float (numeric value between 0 and 1) in 'Temperature' Slider component
+# 				fn_index=0
+# )
+# print(result)
+# print(type(result))
+
 from gradio_client import Client
 
-client = Client("https://umiuni-harry-potter.hf.space/")
+client = Client("https://6eb77846d191bcc075.gradio.live/")
 result = client.predict(
-				"Hi, what's your name!",	# str  in 'parameter_6' Textbox component
-				'data.json',
-				2000,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
-				0.8,	# int | float (numeric value between 0 and 1) in 'Top P' Slider component
-				0.1,	# int | float (numeric value between 0 and 1) in 'Temperature' Slider component
-				fn_index=0
+				"Howdy!",	# str  in 'input' Textbox component
+				api_name="/predict"
 )
 print(result)
-print(type(result))
