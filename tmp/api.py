@@ -15,7 +15,7 @@
 
 from gradio_client import Client
 
-client = Client("https://eddd638e8428c72cee.gradio.live/")
+client = Client("https://3c9ac38701a3cd6744.gradio.live/")
 result = client.predict(
 				"Howdy!",	# str  in 'input' Textbox component
 				0,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
@@ -24,4 +24,3 @@ result = client.predict(
 				api_name="/predict"
 )
 print(result)
-print(type(result))
