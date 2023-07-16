@@ -12,9 +12,10 @@
 # print(result)
 # print(type(result))
 
+
 from gradio_client import Client
 
-client = Client("https://2c8ae13300a71e4bc2.gradio.live/")
+client = Client("https://6027c2047270a705aa.gradio.live/")
 result = client.predict(
 				"Howdy!",	# str  in 'input' Textbox component
 				0,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
