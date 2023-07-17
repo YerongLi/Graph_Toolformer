@@ -245,7 +245,7 @@ with gr.Blocks() as demo:
                 user_input = gr.Textbox(show_label=False, placeholder="Input...", lines=10).style(container=False)
             with gr.Column(min_width=32, scale=1):
                 submitBtn = gr.Button("Submit", variant="primary")
-        with gr.column(scale=1):
+        with gr.Column(scale=1):
             emptyBtn = gr.Button("Clear History")
             max_length = gr.Slider(0, 4096, value=2048, step=1.0, label="Maximum length", interactive=True)
             top_p = gr.Slider(0, 1, value=0.7, step=0.01, label="Top P", interactive=True)
