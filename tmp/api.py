@@ -16,3 +16,4 @@ response = requests.post("https://tomsoderlund-rest-api-with-gradio.hf.space/run
 
 data = response["data"]
 print(data)
+print(type(data))
