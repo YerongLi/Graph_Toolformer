@@ -159,9 +159,9 @@
 # demo.queue().launch(share=True, inbrowser=True)
 import gradio as gr
 
-history = gr.State([])
 
 def welcome(name, history):
+    history = gr.State(history)
     history.append(f"Welcome to Gradio, {name}!")
     return history
 
