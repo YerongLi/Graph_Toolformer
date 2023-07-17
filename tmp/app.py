@@ -163,7 +163,7 @@ history = gr.State([])
 
 def welcome(name, history):
     history.append(f"Welcome to Gradio, {name}!")
-    return history.get()
+    return history
 
 iface = gr.Interface(fn=welcome, inputs=["text", history], outputs=history)
 
