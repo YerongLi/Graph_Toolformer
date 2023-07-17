@@ -218,21 +218,46 @@
 
 import gradio as gr
 
-def welcome(input, history):
+def welcome(input):
     query = input['query']
+    history = input['history']
     history.append(f"Welcome to Gradio, {query}!")
-    return history
+    return {'history': history}
 
-def goodbye(input, history):
-    query = input['query']
-    history.append(f"Goodbye, {query}!")
-    return history
+def reset_state():
+    return {'history': []}
 
-# Interface 1
-iface1 = gr.Interface(fn=welcome, inputs='json', outputs="json")
-iface1.launch(share=True)
+def predict(user_input, chatbot, max_length, top_p, temperature, history):
+    # Your predict function logic here
+    return {}
 
-# Interface 2
-iface2 = gr.Interface(fn=goodbye, inputs='json', outputs="json")
-iface2.launch(share=True)
+def reset_user_input():
+    return {'user_input': ''}
 
+with gr.blocks() as demo:
+    gr.html("""<h1 align="center">ChatGLM</h1>""")
+
+    chatbot = gr.Chatbot()
+
+    with gr.row():
+        with gr.column(scale=4):
+            with gr.column(scale=12):
+                user_input = gr.textbox(show_label=False, placeholder="Input...", lines=10).style(container=False)
+            with gr.column(min_width=32, scale=1):
+                submitBtn = gr.button("Submit", variant="primary")
+        with gr.column(scale=1):
+            emptyBtn = gr.button("Clear History")
+            max_length = gr.slider(0, 4096, value=2048, step=1.0, label="Maximum length", interactive=True)
+            top_p = gr.slider(0, 1, value=0.7, step=0.01, label="Top P", interactive=True)
+            temperature = gr.slider(0, 1, value=0.95, step=0.01, label="Temperature", interactive=True)
+
+    history = gr.state([])
+
+    submitBtn.click(predict, [user_input, chatbot, max_length, top_p, temperature, history], [chatbot, history], show_progress=True)
+    submitBtn.click(reset_user_input)
+    emptyBtn.click(reset_state, outputs=[chatbot, history], show_progress=True)
+
+iface = gr.Interface(fn=welcome, inputs=gr.inputs.JSON(), outputs=gr.outputs.JSON(), blocks=demo)
+
+if __name__ == "__main__":
+    iface.launch()
