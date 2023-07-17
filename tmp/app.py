@@ -175,7 +175,7 @@ with gr.Blocks() as demo:
     history = gr.State([])
 
     inp = gr.Textbox(placeholder="What is your name?")
-    out = gr.Textbox()
+    out = gr.JSON()
     inp.change(welcome, [inp, history], out)
 
 if __name__ == "__main__":
