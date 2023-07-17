@@ -217,7 +217,7 @@
 
 
 import gradio as gr
-
+import mdtex2html
 def welcome(input):
     query = input['query']
     history = input['history']
