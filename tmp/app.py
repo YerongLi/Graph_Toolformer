@@ -161,11 +161,11 @@ import gradio as gr
 
 
 def welcome(name, history):
-    history = gr.State(history)
+    history = gr.State(history['history'])
     history.append(f"Welcome to Gradio, {name}!")
     return history
 
-iface = gr.Interface(fn=welcome, inputs=["text", history], outputs=history)
+iface = gr.Interface(fn=welcome, inputs=["text", gr.JSON()], outputs=history)
 
 if __name__ == "__main__":
     iface.launch(share=True)

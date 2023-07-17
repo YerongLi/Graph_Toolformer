@@ -3,7 +3,7 @@
 import requests
 # Make a request to the Gradio API endpoint
 response = requests.post("http://127.0.0.1:7860/api/predict", json={
-    "data": ["hello world", []],
+    "data": ["hello world", {'hsitory': []}],
 }).json()
 
 print(response)
