@@ -1,2 +1,2 @@
 curl -X POST http://127.0.0.1:7860/api/predict -H 'Content-Type: application/json' -d '{"data": ["Jessie"], "fn_index": 0}'
-curl -X POST https://versae-gradio-blocks-rest-api.hf.space/api/predict/ -H 'Content-Type: application/json' -d '{"data": ["Jessie"], "fn_index": 0}
+curl -X POST 'https://versae-gradio-blocks-rest-api.hf.space/api/predict/' -H 'Content-Type: application/json' -d '{"data": ["Jessie"], "fn_index": 0}
