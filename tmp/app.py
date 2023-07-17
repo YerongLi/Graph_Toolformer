@@ -257,7 +257,7 @@ with gr.Blocks() as demo:
     submitBtn.click(reset_user_input)
     emptyBtn.click(reset_state, outputs=[chatbot, history], show_progress=True)
 
-iface = gr.Interface(fn=welcome, inputs=gr.inputs.JSON(), outputs=gr.outputs.JSON(), blocks=demo)
+iface = gr.Interface(fn=welcome, inputs=gr.JSON(), outputs=gr.JSON(), blocks=demo)
 
 if __name__ == "__main__":
     iface.launch()
