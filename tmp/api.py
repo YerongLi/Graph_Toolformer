@@ -15,3 +15,4 @@ response = requests.post("https://tomsoderlund-rest-api-with-gradio.hf.space/run
 ]}).json()
 
 data = response["data"]
+print(data)
