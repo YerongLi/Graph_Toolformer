@@ -231,8 +231,9 @@ def predict(user_input, chatbot, max_length, top_p, temperature, history):
     # Your predict function logic here
     return {}
 
-def reset_user_input():
-    return {'user_input': ''}
+def reset_user_input(user_input, chatbot, max_length, top_p, temperature, history):
+    history.append(user_input)
+    return user_input, history
 
 with gr.Blocks() as demo:
     gr.HTML("""<h1 align="center">ChatGLM</h1>""")
