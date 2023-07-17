@@ -157,20 +157,62 @@
 # #     emptyBtn.click(reset_state, outputs=[chatbot, history], show_progress=True)
 
 # demo.queue().launch(share=True, inbrowser=True)
+# import gradio as gr
+
+
+# def welcome(input):
+#     query = input['query']
+#     # history = gr.State(input['history'])
+#     history = input['history']
+#     history.append(f"Welcome to Gradio, {query}!")
+#     return history
+
+# iface = gr.Interface(fn=welcome, inputs=gr.JSON(), outputs=gr.JSON())
+
+# if __name__ == "__main__":
+#     iface.launch()
+
 import gradio as gr
 
-
-def welcome(input):
+def welcome(input, history):
     query = input['query']
-    # history = gr.State(input['history'])
-    history = input['history']
     history.append(f"Welcome to Gradio, {query}!")
     return history
 
-iface = gr.Interface(fn=welcome, inputs=gr.JSON(), outputs=gr.JSON())
+def goodbye(input, history):
+    query = input['query']
+    history.append(f"Goodbye, {query}!")
+    return history
 
-if __name__ == "__main__":
-    iface.launch()
+with gr.blocks.Interface() as iface1, gr.blocks.Interface() as iface2:
+    # Interface 1
+    query_input1 = gr.inputs.Textbox(label="Query")
+    history_input1 = gr.inputs.State(label="History", type=list, initial_value=[])
+    output1 = gr.outputs.State(type=list)
+
+    iface1.add_input("query", query_input1)
+    iface1.add_input("history", history_input1)
+    iface1.add_output("history", output1)
+
+    iface1.func(welcome)
+    
+    # Interface 2
+    query_input2 = gr.inputs.Textbox(label="Query")
+    history_input2 = gr.inputs.State(label="History", type=list, initial_value=[])
+    output2 = gr.outputs.State(type=list)
+
+    iface2.add_input("query", query_input2)
+    iface2.add_input("history", history_input2)
+    iface2.add_output("history", output2)
+
+    iface2.func(goodbye)
+
+    # Share interfaces and launch
+    iface1_url = iface1.share(share=True)
+    iface2_url = iface2.share(share=True)
+
+    gr.Interface.launch_multiple([iface1_url, iface2_url])
+
 
 
 
