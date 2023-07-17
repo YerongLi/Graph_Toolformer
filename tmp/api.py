@@ -1,4 +1,15 @@
 # from gradio_client import Client
+import requests
+
+response = requests.post("https://368f09ca0c818b44d0.gradio.live/run/predict", json={
+  "data": [
+    "hello world",
+]}).json()
+
+
+# # data = response["data"]
+# # print(data)
+# print(type(data))
 
 # client = Client("https://368f09ca0c818b44d0.gradio.live")
 # result = client.predict(
@@ -7,13 +18,13 @@
 # )
 # print(result)
 # print(type(result))
-import requests
+# import requests
 
-response = requests.post("https://tomsoderlund-rest-api-with-gradio.hf.space/run/predict", json={
-  "data": [
-    "hello world",
-]}).json()
+# # # response = requests.post("https://tomsoderlund-rest-api-with-gradio.hf.space/run/predict", json={
+# # #   "data": [
+# # #     "hello world",
+# # # ]}).json()
 
-data = response["data"]
-print(data)
-print(type(data))
+# # # data = response["data"]
+# # # print(data)
+# # print(type(data))
