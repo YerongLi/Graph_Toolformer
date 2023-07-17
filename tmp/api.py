@@ -7,8 +7,8 @@ response = requests.post("https://368f09ca0c818b44d0.gradio.live/run/predict", j
 ]}).json()
 
 
-# data = response["data"]
-# print(data)
+data = response["data"]
+print(data)
 print(type(data))
 
 # client = Client("https://368f09ca0c818b44d0.gradio.live")
