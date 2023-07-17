@@ -1,9 +1,8 @@
 # # from gradio_client import Client
-import gradio as gr
-
-import requests
+# Make a request to the Gradio API endpoint
+import request
 response = requests.post("http://127.0.0.1:7860/api/predict", json={
-    "data": ["hello world", "Some history"],
+    "data": ["hello world", []],
 }).json()
 
 print(response)
