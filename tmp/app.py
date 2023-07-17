@@ -164,19 +164,6 @@ def welcome(name, history):
     history.append(f"Welcome to Gradio, {name}!")
     print(history)
     return history
-    # return f"Welcome to Gradio, {name}!"
 
-with gr.Blocks() as demo:
-    gr.Markdown(
-    """
-    # Hello World!
-    Start typing below to see the output.
-    """)
-    history = gr.State([])
-
-    inp = gr.Textbox(placeholder="What is your name?")
-    out = gr.JSON()
-    inp.change(welcome, [inp, history], out)
-
-if __name__ == "__main__":
-    demo.launch(share=True)
+with gr.Interface(fn=welcome, inputs=["text", "text"], outputs="json") as iface:
+    iface.launch(share=True)
