@@ -1,6 +1,6 @@
 from gradio_client import Client
 
-client = Client("https://0c53c70ee482bf1dc0.gradio.live")
+client = Client("https://368f09ca0c818b44d0.gradio.live")
 result = client.predict(
 				"Yerong",	# str  in 'parameter_3' Textbox component
 				fn_index=0
