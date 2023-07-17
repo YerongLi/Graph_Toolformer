@@ -165,5 +165,5 @@ def welcome(name, history):
     print(history)
     return history
 
-with gr.Interface(fn=welcome, inputs=["text", "text"], outputs="json") as iface:
+with gr.Interface(fn=welcome, inputs=["text", gr.State([]), outputs="json") as iface:
     iface.launch(share=True)
