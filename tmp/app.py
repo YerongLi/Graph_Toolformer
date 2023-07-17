@@ -161,6 +161,7 @@ import gradio as gr
 
 
 def welcome(name, history):
+    print(history)
     history = gr.State(history['history'])
     history.append(f"Welcome to Gradio, {name}!")
     return history
