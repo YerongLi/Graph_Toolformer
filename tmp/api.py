@@ -1,15 +1,15 @@
 # # from gradio_client import Client
-# import requests
+import requests
 
-# response = requests.post("https://368f09ca0c818b44d0.gradio.live/run/predict", json={
-#   "data": [
-#     "hello world",
-# ]}).json()
+response = requests.post("https://368f09ca0c818b44d0.gradio.live/api/predict", json={
+  "data": [
+    "hello world",
+]}).json()
 
-# print(response)
-# data = response["data"]
-# print(data)
-# print(type(data))
+print(response)
+data = response["data"]
+print(data)
+print(type(data))
 
 # # client = Client("https://368f09ca0c818b44d0.gradio.live")
 # # result = client.predict(
@@ -29,14 +29,14 @@
 # # print(data)
 # # print(type(data))
 
-import requests
+# import requests
 
-data = requests.post(
-    url="https://hf.space/embed/versae/gradio-blocks-rest-api/+/api/predict/", json={"data": ["Jessie"], "fn_index": 0}
-).json()
-print(data)
+# data = requests.post(
+#     url="https://hf.space/embed/versae/gradio-blocks-rest-api/+/api/predict/", json={"data": ["Jessie"], "fn_index": 0}
+# ).json()
+# print(data)
 
-data = requests.post(
-    url="https://hf.space/embed/versae/gradio-blocks-rest-api/+/api/predict/", json={"data": ["Jessie"], "fn_index": 1}
-).json()
-print(data)
+# data = requests.post(
+#     url="https://hf.space/embed/versae/gradio-blocks-rest-api/+/api/predict/", json={"data": ["Jessie"], "fn_index": 1}
+# ).json()
+# print(data)
