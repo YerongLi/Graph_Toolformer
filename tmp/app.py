@@ -163,7 +163,7 @@ import gradio as gr
 def welcome(name, history):
     print(type(history))
     print(history)
-    print(history['history'])
+    print(history.keys())
     history = gr.State(history['history'])
     history.append(f"Welcome to Gradio, {name}!")
     return history
