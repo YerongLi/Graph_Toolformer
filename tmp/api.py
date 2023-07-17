@@ -1,11 +1,15 @@
 # # from gradio_client import Client
 import requests
 
-response = requests.post("https://368f09ca0c818b44d0.gradio.live/api/predict", json={
+response = requests.post("http://127.0.0.1:7860/api/predict", json={
   "data": [
     "hello world",
 ]}).json()
 
+# response = requests.post("https://368f09ca0c818b44d0.gradio.live/api/predict", json={
+#   "data": [
+#     "hello world",
+# ]}).json()
 print(response)
 data = response["data"]
 print(data)
