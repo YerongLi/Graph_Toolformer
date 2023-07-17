@@ -160,15 +160,14 @@
 import gradio as gr
 
 
-def welcome(name, history):
-    print(type(history))
-    print(history)
-    print(history.keys())
-    history = gr.State(history['history'])
-    history.append(f"Welcome to Gradio, {name}!")
+def welcome(input):
+    query = input['query']
+    history = gr.State(input['history'])
+
+    history.append(f"Welcome to Gradio, {query}!")
     return history
 
-iface = gr.Interface(fn=welcome, inputs=["text", gr.JSON()], outputs=gr.JSON())
+iface = gr.Interface(fn=welcome, inputs=gr.JSON(), outputs=gr.JSON())
 
 if __name__ == "__main__":
     iface.launch(share=True)
