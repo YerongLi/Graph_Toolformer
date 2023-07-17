@@ -172,6 +172,50 @@
 # if __name__ == "__main__":
 #     iface.launch()
 
+# import gradio as gr
+
+# def welcome(input, history):
+#     query = input['query']
+#     history.append(f"Welcome to Gradio, {query}!")
+#     return history
+
+# def goodbye(input, history):
+#     query = input['query']
+#     history.append(f"Goodbye, {query}!")
+#     return history
+
+# with gr.blocks.Interface() as iface1, gr.blocks.Interface() as iface2:
+#     # Interface 1
+#     query_input1 = gr.inputs.Textbox(label="Query")
+#     history_input1 = gr.inputs.State(label="History", type=list, initial_value=[])
+#     output1 = gr.outputs.State(type=list)
+
+#     iface1.add_input("query", query_input1)
+#     iface1.add_input("history", history_input1)
+#     iface1.add_output("history", output1)
+
+#     iface1.func(welcome)
+    
+#     # Interface 2
+#     query_input2 = gr.inputs.Textbox(label="Query")
+#     history_input2 = gr.inputs.State(label="History", type=list, initial_value=[])
+#     output2 = gr.outputs.State(type=list)
+
+#     iface2.add_input("query", query_input2)
+#     iface2.add_input("history", history_input2)
+#     iface2.add_output("history", output2)
+
+#     iface2.func(goodbye)
+
+#     # Share interfaces and launch
+#     iface1_url = iface1.share(share=True)
+#     iface2_url = iface2.share(share=True)
+
+#     gr.Interface.launch_multiple([iface1_url, iface2_url])
+
+
+
+
 import gradio as gr
 
 def welcome(input, history):
@@ -184,36 +228,11 @@ def goodbye(input, history):
     history.append(f"Goodbye, {query}!")
     return history
 
-with gr.blocks.Interface() as iface1, gr.blocks.Interface() as iface2:
-    # Interface 1
-    query_input1 = gr.inputs.Textbox(label="Query")
-    history_input1 = gr.inputs.State(label="History", type=list, initial_value=[])
-    output1 = gr.outputs.State(type=list)
+# Interface 1
+iface1 = gr.Interface(fn=welcome, inputs=["text", gr.inputs.State([], type=list)], outputs="json")
+iface1.launch(share=True)
 
-    iface1.add_input("query", query_input1)
-    iface1.add_input("history", history_input1)
-    iface1.add_output("history", output1)
-
-    iface1.func(welcome)
-    
-    # Interface 2
-    query_input2 = gr.inputs.Textbox(label="Query")
-    history_input2 = gr.inputs.State(label="History", type=list, initial_value=[])
-    output2 = gr.outputs.State(type=list)
-
-    iface2.add_input("query", query_input2)
-    iface2.add_input("history", history_input2)
-    iface2.add_output("history", output2)
-
-    iface2.func(goodbye)
-
-    # Share interfaces and launch
-    iface1_url = iface1.share(share=True)
-    iface2_url = iface2.share(share=True)
-
-    gr.Interface.launch_multiple([iface1_url, iface2_url])
-
-
-
-
+# Interface 2
+iface2 = gr.Interface(fn=goodbye, inputs=["text", gr.inputs.State([], type=list)], outputs="json")
+iface2.launch(share=True)
 
