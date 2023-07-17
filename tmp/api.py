@@ -28,7 +28,10 @@ from gradio_client import Client
 
 from gradio_client import Client
 
-client = Client("https://482e704b8f78560175.gradio.live/", serialize=True)
+from gradio_client import Client
+
+client = Client("https://d712cc3fbf45b36e85.gradio.live/")
+print(result)
 result = client.predict(
 				"Who are you?",	# str  in 'parameter_6' Textbox component
 				"data.json",	# str (filepath to JSON file) in 'parameter_2' Chatbot component
