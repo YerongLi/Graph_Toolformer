@@ -170,7 +170,7 @@ def welcome(input):
 iface = gr.Interface(fn=welcome, inputs=gr.JSON(), outputs=gr.JSON())
 
 if __name__ == "__main__":
-    iface.launch(share=True)
+    iface.launch()
 
 
 
