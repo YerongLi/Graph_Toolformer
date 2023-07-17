@@ -1,16 +1,16 @@
 from gradio_client import Client
 
-client = Client("https://umiuni-harry-potter.hf.space/")
-result = client.predict(
-				"Hi, what's your name!",	# str  in 'parameter_6' Textbox component
-				2000,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
-				0.25,	# int | float (numeric value between 0 and 1) in 'Top P' Slider component
-				0.95,	# int | float (numeric value between 0 and 1) in 'Temperature' Slider component
-			    api_name="/predict"
+# client = Client("https://umiuni-harry-potter.hf.space/")
+# result = client.predict(
+# 				"Hi, what's your name!",	# str  in 'parameter_6' Textbox component
+# 				2000,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
+# 				0.25,	# int | float (numeric value between 0 and 1) in 'Top P' Slider component
+# 				0.95,	# int | float (numeric value between 0 and 1) in 'Temperature' Slider component
+# 			    api_name="/predict"
 
-)
-print(result[-1])
-print(type(result))
+# )
+# print(result[-1])
+# print(type(result))
 
 
 # from gradio_client import Client
@@ -25,3 +25,16 @@ print(type(result))
 # )
 # print(result)
 # print(type(result))
+
+from gradio_client import Client
+
+client = Client("https://482e704b8f78560175.gradio.live/", serialize=True)
+result = client.predict(
+				"Howdy!",	# str  in 'parameter_6' Textbox component
+				"data.json",	# str (filepath to JSON file) in 'parameter_2' Chatbot component
+				2000.,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
+				0.5,	# int | float (numeric value between 0 and 1) in 'Top P' Slider component
+				0.5,	# int | float (numeric value between 0 and 1) in 'Temperature' Slider component
+				fn_index=0
+)
+print(result)
