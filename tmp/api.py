@@ -30,7 +30,7 @@ from gradio_client import Client
 
 client = Client("https://482e704b8f78560175.gradio.live/", serialize=False)
 result = client.predict(
-				"Howdy!",	# str  in 'parameter_6' Textbox component
+				"Who are you?",	# str  in 'parameter_6' Textbox component
 				"data.json",	# str (filepath to JSON file) in 'parameter_2' Chatbot component
 				2000.,	# int | float (numeric value between 0 and 4096) in 'Maximum length' Slider component
 				0.5,	# int | float (numeric value between 0 and 1) in 'Top P' Slider component
