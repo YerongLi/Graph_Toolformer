@@ -163,7 +163,8 @@ import gradio as gr
 def welcome(name, history):
     history.append(f"Welcome to Gradio, {name}!")
     print(history)
-    return f"Welcome to Gradio, {name}!"
+    return history
+    # return f"Welcome to Gradio, {name}!"
 
 with gr.Blocks() as demo:
     gr.Markdown(
