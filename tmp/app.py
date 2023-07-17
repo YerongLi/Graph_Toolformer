@@ -175,7 +175,7 @@ with gr.Blocks() as demo:
 
     inp = gr.Textbox(placeholder="What is your name?")
     out = gr.Textbox()
-    inp.change(welcome, inp, out)
+    inp.change(welcome, [inp, history], out)
 
 if __name__ == "__main__":
     demo.launch(share=True)
