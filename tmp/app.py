@@ -260,4 +260,4 @@ with gr.Blocks() as demo:
 iface = gr.Interface(fn=welcome, inputs=gr.JSON(), outputs=gr.JSON(), blocks=demo)
 
 if __name__ == "__main__":
-    iface.launch()
+    iface.launch(share=True)
