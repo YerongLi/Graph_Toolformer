@@ -6,7 +6,7 @@ response = requests.post("https://368f09ca0c818b44d0.gradio.live/run/predict", j
     "hello world",
 ]}).json()
 
-
+print(response)
 data = response["data"]
 print(data)
 print(type(data))
