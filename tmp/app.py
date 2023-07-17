@@ -165,7 +165,7 @@ def welcome(name, history):
     history.append(f"Welcome to Gradio, {name}!")
     return history
 
-iface = gr.Interface(fn=welcome, inputs=["text", gr.JSON()], outputs=history)
+iface = gr.Interface(fn=welcome, inputs=["text", gr.JSON()], outputs=gr.JSON())
 
 if __name__ == "__main__":
     iface.launch(share=True)
