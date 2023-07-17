@@ -7,6 +7,7 @@
 # )
 # print(result)
 # print(type(result))
+import requests
 
 response = requests.post("https://tomsoderlund-rest-api-with-gradio.hf.space/run/predict", json={
   "data": [
