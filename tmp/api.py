@@ -2,24 +2,14 @@
 import gradio as gr
 
 import requests
-
 response = requests.post("http://127.0.0.1:7860/api/predict", json={
-    "data": ["hello world"],
+    "data": ["hello world", "Some history"],
 }).json()
 
 print(response)
 data = response["data"]
 print(data)
 print(type(data))
-
-# # client = Client("https://368f09ca0c818b44d0.gradio.live")
-# # result = client.predict(
-# # 				"Yerong",	# str  in 'parameter_3' Textbox component
-# # 				fn_index=0
-# # )
-# # print(result)
-# # print(type(result))
-# # import requests
 
 # # response = requests.post("https://tomsoderlund-rest-api-with-gradio.hf.space/run/predict", json={
 # #   "data": [

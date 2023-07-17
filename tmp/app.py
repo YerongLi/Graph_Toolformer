@@ -159,11 +159,13 @@
 # demo.queue().launch(share=True, inbrowser=True)
 
 import gradio as gr
+import requests
 
 def welcome(name, history):
     history.append(f"Welcome to Gradio, {name}!")
-    print(history)
-    return history
+    return history.get()
 
-with gr.Interface(fn=welcome, inputs=["text", gr.State([])], outputs="json") as iface:
+iface = gr.Interface(fn=welcome, inputs=["text", gr.inputs.Textbox(lines=10)], outputs="json")
+
+if __name__ == "__main__":
     iface.launch(share=True)
