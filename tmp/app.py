@@ -229,10 +229,10 @@ def goodbye(input, history):
     return history
 
 # Interface 1
-iface1 = gr.Interface(fn=welcome, inputs=["text", 'json'], outputs="json")
+iface1 = gr.Interface(fn=welcome, inputs='json', outputs="json")
 iface1.launch(share=True)
 
 # Interface 2
-iface2 = gr.Interface(fn=goodbye, inputs=["text", 'json'], outputs="json")
+iface2 = gr.Interface(fn=goodbye, inputs='json', outputs="json")
 iface2.launch(share=True)
 
