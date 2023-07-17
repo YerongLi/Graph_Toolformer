@@ -219,7 +219,7 @@
 import gradio as gr
 import mdtex2html
 def welcome(input):
-    query = input]
+    query = input
     history = input['history']
     history.append(f"Welcome to Gradio, {query}!")
     return {'history': history}
