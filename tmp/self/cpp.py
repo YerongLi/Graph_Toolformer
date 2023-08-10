@@ -30,6 +30,7 @@ def run_llama_command(input_string):
         return f"Error executing the command: {e}"
 
 # Example usage
-input_string = "Who is Elon Musk"
+input_string = "Who is Elon Musk ?"
 output = run_llama_command(input_string)
+print("output")
 print(output)
