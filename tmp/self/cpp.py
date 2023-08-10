@@ -7,7 +7,7 @@ def run_llama_command(input_string):
         "-m",
         "$SCRATCH/.cache/pyllama/65B/ggml-model-q4_0.bin",
         "-p",
-        input_string,
+        f'"{input_string}"',  # Wrap input_string with double quotes
         "-t",
         "1",
         "-n",
