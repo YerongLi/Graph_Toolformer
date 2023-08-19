@@ -4,8 +4,8 @@ from huggingface_hub import snapshot_download
 hf_token = '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'
 
 # Set repository information
-repo_id = "meta-llama/Llama-2-70b"
-local_folder = "/scratch/yerong/.cache/pyllama/Llama-2-70b"
+repo_id = "meta-llama/Llama-2-70b-hf"
+local_folder = "/scratch/yerong/.cache/pyllama/Llama-2-70b-hf"
 
 # Download the snapshot
 snapshot_download(
