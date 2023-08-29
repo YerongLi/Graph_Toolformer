@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+#SBATCH --time=4:00:00
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=30G
+#SBATCH --ntasks-per-node=1
+#SBATCH --job-name=A10:3
+#SBATCH --gres=gpu:A10:3
+#SBATCH --partition=eng-research-gpu
+#SBATCH --output=ptrlog.log
+##SBATCH --error=myjob.e%j
+##SBATCH --mail-user=yerong2@illinois.edu
+
+#
+# End of embedded SBATCH options
+#
+sleep 10800
+sbatch /scratch/yerong/submit.a10
+watch -n 10 tail submit.s
+git pull; python Framework_Graph_Toolformer.py
