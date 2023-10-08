@@ -1,0 +1,306 @@
+{
+  "uuid": "7b120a9e-9e92-4e1c-9786-209353506566",
+  "type": "Homework",
+  "title": "Midterm 2",
+  "set": "Sharp Rocks",
+  "number": "7",
+  "zones": [
+    {
+      "title": "1. (15pts) Programming with Complex ADT",
+      "questions": [
+        {
+          "id": "OCaml/adts/cps_transformation/free_variables/const_var_monOp",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/free_variables/binOp",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/free_variables/if",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/free_variables/app",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/free_variables/let",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/free_variables/letRec",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "2. (15 pts) Type Derivation",
+      "questions": [
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayA01",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayA02",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayA03",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayB01",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayB02",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayB03",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayC01",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayC02",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayC03",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayD01",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayD02",
+          "points": 15
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/multipleTF/bayD03",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "3. (20 pts) Type Inference Implementation",
+      "questions": [
+        {
+          "id": "OCaml/polymorphic_type_derivations/substitution_binopapp",
+          "points": 20
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/substitution_monopapp",
+          "points": 20
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/substitution_fun",
+          "points": 20
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/substitution_app",
+          "points": 20
+        },
+        {
+          "id": "OCaml/polymorphic_type_derivations/substitution_ifthenelse",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "4. (20 pts) Unification Algorithm",
+      "questions": [
+        {
+          "id": "OCaml/unification/multipleTF/bay",
+          "points": 20
+        },
+        {
+          "id": "OCaml/unification/multipleTF/elg",
+          "points": 20
+        },
+        {
+          "id": "OCaml/unification/multipleTF/john",
+          "points": 20
+        },
+        {
+          "id": "OCaml/unification/multipleTF/sej",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "5. (15 pts) Regular expressions and right regular grammars ",
+      "questions": [
+        {
+          "id": "OCaml/lexing/regex_rrg/abdashStr",
+          "points": 15
+        },
+        {
+          "id": "OCaml/lexing/regex_rrg/decimal",
+          "points": 15
+        },
+        {
+          "id": "OCaml/lexing/regex_rrg/fileRI",
+          "points": 15
+        },
+        {
+          "id": "OCaml/lexing/regex_rrg/vectorList",
+          "points": 15
+        },
+        {
+          "id": "OCaml/lexing/regex_rrg/binlist",
+          "points": 15
+        },
+        {
+          "id": "OCaml/lexing/regex_rrg/abcStr",
+          "points": 15
+        },
+        {
+          "id": "OCaml/lexing/regex_rrg/altBinList",
+          "points": 15
+        },
+        {
+          "id": "OCaml/lexing/regex_rrg/csBinList",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "6. (15 pts) Parse Trees",
+      "questions": [
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-elg1a",
+          "points": 3
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-elg1b",
+          "points": 3
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-elg2a",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-elg2d",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-elg2b",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-elg2c",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs1a",
+          "points": 3
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs1b",
+          "points": 3
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs2a",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs2b",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs2c",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs2d",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs2e",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs3a",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs3b",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs3c",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs3d",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs4a",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs4b",
+          "points": 6
+        },
+        {
+          "id": "Lexing_and_Parsing-parseTrees-parseTreeEditor_autograded-srs4c",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "title": "(10 pts) Type Derivation Proof Trees",
+      "questions": [
+        {
+          "id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair1",
+          "points": 10
+        },
+        {
+          "id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair2",
+          "points": 10
+        },
+        {
+          "id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair1_v2",
+          "points": 10
+        },
+        {
+          "id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair2_v2",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "(15 pts) cps_exp",
+      "questions": [
+        {
+          "id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_app",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_fun",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_let",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_binOp",
+          "points": 15
+        },
+        {
+          "id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_if_else",
+          "points": 15
+        }
+      ]
+    }
+  ],
+  "text": "Abstract Data Types, Type Inference, Lexing, and Basic Parsing"
+}

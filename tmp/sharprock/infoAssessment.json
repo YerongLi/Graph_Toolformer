@@ -1,0 +1,207 @@
+{
+    "uuid": "197e8183-e95a-4ae3-a501-79a2741b8ddd",
+    "type": "Homework",
+    "title": "Midterm 2",
+    "set": "Sharp Rocks",
+    "number": "7",
+    "zones":
+    [
+        {"title": "1. (0 pts) OCaml Scratch Space in VSCode",
+         "questions":
+         [
+             {"id": "OCaml/workspace/ocamlVSCodeScratchSpace", "points": 0}
+         ]
+        },
+        {"title": "1 (Not yet used). (15pts) Continuation Passing Style in OCaml // MP4, make program, or multichoice or TF: ask a) does the code produce correct value, b) is it in cps form, c) is it in the correct cps form  //  letsk needs fixing, divergek needs to go with the recursive problems, ex_twices and assoc_mulk are about ready, haven't yet looked a the rest.",
+         "questions":
+         [
+             {"numberChoose": 2,
+              "points": 15,
+              "alternatives":
+              [
+                  {"id": "OCaml/continuations/basic/letsk"},
+                  {"id": "OCaml/continuations/basic/assoc_mulk"},
+                  {"id": "OCaml/continuations/basic/square_sumk"},
+                  {"id": "OCaml/continuations/basic/greatestabsk"}
+              ]
+             }
+         ]
+        },
+        {"title": "2. (On Midterm 2) (15pts) Continuation Passing Style in OCaml (MP4)",
+         "questions":
+         [
+             {"numberChoose": 1,
+              "points": 15,
+              "alternatives":
+              [
+                  {"id": "OCaml/continuations/basic/averagek"},
+                  {"id": "OCaml/continuations/basic/sum_squarek"},
+                  {"id": "OCaml/continuations/basic/curved_gradek"},
+                  {"id": "OCaml/continuations/basic/diff_squaresk"}
+              ]
+             }
+         ]
+        },
+        {"title": "2. (On Practice MT2) (15pts) Continuation Passing Style in OCaml (MP4)",
+         "questions":
+         [
+             {"numberChoose": 1,
+              "points": 15,
+              "alternatives":
+              [
+                  {"id": "OCaml/continuations/basic/burgerk"},
+                  {"id": "OCaml/continuations/basic/ex_twicek"},
+                  {"id": "OCaml/continuations/basic/sub_mul_sqk"}
+              ]
+             }
+         ]
+        },
+        {"title": "3 (On Midterm 2). (12 pts) Formal CPS Transformation (Multiple T/F) (WA 5)",
+         "questions":
+         [
+             {"numberChoose": 2,
+              "points": 6,
+              "alternatives":
+              [
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_elg1a"},
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_elg1b"},
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_sg1"},
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_elg2a"},
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_elg3a"},
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_elg3b"}
+              ]
+             }
+         ]
+        },
+        {"title": "3 (On Practice MT 2). (12 pts) Formal CPS Transformation (Multiple T/F) (WA 5)",
+         "questions":
+         [
+             {"numberChoose": 2,
+              "points": 6,
+              "alternatives":
+              [
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_pk1"},
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_ts1"},
+                  {"id": "OCaml/continuations/multipleTF/cps_trans_elg2b"}
+              ]
+             }
+         ]
+        },
+        {"title": "4. (20 pts) CPS Transformation (programming) (MP5)",
+         "questions":
+         [
+             {"numberChoose": 1,
+              "points": 20,
+              "alternatives":
+              [
+                  {"id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_app"},
+                  {"id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_fun"},
+                  {"id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_let"},
+                  {"id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_binOp"},
+                  {"id": "OCaml/adts/cps_transformation/cps_exp/cps_exp_if_else"}
+              ]
+             } 
+            ]
+        },
+        {"title": "5 (Practice MT2). (18 pts) Type Derivation (WA 6)",
+         "questions":
+         [
+             {"numberChoose": 3,
+              "points": 6,
+              "alternatives":
+              [
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayB01"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayB02"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayB03"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayD01"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayD02"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayD03"}
+              ]
+             }
+         ]
+        },
+        {"title": "5 (Miterm 2). (18 pts) Type Derivation (WA 6)",
+         "questions":
+         [
+             {"numberChoose": 3,
+              "points": 6,
+              "alternatives":
+              [
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayA01"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayA02"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayA03"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayC01"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayC02"},
+                {"id": "OCaml/polymorphic_type_derivations/multipleTF/bayC03"}
+              ]
+             }
+         ]
+        },
+        {"title": "6. (25 pts) Type Inference Implementation (M6)",
+         "questions":
+          [
+             {"numberChoose": 1,
+              "points": 25,
+              "alternatives":
+              [
+                {"id": "OCaml/polymorphic_type_derivations/substitution_binopapp"},
+                {"id": "OCaml/polymorphic_type_derivations/substitution_monopapp"},
+                {"id": "OCaml/polymorphic_type_derivations/substitution_fun"},
+                {"id": "OCaml/polymorphic_type_derivations/substitution_app"},
+                {"id": "OCaml/polymorphic_type_derivations/substitution_ifthenelse"}
+              ]
+             }
+         ]
+        },
+        {"title": "7. Extra Credit: Algebraic Data Types, Propostional Logic Syntax// LetRec1 (worth 10 pts) //",
+         "questions":
+         [
+             {"numberChoose": 1,
+              "points": 9,
+              "alternatives":
+              [
+                  {"id": "OCaml/adts/propLogic/syntax/23tree_collect"},
+                  {"id": "OCaml/adts/propLogic/syntax/binTree_find"},
+                  {"id": "OCaml/adts/propLogic/syntax/binTree_leaves"},
+                  {"id": "OCaml/adts/propLogic/syntax/env_lookup"},
+                  {"id": "OCaml/adts/propLogic/syntax/impVars"},
+                  {"id": "OCaml/adts/propLogic/syntax/propVars"}
+              ]
+             }
+         ]
+        },
+        {"title": "(Not Used). (15pts) Programming with Complex ADT, probably not used",
+         "questions":
+         [
+             {"numberChoose": 1,
+              "points": 9,
+              "alternatives":
+              [
+                  {"id": "OCaml/adts/cps_transformation/free_variables/const_var_monOp"},
+                  {"id": "OCaml/adts/cps_transformation/free_variables/binOp"},
+                  {"id": "OCaml/adts/cps_transformation/free_variables/if"},
+                  {"id": "OCaml/adts/cps_transformation/free_variables/app"},
+                  {"id": "OCaml/adts/cps_transformation/free_variables/let"},
+                  {"id": "OCaml/adts/cps_transformation/free_variables/letRec"}
+              ]
+             }
+         ]
+        },
+        {"title": "(Not Used). (10 pts) Type Derivation Proof Trees",
+         "questions":
+         [
+             {"numberChoose": 1,
+              "points": 10,
+              "alternatives":
+              [
+                  {"id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair1"},
+                  {"id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair2"},
+                  {"id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair1_v2"},
+                  {"id": "Typing_and_Type_Systems-polymorphicTypeDerivations_computation_prooftreeDrawing-autograded-poly_fun_pair2_v2"}
+              ]
+             }
+         ]
+        }
+    ],
+    "text": "Continuations, CPS and CPS Transform, Abstract Data Types, Type Inference"
+}
