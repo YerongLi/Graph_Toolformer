@@ -3,18 +3,18 @@
 #SBATCH --time=4:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --job-name=A10:3
-#SBATCH --mem=36G
-#SBATCH --gres=gpu:A10:3
+#SBATCH --job-name=W100:2
+#SBATCH --gres=gpu:V100:2
 #SBATCH --partition=eng-research-gpu
-#SBATCH --output=a10log.log
+#SBATCH --output=w100log.log
 ##SBATCH --error=myjob.e%j
 ##SBATCH --mail-user=yerong2@illinois.edu
 
 #
 # End of embedded SBATCH options
 #
-sleep 10800
-sbatch /scratch/yerong/submit.a10
+sleep 180m 
+sbatch /scratch/yerong/submit.v100b
 watch -n 10 tail submit.s
 git pull; python Framework_Graph_Toolformer.py
+
